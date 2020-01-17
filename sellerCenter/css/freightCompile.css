@@ -1,0 +1,372 @@
+.content-centre {
+     overflow: hidden;
+     padding-top: 36px;
+}
+
+/*右边正文*/
+
+.content-centre .text-right {
+     width: 1041px;
+     font-weight: 300;
+}
+
+.content-centre .title {
+     width: 1005px;
+     padding: 0 18px;
+     height: 59px;
+     background: #FFFFFF;
+     box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+     border-radius: 3px;
+     line-height: 59px;
+     margin-bottom: 13px;
+}
+
+.content-centre .title p {
+     font-size: 20px;
+     color: #333333;
+}
+
+.content-centre .text {
+     /*width: 1005px;*/
+     /*padding: 0 18px 85px 18px;*/
+     min-height: 20px;
+     background: #fff;
+     box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+     border-radius: 3px;
+     margin-bottom: 100px;
+}
+
+#form .form-item {
+     width: 100%;
+     overflow: hidden;
+}
+
+/*验证*/
+
+.form {
+     width: 1041px;
+     height: auto;
+     margin-bottom: 100px;
+     background: #fff;
+     box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+     border-radius: 3px;
+     font-weight: 300;
+     font-size: 15px;
+     color: #333333;
+}
+
+.form .form-item {
+     margin-bottom: 23px;
+     padding-left: 34px;
+     line-height: 37px;
+     width: 100%;
+     height: 37px;
+}
+
+.form .form-item:first-child {
+     margin-top: 24px;
+}
+
+/*lebel定义*/
+
+.form .form-item input[type=text] {
+     width: 269px;
+     background: #F6F6F6;
+     border-radius: 3px;
+     border: 0;
+     font-size: 15px;
+     height: 17px;
+     line-height: 17px;
+     padding: 10px 0 10px 21px;
+}
+
+.form .form-item:first-child+.form-item input {
+     width: 652px;
+}
+
+.form .form-item.first {
+     overflow: hidden;
+     width: 100%;
+     height: 75px;
+     /*margin-bottom: 49px;*/
+}
+
+.form .form-item.first.two {
+     overflow: hidden;
+     width: 100%;
+     height: 37px;
+     /*margin-bottom: 49px;*/
+}
+
+.form .form-item.first li {
+     width: 150px;
+     height: 40px;
+     margin-right: 15px;
+     font-size: 13px;
+     color: #4D4D4D;
+     font-weight: 400px;
+}
+
+.form .form-item.first select {
+     width: 150px;
+     height: 30px;
+     border: 1px solid #ccc;
+     border-radius: 3px;
+}
+
+.form-common-verification .verification-relus {
+     margin-left: 0;
+}
+
+.form .form-item.first li input {
+     width: 100px;
+     height: 37px;
+     display: none;
+}
+
+.form .form-item.last {
+     overflow: hidden;
+     width: 100%;
+     height: 200px;
+     /*margin-bottom: 49px;*/
+}
+
+.form .form-item.last li {
+     width: 124px;
+     height: 167px;
+     margin-right: 15px;
+     text-align: center;
+     font-size: 13px;
+     color: #4D4D4D;
+     font-weight: 400px;
+     position: relative;
+}
+
+.form .form-item.last li .img {
+     width: 122px;
+     height: 91px;
+     border: 1px dashed #CCCCCC;
+     border-radius: 3px;
+     cursor: pointer;
+     position: relative;
+     *margin-bottom: 10px;
+}
+
+.form .form-item.last li input[type='file'] {
+     width: 100%;
+     height: 100%;
+     font-size: 100px;
+     background: red;
+     opacity: 0;
+     filter: Alpha(Opacity=0);
+     cursor: pointer;
+}
+
+.form .first select {
+     position: relative;
+     top: 5px;
+}
+
+.form .form-item input[type="radio"] {
+     position: relative;
+     top: 1px;
+     margin-left: 2px;
+}
+
+#form .form-item.expressage {
+     min-height: 10px;
+     height: auto;
+}
+
+/*运送方式*/
+
+.expressage ul {
+     width: 800px;
+}
+
+.expressage table {
+     width: 100%;
+     display: none;
+}
+
+.expressage li:first-child table {
+     display: block;
+}
+
+.expressage table td {
+     border-right: 1px solid #ccc;
+     border-bottom: 1px solid #ccc;
+     text-align: center;
+}
+
+.expressage table td:first-child {
+     border-left: 1px solid #ccc;
+}
+
+.expressage table tr:first-child td {
+     border-top: 1px solid #ccc;
+}
+
+.form .form-item.expressage input[type="text"] {
+     width: 40px;
+     padding: 5px;
+     border: 1px solid #ccc;
+}
+
+.form .form-item input[type="checkbox"] {
+     position: relative;
+     top: 2px;
+}
+
+.form .form-item.expressage .city {
+     width: 267px;
+     margin-left: 10px;
+     display: inline-block;
+     text-align: left;
+}
+
+.form .form-item.expressage .edit {
+     color: #286AC7;
+     margin-right: 10px;
+     cursor: pointer;
+}
+
+.form .form-item.expressage .del,
+.form .form-item.expressage .add {
+     color: #286AC7;
+     cursor: pointer;
+}
+
+.form .button {
+     padding-bottom: 100px;
+     padding-right: 30px;
+}
+
+.form .button p {
+     width: 150px;
+     height: 37px;
+     line-height: 37px;
+     text-align: center;
+     display: inline-block;
+     margin-right: 20px;
+     outline: none;
+     border-radius: 3px;
+     border: 1px solid #ccc;
+     cursor: pointer;
+}
+
+.form .button p:first-child+p {
+     background: #3385ff;
+     color: #fff;
+}
+
+/*弹窗*/
+
+.alertForm {
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     display: none;
+}
+
+.alertForm .dog_alert {
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     background: #000000;
+     opacity: 0.3;
+     /*font-size: 100px;*/
+     filter: Alpha(Opacity=30);
+}
+
+.alertForm .text {
+     width: 50%;
+     height: 70%;
+     background: #FFFFFF;
+     border-radius: 10px;
+     margin: auto;
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     *left: 50%;
+     *margin-left: -227px;
+     *top: 50%;
+     *margin-top: -175px;
+}
+
+.alertForm .text h3 {
+     padding: 13px 0;
+     font-size: 18px;
+     font-family: MicrosoftYaHeiLight;
+     font-weight: bold;
+     color: #4D4D4D;
+     text-align: center;
+     font-weight: 400;
+     border-bottom: 1px solid #EBEBEB;
+     margin-bottom: 20px;
+}
+
+.alertForm .text h3 img {
+     width: 16px;
+     margin-right: 12px;
+     *position: relative;
+     *top: -40px;
+     cursor: pointer;
+}
+
+.alertForm ul.area {
+     width: 80%;
+     margin: 0 auto;
+     height: 80%;
+     overflow-y: auto;
+}
+
+.alertForm ul.area li {
+     width: 100%;
+     height: auto;
+     margin-bottom: 10px;
+     overflow: hidden;
+}
+
+.alertForm ul.area li p {
+     width: 10%;
+}
+
+.alertForm ul.area li>div {
+     width: 85%;
+}
+
+.alertForm ul.area li>div label {
+     width: 150px;
+     display: inline-block;
+     margin-bottom: 10px;
+}
+
+.alertForm .text .btn {
+     text-align: center;
+}
+
+.alertForm .text .btn button {
+     width: 120px;
+     height: 36px;
+     border: 1px solid #E2231A;
+     border-radius: 4px;
+     color: #E2231A;
+     background: #fff;
+     cursor: pointer;
+}
+
+.alertForm .text .btn button:first-child+button {
+     margin-left: 29px;
+     width: 120px;
+     height: 36px;
+     background: #E2231A;
+     border-radius: 4px;
+     color: #fff;
+}

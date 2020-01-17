@@ -1,0 +1,922 @@
+.content {
+     margin-top: 12px;
+}
+
+.content .body-center {
+     height: auto;
+     background: #fff;
+     width: 990px;
+     padding: 31px 106px 290px 104px;
+}
+
+/*地址*/
+
+.content .adress p.top {
+     height: 36px;
+     line-height: 36px;
+}
+
+.content .adress p:first-child span:first-child {
+     font-size: 16px;
+     font-family: MicrosoftYaHei-Bold;
+     font-weight: bold;
+     color: #000;
+}
+
+.content .adress p:first-child>a {
+     width: 118px;
+     height: 34px;
+     display: inline-block;
+     border: 1px solid rgba(226, 35, 26, 1);
+     border-radius: 4px;
+     text-align: center;
+     line-height: 34px;
+     margin-left: 30px;
+}
+
+.content .adress p:first-child span.fr {
+     font-size: 14px;
+     font-family: MicrosoftYaHeiLight;
+     font-weight: bold;
+     color: #FE9D48;
+}
+
+.content .adress p:first-child span.fr a {
+     color: #FE9D48;
+}
+
+.content .adress ul {
+     padding-bottom: 29px;
+     padding-left: 59px;
+     border-bottom: 1px solid #EBEBEB;
+}
+
+.content .adress ul li>span {
+     width: 20px;
+     height: 20px;
+     display: block;
+     cursor: pointer;
+}
+
+.content .adress ul li>span.selected {
+     background: url('../images/dz_xuanz.png') center;
+}
+
+.content .adress ul li>span.noSelect {
+     background: url('../images/dz_meixuan.png') center;
+}
+
+.content .adress ul a {
+     display: none;
+}
+
+.content .adress ul a.selected {
+     display: block;
+}
+
+.content .adress ul li {
+     height: 20px;
+     line-height: 20px;
+     overflow: hidden;
+     padding-top: 30px;
+}
+
+.content .adress ul li p {
+     margin-left: 19px;
+     font-size: 14px;
+     font-family: MicrosoftYaHeiLight;
+     font-weight: bold;
+     color: #000;
+}
+
+.content .adress ul li p span {
+     margin-right: 36px;
+}
+
+.content .adress ul li a {
+     font-size: 14px;
+     font-family: MicrosoftYaHeiLight;
+     font-weight: bold;
+     color: #FE9D48;
+}
+
+/*选择帮扶村*/
+
+.content .village {
+     padding-bottom: 30px;
+     /* border-bottom: 1px solid #EBEBEB; */
+}
+
+.content .village>p.name {
+     font-size: 16px;
+     line-height: 18px;
+     font-family: MicrosoftYaHei-Bold;
+     font-weight: bold;
+     color: #000000;
+     margin-left: -67px;
+     padding: 33px 0;
+}
+
+.content .village span {
+     margin-right: 20px;
+     /* margin-left: 59px; */
+}
+
+.content .village>div {
+     line-height: 30px;
+     overflow: hidden;
+}
+
+.content .village>div>div {
+     width: 800px;
+}
+
+.content .village select {
+     width: 150px;
+     /*height: 40px;*/
+     border: 1px solid #C4D1D8;
+     border-radius: 4px;
+     margin: 0 9px 10px 0;
+     text-align: center;
+     padding-left: 22px;
+     font-size: 16px;
+     line-height: 18px;
+     padding: 5px 0 5px 11px;
+     font-family: MicrosoftYaHeiLight;
+     font-weight: 300;
+     color: #333333;
+}
+
+/*订单信息*/
+
+.content .orderInformation>p {
+     font-size: 16px;
+     line-height: 18px;
+     font-family: MicrosoftYaHei-Bold;
+     font-weight: bold;
+     color: #000000;
+     padding: 32px 0 0px 0;
+}
+
+.content .orderInformation ul.order-item {
+     padding-bottom: 30px;
+     border-bottom: 1px solid #EBEBEB;
+}
+
+.content .orderInformation .order-item>li {
+     padding: 30px 67px 0;
+     border-bottom: 5px solid #F5F5F5;
+}
+
+.content .orderInformation .order-item>li:last-child {
+     border-bottom: 0;
+}
+
+.content .orderInformation .order-item>li .store {
+     font-size: 16px;
+     font-weight: bold;
+     line-height: 26px;
+     color: #000000;
+}
+
+.content .orderInformation .order-item>li .store img {
+     width: 26px;
+     height: 26px;
+     float: left;
+     margin-right: 10px;
+}
+
+.content .orderInformation .order-item>li .top {
+     overflow: hidden;
+     margin-top: 38px;
+}
+
+.content .orderInformation .order-item>li div:first-child+div {
+     margin-top: 30px;
+     padding-bottom: 30px;
+}
+
+.content .orderInformation .order-item>li .top:first-child {
+     margin: 0;
+}
+
+.content .orderInformation .order-item>li .top img {
+     width: 204px;
+     height: 204px;
+}
+
+.content .orderInformation .order-item>li .top>div {
+     width: 590px;
+     margin-left: 61px;
+}
+
+.content .orderInformation .order-item>li .top p:first-child {
+     width: 100%;
+     height: auto;
+     font-size: 18px;
+     line-height: 22px;
+     font-family: MicrosoftYaHeiLight;
+     font-weight: 400;
+     color: #000000;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     display: -webkit-box;
+     -webkit-line-clamp: 2;
+     -webkit-box-orient: vertical;
+     margin-bottom: 21px;
+}
+
+.content .orderInformation .order-item>li .top p:first-child+p {
+     font-size: 24px;
+     line-height: 26px;
+     font-family: MicrosoftYaHei;
+     font-weight: 400;
+     color: #E2231A;
+     margin-bottom: 14px;
+}
+
+.content .orderInformation .order-item>li .top p:first-child+p+p,
+.content .orderInformation .order-item>li .top p:first-child+p+p+p {
+     font-size: 14px;
+     line-height: 16px;
+     margin-bottom: 9px;
+     font-family: MicrosoftYaHeiLight;
+     font-weight: 300;
+     color: #4D4D4D;
+}
+
+.content .orderInformation .order-item>li .top p:first-child+p+p+p+p {
+     font-size: 12px;
+     line-height: 14px;
+     font-family: MicrosoftYaHeiLight;
+     font-weight: 300;
+     color: #999999;
+}
+
+.content .orderInformation .order-item>li .bottom {
+     padding-top: 20px;
+     overflow: hidden;
+}
+
+.content .orderInformation .order-item>li .bottom>span:first-child {
+     font-size: 16px;
+     font-family: MicrosoftYaHeiLight;
+     font-weight: 300;
+     color: #4D4D4D;
+     margin-right: 20px;
+     margin-top: 10px;
+}
+
+.content .orderInformation .order-item>li .bottom textarea {
+     width: 393px;
+     height: 66px;
+     padding: 12px 25px 0px 22px;
+     border: 1px solid #C4D1D8;
+     border-radius: 4px;
+     font-size: 16px;
+     font-family: MicrosoftYaHeiLight;
+     font-weight: 300;
+     color: #333333;
+     line-height: 24px;
+}
+
+.content .orderInformation .order-item>li .bottom p {
+     margin-left: 111px;
+     font-size: 16px;
+     font-family: MicrosoftYaHei;
+     font-weight: 400;
+     color: #000000;
+}
+
+.content .orderInformation .order-item>li .bottom p span:first-child {
+     display: block;
+     font-size: 12px;
+     font-weight: 300;
+     color: #999999;
+     line-height: 22px;
+     margin-bottom: 3px;
+}
+
+.content .orderInformation .order-item>li .bottom p span:first-child+span {
+     line-height: 35px;
+}
+
+.content .orderInformation .order-item>li .bottom p a {
+     font-size: 24px;
+     font-family: MicrosoftYaHei;
+     font-weight: 400;
+     color: #E2231A;
+     margin-left: 10px;
+     padding-top: 3px;
+}
+
+/* 发票 */
+.content .orderInformation .order-item>li .invoice {
+     width: 100%;
+     /* height: 163px; */
+     margin-top: 16px;
+     padding: 20px;
+     background: #FFFDFB;
+     color: #333;
+}
+
+.content .orderInformation .order-item>li .invoice .checkbox label input {
+     display: none;
+}
+
+.content .orderInformation .order-item>li .invoice .checkbox label .icon {
+     width: 20px;
+     height: 20px;
+     float: left;
+     margin-right: 10px;
+     cursor: pointer;
+}
+
+.content .orderInformation .order-item>li .invoice .checkbox.selected .icon {
+     background: url('../images/dz_xuanz.png') center;
+     margin-top: 9px;
+}
+
+.content .orderInformation .order-item>li .invoice .checkbox.noSelect .icon {
+     background: url('../images/dz_meixuan.png') center;
+     margin-top: 9px;
+}
+
+.content .orderInformation .order-item>li .invoice>p {
+     color: #333;
+     font-size: 14px;
+     overflow: hidden;
+}
+.content .orderInformation .order-item>li .invoice>p>span{
+	width:120px;
+	height:36px;
+	border:1px solid rgba(226,35,26,1);
+	border-radius:4px;
+	display: inline-block;
+	line-height: 36px;
+	font-size:16px;
+	font-family:MicrosoftYaHei;
+	font-weight:400;
+	color:rgba(226,35,26,1);
+	text-align: center;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.content .orderInformation .order-item>li .invoice ul {
+     color: #999;
+     font-size: 16px;
+     display: none;
+}
+
+.content .orderInformation .order-item>li .invoice ul li {
+     margin: 10px 0;
+     cursor: pointer;
+}
+
+.content .orderInformation .order-item>li .invoice ul li span {
+     /*width: 115px;*/
+     display: inline-block;
+     text-align: right;
+}
+.content .orderInformation .order-item>li .invoice ul li b{
+	float: right;
+	font-size:14px;
+	font-family:MicrosoftYaHeiLight;
+	font-weight:bold;
+	color:rgba(254,157,72,1);
+	cursor: pointer;
+	margin-right: 20px;
+}
+.content .orderInformation .order-item>li .invoice ul li a{
+	font-size:16px;
+	font-family:MicrosoftYaHeiLight;
+	font-weight:300;
+	color:rgba(226,35,26,1);
+	margin-left: 20px;
+}
+.content .orderInformation .order-item>li .invoice select,
+.content .orderInformation .order-item>li .invoice input {
+     /* height: 40px; */
+     border: 1px solid #C4D1D8;
+     font-size: 14px;
+     line-height: 14px;
+     padding: 2px 5px;
+     font-family: MicrosoftYaHeiLight;
+     color: #333333;
+}
+
+.content .orderInformation .order-item>li .invoice .invoice3 {
+     display: none;
+}
+
+/*付款信息*/
+
+.content .paymentInformation>p {
+     font-size: 16px;
+     line-height: 18px;
+     font-family: MicrosoftYaHei-Bold;
+     font-weight: bold;
+     color: #000000;
+     padding: 32px 0 31px 0;
+}
+
+.content .paymentInformation ul li {
+     padding-left: 65px;
+     overflow: hidden;
+}
+
+.content .paymentInformation ul li:first-child {
+     font-size: 16px;
+     font-family: MicrosoftYaHei;
+     font-weight: 400;
+     color: #000000;
+     line-height: 26px;
+     margin-bottom: 22px;
+}
+
+.content .paymentInformation ul li:first-child span:first-child+span {
+     font-size: 24px;
+     font-family: MicrosoftYaHei;
+     font-weight: 400;
+     color: #E2231A;
+}
+
+.content .paymentInformation ul li:first-child+li {
+     font-size: 16px;
+     font-family: MicrosoftYaHeiLight;
+     font-weight: 300;
+     color: #999999;
+     line-height: 18px;
+     margin-bottom: 31px;
+}
+
+.content .paymentInformation ul li:first-child+li span:first-child+span {
+     color: #000000;
+     margin-left: 8px;
+}
+
+.content .paymentInformation .button {
+     width: 160px;
+     height: 44px;
+     background: #E2231A;
+     border-radius: 4px;
+     font-size: 16px;
+     font-family: MicrosoftYaHei;
+     font-weight: 400;
+     color: #FFFFFF;
+     line-height: 44px;
+     text-align: center;
+     margin-left: 65px;
+     cursor: pointer;
+     position: relative;
+}
+
+.content .paymentInformation .button img {
+     width: 30px;
+     position: absolute;
+     left: 20px;
+     top: 8.5px;
+     display: none;
+}
+
+
+
+/* 弹框-编辑地址 */
+
+.alertForm {
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     display: none;
+}
+
+.alertForm .dog_alert {
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     background: #000000;
+     opacity: 0.3;
+     filter: Alpha(Opacity=30);
+}
+
+.alertForm .text {
+     width: 820px;
+     height: 528px;
+     background: #FFFFFF;
+     margin: auto;
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     *left: 50%;
+     *margin-left: -410px;
+     *top: 50%;
+     *margin-top: -264px;
+}
+
+.alertForm .text .title {
+     font-size: 18px;
+     font-weight: bold;
+     color: #4D4D4D;
+     height: 79px;
+     width: 100%;
+     line-height: 79px;
+     text-align: center;
+     position: relative;
+     border-bottom: 1px solid #EBEBEB;
+}
+
+.alertForm .text .title img {
+     width: 16px;
+     height: 16px;
+     cursor: pointer;
+     position: absolute;
+     right: 20px;
+     top: 20px;
+}
+
+.alertForm .text .box {
+     margin: 30px 0 40px;
+     height: 300px;
+     font-size: 16px;
+     font-weight: 400;
+     color: #4C4C4C;
+}
+
+.alertForm .text .box span {
+     height: 40px;
+     color: red;
+     display: inline-block;
+     /*margin-left: 55px;*/
+     *vertical-align: middle;
+}
+
+.alertForm .text .box input {
+     margin-left: 10px;
+}
+
+.alertForm .text .button {
+     height: 36px;
+}
+
+.alertForm .text .button p {
+     width: 120px;
+     height: 36px;
+     border: 1px solid #E2231A;
+     color: #E2231A;
+     text-align: center;
+     line-height: 36px;
+     float: left;
+     border-radius: 3px;
+     cursor: pointer;
+}
+
+.alertForm .text .button p.cancle {
+     margin: 0 27px 0 274px;
+}
+
+.alertForm .text .button p.submit {
+     background: #E2231A;
+     height: 38px;
+     color: #FFFFFF;
+}
+
+/* 弹框内部输入框 */
+
+.alertForm .box .form-item {
+     margin-bottom: 23px;
+     line-height: 37px;
+     width: 100%;
+     height: 37px;
+}
+
+.alertForm .box .form-item.first {
+     overflow: hidden;
+     width: 100%;
+     height: 100px;
+}
+
+.alertForm .box .form-item.first ul {
+     width: 658px;
+}
+
+.alertForm .box .form-item.first li {
+     width: 184px;
+     height: 50px;
+     margin-right: 10px;
+     font-size: 13px;
+     color: #4D4D4D;
+     font-weight: 400px;
+}
+
+.alertForm .box .form-item.first select {
+     width: 184px;
+     /*height: 40px;*/
+     border: 1px solid #C4D1D8;
+     border-radius: 4px;
+     /*margin-top: 10px;*/
+     color: #333333;
+     padding: 12px 0 12px 21px;
+     font-size: 16px;
+     font-weight: 300;
+}
+
+.alertForm .box .form-item.first li input {
+     width: 100px;
+     height: 37px;
+     display: none;
+}
+
+.alertForm .box .form-item:first-child {
+     margin-top: 24px;
+}
+
+/*lebel定义*/
+
+.alertForm .box .form-item label {
+     width: 152px;
+     text-align: right;
+}
+
+.alertForm .box .form-item.first label {
+     margin-right: 10px;
+}
+
+.alertForm .box .form-item input[type=text] {
+     width: 400px;
+     height: 17px;
+     border: 1px solid #C4D1D8;
+     border-radius: 4px;
+     padding: 12px 0 11px 21px;
+     font-size: 16px;
+}
+
+.alertForm .box .form-item.last {
+     overflow: hidden;
+     width: 100%;
+     height: 200px;
+}
+
+.alertForm .box .form-item.last li {
+     width: 124px;
+     height: 167px;
+     margin-right: 15px;
+     text-align: center;
+     font-size: 13px;
+     color: #4D4D4D;
+     font-weight: 400px;
+     position: relative;
+}
+
+.alertForm .box .form-item.last li .img {
+     width: 122px;
+     height: 91px;
+     border: 1px dashed #CCCCCC;
+     border-radius: 3px;
+     cursor: pointer;
+     position: relative;
+     *margin-bottom: 10px;
+}
+
+.alertForm .box .form-item.last li input[type='file'] {
+     width: 100%;
+     height: 100%;
+     font-size: 100px;
+     background: red;
+     opacity: 0;
+     filter: Alpha(Opacity=0);
+     cursor: pointer;
+}
+
+
+
+
+
+
+/* 弹框-开发票 */
+
+.alertForma {
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     display: none;
+}
+
+.alertForma .dog_alert {
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     background: #000000;
+     opacity: 0.3;
+     filter: Alpha(Opacity=30);
+}
+
+.alertForma .text {
+     width: 820px;
+     height: 695px;
+     background: #FFFFFF;
+     margin: auto;
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     *left: 50%;
+     *margin-left: -410px;
+     *top: 50%;
+     *margin-top: -264px;
+}
+
+.alertForma .text .title {
+     font-size: 18px;
+     font-weight: bold;
+     color: #4D4D4D;
+     height: 79px;
+     width: 100%;
+     line-height: 79px;
+     text-align: center;
+     position: relative;
+     border-bottom: 1px solid #EBEBEB;
+}
+
+.alertForma .text .title img {
+     width: 16px;
+     height: 16px;
+     cursor: pointer;
+     position: absolute;
+     right: 20px;
+     top: 20px;
+}
+
+.alertForma .text .box {
+     margin: 30px 0 40px;
+     height: 300px;
+     font-size: 16px;
+     font-weight: 400;
+     color: #4C4C4C;
+}
+
+
+.alertForma .text .button {
+     height: 36px;
+     margin-top: 200px;
+}
+
+.alertForma .text .button p {
+     width: 120px;
+     height: 36px;
+     border: 1px solid #E2231A;
+     color: #E2231A;
+     text-align: center;
+     line-height: 36px;
+     float: left;
+     border-radius: 3px;
+     cursor: pointer;
+}
+
+.alertForma .text .button p.cancle {
+     margin: 0 27px 0 274px;
+}
+
+.alertForma .text .button p.submit {
+     background: #E2231A;
+     height: 38px;
+     color: #FFFFFF;
+}
+
+/* 弹框内部输入框 */
+
+
+.alertForma .box .form-item {
+     margin-bottom: 15px;
+     line-height: 37px;
+     width: 100%;
+     height: 37px;
+}
+
+.alertForma .box .form-item.first {
+     overflow: hidden;
+     width: 100%;
+     height: 45px;
+}
+
+.alertForma .box .form-item.first ul {
+     width: 658px;
+}
+
+.alertForma .box .form-item.first li {
+     height: 50px;
+     margin-right: 10px;
+     font-size: 13px;
+     color: #4D4D4D;
+     font-weight: 400px;
+}
+
+.alertForma .box .form-item.first select {
+     width: 410px;
+     /*height: 40px;*/
+     border: 1px solid #C4D1D8;
+     border-radius: 4px;
+     /*margin-top: 10px;*/
+     color: #333333;
+     padding: 12px 0 12px 21px;
+     font-size: 16px;
+     font-weight: 300;
+}
+
+.alertForma .box .form-item.first li input {
+     width: 100px;
+     height: 37px;
+     display: none;
+}
+
+.alertForma .box .form-item:first-child {
+     /*margin-top: 24px;*/
+}
+
+/*lebel定义*/
+
+.alertForma .box .form-item label {
+     width: 152px;
+     text-align: right;
+}
+
+.alertForma .box .form-item.first label {
+     margin-right: 10px;
+}
+
+.alertForma .box .form-item input[type=text] {
+     width: 385px;
+     height: 17px;
+     border: 1px solid #C4D1D8;
+     border-radius: 4px;
+     padding: 12px 0 11px 21px;
+     font-size: 16px;
+     margin-left: 10px;
+}
+
+.alertForma .box .form-item.last {
+     overflow: hidden;
+     width: 100%;
+     height: 200px;
+}
+
+.alertForma .box .form-item.last li {
+     width: 124px;
+     height: 167px;
+     margin-right: 15px;
+     text-align: center;
+     font-size: 13px;
+     color: #4D4D4D;
+     font-weight: 400px;
+     position: relative;
+}
+
+.alertForma .box .form-item.last li .img {
+     width: 122px;
+     height: 91px;
+     border: 1px dashed #CCCCCC;
+     border-radius: 3px;
+     cursor: pointer;
+     position: relative;
+     *margin-bottom: 10px;
+}
+
+.alertForma .box .form-item.last li input[type='file'] {
+     width: 100%;
+     height: 100%;
+     font-size: 100px;
+     background: red;
+     opacity: 0;
+     filter: Alpha(Opacity=0);
+     cursor: pointer;
+}
+.alertForma .box .form-item p{
+	float: left;
+	margin-left: 150px;
+	cursor: pointer;
+}
+.alertForma .box .form-item p img{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	float: left;
+		margin-top: 10px;
+}
+
+.alertForma .box .zengzhi{
+	display: none;
+	overflow: hidden;
+}
+.alertForma .box .qiye{
+	overflow: hidden;
+}

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <title>爱心购商城-消薄平台_扶贫帮困，致力于扶贫帮困消除经济薄弱村！</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit" />
+    <meta name="data-spm" content="a2e15" />
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="../common/css/zxf_page.css">
+    <link rel="stylesheet" href="css/myOrder.css">
+</head>
+
+<body>
+    <!--公共头部-->
+    <div id="header-top" class="header-top"></div>
+    <!--中心的头部搜索-->
+    <div id="s-header" class="s-header my"></div>
+
+
+    <!--主要内容-->
+    <div class="content-centre body-center">
+        <!--侧边导航-->
+        <ul class="text-left-nav fl">
+            <li><a href="myshopping.html">我的爱心购</a></li>
+            <li class="hover"><a href="javascript:;">我的订单</a></li>
+            <li><a href="myCart.html">我的购物车</a></li>
+            <li><a href="myCollecting.html">我的收藏</a></li>
+            <li><a href="mylooked.html">我的浏览</a></li>
+            <li><a href="myProfile.html">我的资料</a></li>
+            <li><a href="myAccount.html">我的账户</a></li>
+            <li><a href="myAddress.html">我的地址</a></li>
+            <li><a href="myEvaluation.html">我的评价</a></li>
+            <li><a href="myGrade.html">我的积分</a></li>
+            <!-- <li><a href="javascript:;">我的卡券</a></li> -->
+            <li><a href="myMessage.html">我的消息</a></li>
+            <li><a href="securityCenter.html">安全中心</a></li>
+        </ul>
+        <!-- 右侧内容 -->
+        <div class="text-right fr">
+            <ul class="nav" id="nav">
+                <li class="fl" status="">
+                    <span class="hover">全部订单</span>
+                </li>
+                <li class="fl" status=0>
+                    <span>待付款</span>
+                    <span class="red">0</span>
+                </li>
+                <li class="fl" status=1>
+                    <span>待发货</span>
+                    <span class="red">0</span>
+                </li>
+                <li class="fl" status=2>
+                    <span>待收货</span>
+                    <span class="red">0</span>
+                </li>
+                <li class="fl" status=4>
+                    <span>待评价</span>
+                    <span class="red">0</span>
+                </li>
+                <li class="fl" status=-1>
+                    <span>退换售后</span>
+                </li>
+            </ul>
+            <!-- 订单开始 -->
+            <div class="order">
+                <!-- 表头开始 -->
+                <ul class="order-header">
+                    <li>商品</li>
+                    <li>单价</li>
+                    <li>数量</li>
+                    <li>商品操作</li>
+                    <li>实付款</li>
+                    <li>交易状态</li>
+                    <li>交易操作</li>
+                </ul>
+                <!-- 表头结束 -->
+                <!--订单列表开始-->
+                <ul class="list" id="list">
+                    <!-- <li>
+                        <div class="top">
+                            <div class="fl">2019-05-25</div>
+                            <div class="fl">订单号:432432434543545</div>
+                            <div class="fl"><img class="store" src="image/store.png" alt="">某某某旗舰店</div>
+                            <div class="fl"><img class="service" src="image/service.png" alt="">联系客服</div>
+                        </div>
+                        <div class="bottom">
+                            <div class="fl">
+                                <img src="../purchase/images/img02.jpg" alt="">
+                                <h1>
+                                    <p>南非进口红心西柚9个装 新鲜当季红西柚水果孕妇红肉葡萄柚</p>
+                                    <p>单果重量：2kg-4kg</p>
+                                </h1>
+                            </div>
+                            <div class="fl">49.5元</div>
+                            <div class="fl"> x1</div>
+                            <div class="fl">
+                                <p class="button refundMoney">退款</p>
+                            </div>
+                            <div class="fl">
+                                <p>59.5元</p>
+                                <p>(含运费：10元)</p>
+                            </div>
+                            <div class="fl">
+                                <p>待发货</p>
+                                <p class="orderDetail">订单详情</p>
+                                <p class="check">查看物流</p>
+                            </div>
+                            <div class="fr">
+                                <p class="button pay">立即支付</p>
+                                <p class="more">
+                                    更多操作
+                                    <a href="javascript:;">
+                                        <span class="updateAddress">修改地址</span>
+                                        <span class="cancelOrder">取消订单</span>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="fl">
+                                <img src="../purchase/images/img02.jpg" alt="">
+                                <h1>
+                                    <p>南非进口红心西柚9个装 新鲜当季红西柚水果孕妇红肉葡萄柚</p>
+                                    <p>单果重量：2kg-4kg</p>
+                                </h1>
+                            </div>
+                            <div class="fl">49.5元</div>
+                            <div class="fl"> x1</div>
+                            <div class="fl">
+                                <p class="button refundMoney">退款</p>
+                            </div>
+                            <div class="fl">
+                                <p>59.5元</p>
+                                <p>(含运费：10元)</p>
+                            </div>
+                            <div class="fl">
+                                <p>待发货</p>
+                                <p class="orderDetail">订单详情</p>
+                                <p class="check">查看物流</p>
+                            </div>
+                            <div class="fr">
+                                <p class="button pay">立即支付</p>
+                                <p class="more">
+                                    更多操作
+                                    <a href="javascript:;">
+                                        <span class="updateAddress">修改地址</span>
+                                        <span class="cancelOrder">取消订单</span>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="top">
+                            <div class="fl">2019-05-25</div>
+                            <div class="fl">订单号:4324324145234543545</div>
+                            <div class="fl"><img class="store" src="image/store.png" alt="">某某某旗舰店</div>
+                            <div class="fl"><img class="service" src="image/service.png" alt="">联系客服</div>
+                        </div>
+                        <div class="bottom">
+                            <div class="fl">
+                                <img src="../purchase/images/product.png" alt="">
+                                <h1>
+                                    <p>西州蜜瓜25号哈密瓜 1粒装 单果1.5kg以上 新鲜水果</p>
+                                    <p>单果重量：2kg-4kg</p>
+                                </h1>
+                            </div>
+                            <div class="fl">49.5元</div>
+                            <div class="fl"> x1</div>
+                            <div class="fl">
+                                <p class="button refundGoods">退货</p>
+                            </div>
+                            <div class="fl">
+                                <p>59.5元</p>
+                                <p>(含运费：10元)</p>
+                            </div>
+                            <div class="fl">
+                                <p>待发货</p>
+                                <p class="detail">订单详情</p>
+                                <p class="check">查看物流</p>
+                            </div>
+                            <div class="fr">
+                                <p class="button confirmGoods">确认收货</p>
+                                <p class="restTime">还剩XX天XX小时</p>
+                                <p class="longerTime">延长收货</p>
+                            </div>
+                        </div>
+                    </li> -->
+                </ul>
+                <!-- 订单列表结束 -->
+                <!--翻页-->
+                <div class="zxf_pagediv"></div>
+            </div>
+            <!-- 订单结束 -->
+            <!-- 没有订单提示 -->
+            <div class="noOrder">
+                <img src="../common/images/noData.png" alt="">
+                <p>你还没有下过单哦，来看看我们的热门商品吧<a href="../index.html#hotGoods">热门商品</a></p>
+            </div>
+            <!-- 消息弹框开始 -->
+            <div class="details_alertForm chatWith">
+                <div class="dog_alert"></div>
+                <div class="text">
+                    <div class="title">联系客服<img src="image/delete.png" alt="" onClick="CloseAlertMsg()"></div>
+                    <ul class="box">
+                        <li>
+                            <span class="fl">内容</span>
+                            <textarea rows="3" cols="20" placeholder="请输入内容~" class="fl"></textarea>
+                        </li>
+                    </ul>
+                    <div class="button">
+                        <p class="cancle" onClick="CloseAlertMsg()">取消</p>
+                        <p class="submit" onClick="CloseAlertMsg()">提交</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 消息弹框结束 -->
+
+            <!-- 填写物流单号 -->
+            <div class="details_alertForm writeNumber">
+                <div class="dog_alert"></div>
+                <div class="text">
+                    <div class="title">填写物流单号</div>
+                    <!-- <div class="item">
+                        <span>物流名称</span>
+                        <select name="emsName" msg="请选择" class="selectNum">
+                            <option value="1">1天</option>
+                        </select>
+                    </div> -->
+                    <div class="item">
+                        <span>物流单号</span>
+                        <input type="text" name="emsNum" class="selectNum" style="width: 180px;">
+                    </div>
+                    <div class="button" style="margin-top: 71px;">
+                        <p class="cancle" onClick="CloseWriteNumber()">取消</p>
+                        <p class="submit" onClick="submitForm()">提交</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+<script src="../common/js/json2.js"></script>
+<script src="../common/js/jquery.js"></script>
+<script src="../common/js/jquery.form.js"></script>
+<script src="../common/js/zxf_page.js"></script>
+<script src="../common/js/common.js"></script>
+<script src="js/myOrder.js"></script>
+
+</html>

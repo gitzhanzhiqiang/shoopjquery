@@ -1,0 +1,140 @@
+.content-centre {
+     overflow: hidden;
+     padding-top: 20px;
+}
+
+/*=================================右边正文======================================*/
+
+.text-right {
+     padding-bottom: 30px;
+}
+
+/*title*/
+
+.text-right .title {
+     width: 1013px;
+     padding: 0 0 0 20px;
+     height: 60px;
+     background: #FFFFFF;
+     line-height: 60px;
+     margin-bottom: 20px;
+}
+
+.content-centre .title p {
+     font-size: 14px;
+     font-weight: 300;
+     color: #666666;
+}
+
+.text-right-box {
+     width: 1033px;
+     height: 792px;
+     background: #ffffff;
+}
+
+/* 头像和账户 */
+
+.text-right-top {
+     width: 977px;
+     height: 141px;
+     padding: 40px 0 0 45px;
+}
+
+.text-right-top .info {
+     width: 938px;
+     height: 100%;
+     border-bottom: 1px solid #F2F2F2;
+}
+
+.text-right-top .info .info-photo {
+     width: 100px;
+     height: 104px;
+     position: relative;
+}
+
+.text-right-top .info .info-photo img {
+     width: 100%;
+     height: 100%;
+     border-radius: 10px;
+     display: inline-block;
+     cursor: pointer;
+}
+
+.info .info-photo input[type='file'] {
+     width: 100px;
+     height: 104px;
+     position: absolute;
+     left: 0px;
+     top: 0;
+     font-size: 50px;
+     opacity: 0;
+     filter: Alpha(Opacity=0);
+     cursor: pointer;
+}
+
+/*个人信息*/
+
+.info .info-account {
+     padding-left: 131px;
+     height: 104px;
+}
+
+.info .info-account li {
+     height: 52px;
+     line-height: 52px;
+}
+
+.info .info-account li div {
+     font-size: 16px;
+     color: #4C4C4C;
+     width: 310px;
+     /*font-weight: bold;*/
+}
+
+.info .info-account li div .right {
+     width: auto;
+     font-weight: 300;
+}
+
+.text-right .text-right-bottom {
+     width: 916px;
+     padding: 0 72px 0 45px;
+}
+
+.text-right .text-right-bottom li {
+     width: 100%;
+     padding-left: 22px;
+     height: 95px;
+     line-height: 95px;
+     border-bottom: 1px solid #F2F2F2;
+}
+
+.text-right .text-right-bottom li .left {
+     width: 80px;
+     font-size: 16px;
+     /*font-weight: bold;*/
+     color: #4D4D4D;
+     text-align: right;
+     margin-right: 210px;
+}
+
+.text-right .text-right-bottom li .center {
+     font-size: 16px;
+     font-weight: 300;
+     color: #999999;
+}
+
+.text-right .text-right-bottom li .edit a {
+     font-size: 16px;
+     /*font-weight: bold;*/
+     color: #85C8F4;
+     cursor: pointer;
+}
+
+.text-right .text-right-bottom li i {
+     display: inline-block;
+     height: 16px;
+     width: 2px;
+     margin: 40px 7px 0;
+     border-left: 1px solid #85C8F4;
+}

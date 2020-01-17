@@ -1,0 +1,94 @@
+.content-centre {
+     overflow: hidden;
+     padding-top: 20px;
+}
+
+/*=================================右边正文======================================*/
+
+.content-centre .text-right {
+     padding-bottom: 30px;
+}
+
+/*title*/
+
+.text-right .title {
+     width: 1013px;
+     padding: 0 0 0 20px;
+     height: 60px;
+     background: #FFFFFF;
+     line-height: 60px;
+     margin-bottom: 20px;
+}
+
+.text-right .title p {
+     font-size: 14px;
+     font-weight: 300;
+     color: #666666;
+}
+
+/*银行卡信息*/
+
+.text-right .text-right-bottom {
+     width: 1033px;
+     height: 782px;
+     background: #FFFFFF;
+     padding-top: 10px;
+}
+
+.text-right .text-right-bottom .title {
+     width: 980px;
+     height: 51px;
+     line-height: 51px;
+     margin: 0 33px 0 20px;
+     border-bottom: 1px solid #EDEDED;
+}
+
+.text-right .text-right-bottom .title img {
+     width: 26px;
+     height: 18px;
+     margin-right: 16px;
+}
+
+.text-right .text-right-bottom .title span {
+     font-size: 18px;
+     font-weight: 400;
+     color: #111111;
+}
+
+.text-right .text-right-bottom .cardInfo {
+     margin-top: 20px;
+     padding-left: 40px;
+}
+
+.text-right .text-right-bottom .cardInfo li {
+     display: inline-block;
+     width: 260px;
+     height: 124px;
+     margin-right: 30px;
+     border: 1px solid #999999;
+     border-radius: 8px;
+}
+
+.text-right .text-right-bottom .cardInfo li img {
+     width: 100%;
+     height: 100%;
+}
+
+/*添加银行卡*/
+.text-right .text-right-bottom .cardInfo .edit {
+     text-align: center;
+     cursor: pointer;
+}
+
+.text-right .text-right-bottom .cardInfo .edit img {
+     width: 30px;
+     height: 30px;
+     margin-top: 47px;
+}
+
+.text-right .text-right-bottom .cardInfo .edit p {
+     font-size: 12px;
+     font-weight: 400;
+     color: #666666;
+     margin-top: 5px;
+}

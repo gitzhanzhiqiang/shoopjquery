@@ -1,0 +1,96 @@
+.content-centre {
+    position: relative;
+    min-height: 722px;
+    overflow: hidden;
+    padding: 26px 0 0;
+    margin-bottom: 26px;
+}
+
+/* 右边 */
+
+.text-right {
+    width: 1039px;
+    height: 722px;
+    background: #FFFFFF;
+}
+
+.text-right h1 {
+    width: 100%;
+    height: 77px;
+    line-height: 77px;
+    text-indent: 53px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #4D4D4D;
+}
+
+.text-right ul {
+    width: 750px;
+    height: 390px;
+}
+
+.text-right li {
+    height: 40px;
+    margin-bottom: 18px;
+    line-height: 40px;
+}
+
+.text-right li:first-child {
+    height: 72px;
+    line-height: 20px;
+}
+
+.text-right li .title {
+    font-size: 16px;
+    font-weight: 300;
+    color: #4D4D4D;
+    width: 231px;
+    text-align: right;
+    display: inline-block;
+}
+
+.text-right li div.title,
+.text-right li div.value {
+    width: 100%;
+    text-align: center;
+}
+
+.text-right li div.value {
+    height: 20px;
+    font-size: 26px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 20px;
+    margin-top: 14px;
+}
+
+.text-right li input {
+    width: 332px;
+    height: 21px;
+    border: 1px solid #C4D1D8;
+    border-radius: 4px;
+    padding: 9px 0 8px 22px;
+    font-size: 16px;
+}
+
+.text-right li a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FE9D48;
+    margin-left: 23px;
+}
+
+.text-right li .button {
+    width: 160px;
+    height: 44px;
+    background: #E2231A;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 44px;
+    margin-left: 236px;
+    margin-top: 40px;
+}

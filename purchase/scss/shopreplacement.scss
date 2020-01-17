@@ -1,0 +1,202 @@
+/*
+ * @Author: liwanli 
+ * @Date: 2019-05-29 16:51:16 
+ * @Last Modified by: liwanli
+ * @Last Modified time: 2019-07-01 18:55:08
+ * 退换货样式表文件 shopreplacement.css
+ */
+@charset"utf-8";
+
+#shopreplacement {
+    position: relative;
+    margin-top: 12px;
+    padding-bottom: 80px;
+    height: auto;
+    background: #fff;
+    overflow: hidden;
+
+    .shopreplacement-inner {
+        padding-top: 39px;
+        padding-left: 93px;
+        padding-right: 93px;
+    }
+
+    //退换货申请信息
+    .expu-info {
+        overflow: hidden;
+
+        .title {
+            font-size: 16px;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .title p {
+            font-weight: normal;
+            font-size: 14px;
+            color: #999;
+            margin-right: 19px;
+            display: inline-block;
+        }
+
+        .title p.current-time {
+            margin-left: 53px;
+        }
+
+        .details {
+            margin-top: 29px;
+            margin-left: 70px;
+            margin-bottom: 20px;
+            overflow: hidden;
+
+            .details-right {
+                width: 560px;
+                margin-left: 61px;
+                font-size: 14px;
+                color: #4D4D4D;
+
+                .title {
+                    font-size: 16px;
+                    color: #000;
+                    font-weight: normal;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    margin-bottom: 21px;
+                }
+
+                .money {
+                    font-size: 24px;
+                    line-height: 1;
+                    color: #E2231A;
+                    margin-bottom: 14px;
+                }
+
+                .params {
+                    margin-bottom: 9px;
+                }
+
+                .num {
+                    margin-bottom: 12px;
+                }
+
+            }
+        }
+
+        .tuihuan-info {
+            padding-left: 70px;
+            font-size: 16px;
+            padding-top: 10px;
+
+
+            .class-item {
+                margin-bottom: 30px;
+                // overflow: hidden;
+
+                dt.tit {
+                    font-size: 16px;
+                    color: #4D4D4D;
+                    font-weight: normal;
+                    float: left;
+                    padding-top: 10px;
+                }
+
+                dd {
+                    .inpt {
+                        box-sizing: content-box;
+                        width: 456px;
+                        font-size: 16px;
+                        line-height: 16px;
+                        padding: 11px 0;
+                        padding-left: 22px;
+                        color: #333;
+                        border: 1px solid #C4D1D8;
+                        border-radius: 4px;
+                    }
+
+                    textarea:disabled,
+                    input:disabled {
+                        background: none;
+                    }
+
+                }
+
+                &.reason {}
+
+                &.money .com {
+                    input {
+                        color: #E2231A;
+                    }
+
+                    p {
+                        margin-left: 80px;
+                        margin-top: 10px;
+                        color: #333;
+                    }
+
+                    span {
+                        margin-right: 10px;
+                    }
+                }
+
+                &.explain textarea {
+                    width: 443px;
+                    height: 66px;
+                    padding: 10px 20px;
+                    border: 1px solid #C4D1D8;
+                    font-size: 16px;
+                    color: #333;
+                    line-height: 1.5;
+                    border-radius: 4px;
+                }
+
+                &.pingz .com {
+                    width: 835px;
+                    float: left;
+
+                    p {
+                        position: relative;
+                        display: inline-block;
+                        width: 144px;
+                        height: 144px;
+                        margin-right: 20px;
+                        margin-bottom: 20px;
+                        border-radius: 4px;
+                    }
+
+                    .up-close {
+                        position: absolute;
+                        top: -5px;
+                        right: -5px;
+                        width: 18px;
+                        height: 18px;
+                        display: block;
+                        z-index: 99;
+                        background: url('../../common/images/up-close.png') no-repeat;
+                    }
+
+                    .addimg {
+                        cursor: pointer;
+                    }
+                }
+
+            }
+
+            .submit {
+                width: 160px;
+                height: 44px;
+                line-height: 44px;
+                margin-left: 78px;
+                background: #E2231A;
+                border-radius: 4px;
+                font-size: 16px;
+                text-align: center;
+                color: #fff;
+                cursor: pointer;
+                border: 0;
+            }
+        }
+    }
+}

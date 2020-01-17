@@ -1,0 +1,91 @@
+div.zxf_pagediv {
+     text-align: right;
+     color: #999999;
+     padding: 10px 0;
+     font-size: 14px;
+     font-weight: 400;
+}
+
+div.zxf_pagediv a {
+     display: inline-block;
+     width: 33px;
+     height: 33px;
+     border: 1px solid;
+     border: 1px solid #e8e8e8;
+     line-height: 33px;
+     margin-right: 5px;
+     border-radius: 5px;
+     text-align: center;
+}
+
+div.zxf_pagediv span {
+     display: inline-block;
+     width: 33px;
+     height: 33px;
+     border: 1px solid;
+     border: 1px solid #e8e8e8;
+     line-height: 33px;
+     margin-right: 5px;
+     border-radius: 3px;
+     text-align: center;
+}
+
+div.zxf_pagediv .point {
+     border: 0;
+}
+
+div.zxf_pagediv span.jump {
+     border: 0;
+     width: 50px;
+}
+div.zxf_pagediv span.page{
+     width: 68px;
+}
+div.zxf_pagediv span.page {
+     border: 0;
+}
+
+/*页码和上下页hover*/
+
+div.zxf_pagediv a:hover {
+     color: #ff4401;
+     border-color: #ff4401;
+}
+
+/*点击当前页*/
+
+div.zxf_pagediv .current {
+     color: #fff;
+     background: #ff4401;
+     border: 1px solid #ff4401;
+}
+
+/*确认按钮*/
+
+div.zxf_pagediv .zxfokbtn {
+     padding: 0 10px;
+}
+
+div.zxf_pagediv .zxfokbtn:hover {
+     color: red;
+     border-color: red;
+}
+
+/*禁止点击*/
+
+div.zxf_pagediv .disabled {
+     cursor: no-drop;
+     cursor: not-allowed;
+}
+
+/*input*/
+
+div.zxf_pagediv input {
+     width: 30px;
+     border-radius: 3px;
+     text-align: center;
+     padding: 8px 5px;
+     border: 1px solid #e8e8e8;
+     *position: relative;
+     *top: 9px;
+}

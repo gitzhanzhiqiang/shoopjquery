@@ -1,0 +1,582 @@
+input,
+textarea {
+     font-size: 16px;
+}
+
+.content-centre {
+     overflow: hidden;
+     padding-top: 36px;
+}
+
+/*=================================右边正文======================================*/
+
+.content-centre .text-right {
+     width: 1041px;
+     font-weight: 300;
+}
+
+/*title*/
+
+.content-centre .title {
+     width: 1005px;
+     padding: 0 18px;
+     height: 59px;
+     background: #FFFFFF;
+     box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+     border-radius: 3px;
+     line-height: 59px;
+     margin-bottom: 13px;
+}
+
+.content-centre .title p {
+     font-size: 20px;
+     color: #333333;
+}
+
+.content-centre .title p:first-child+p {
+     display: none;
+}
+
+.text-right .text {
+     background: #fff;
+     margin-bottom: 100px;
+     padding: 30px 0 100px 134px;
+}
+
+.text-right .text .item {
+     overflow: hidden;
+     margin-bottom: 20px;
+}
+
+.text-right .text .item>label {
+     width: 80px;
+     text-align: right;
+     display: inline-block;
+     font-size: 16px;
+     font-weight: 300;
+     color: #4D4D4D;
+     line-height: 40px;
+     position: relative;
+     margin-right: 20px;
+}
+
+.text-right .text .item>label>span {
+     position: absolute;
+     top: 0;
+     left: 0;
+     color: #E2231A;
+}
+
+.text-right .text .item input {
+     width: 344px;
+     /*height:38px;*/
+     padding: 11px 5px;
+     border: 1px solid #C4D1D8;
+     border-radius: 4px;
+     font-size: 14px;
+}
+
+.text-right .text .item select {
+     width: 357px;
+     /*height:38px;*/
+     padding: 11px 5px;
+     border: 1px solid #C4D1D8;
+     border-radius: 4px;
+     font-size: 14px;
+}
+
+.text-right .text .item .top button {
+     padding: 8.5px 30px;
+     border: 1px solid #E2231A;
+     border-radius: 4px;
+     font-size: 16px;
+     color: #E2231A;
+     background: #fff;
+     cursor: pointer;
+     margin-right: 20px;
+}
+
+.text-right .text .item .top button:first-child+button {
+     border: 1px solid #ccc;
+     background: #E6EDFF;
+     color: #000;
+}
+
+.text-right .text .item .top button:first-child+button+button {
+     border: 1px solid #C4D1D8;
+     background: #E6F6FF;
+     color: #4C4C4C;
+}
+
+.text-right .text .item .hint {
+     padding-top: 10px;
+}
+
+.text-right .text .item .hint p {
+     font-size: 16px;
+     line-height: 22px;
+     margin-bottom: 5px;
+}
+
+.text-right .text .item.specification ul li {
+     border-top: 1px solid #C4D1D8;
+     padding-top: 20px;
+}
+
+.text-right .text .item.specification ul li:first-child {
+     border: 0;
+     padding-top: 0px;
+}
+
+.text-right .text .item ul li>div {
+     overflow: hidden;
+     margin-bottom: 22px;
+}
+
+.text-right .text .item.specification ul li>div>label {
+     width: 60px;
+     text-align: right;
+     display: inline-block;
+     font-size: 16px;
+     font-weight: 300;
+     color: #4D4D4D;
+     line-height: 40px;
+     position: relative;
+     margin-right: 20px;
+}
+
+.text-right .text .item.specification ul li>div>div>label img {
+     position: relative;
+     top: 4px;
+     margin: 0 11px 0 28px;
+}
+
+.text-right .text .item.specification ul li>div>div>label {
+     line-height: 40px;
+     cursor: pointer;
+}
+
+.text-right .text .item.specification ul li>div>div>img {
+     width: 30px;
+     margin-top: 3px;
+     margin-left: 10px;
+     cursor: pointer;
+}
+
+.text-right .text .item.specification ul li>div:first-child+div .delValue {
+     display: none;
+}
+
+.text-right .text .item.specification ul li>div:first-child+div .addValue {
+     display: inline-block;
+}
+
+.text-right .text .item.specification ul li>div .addValue {
+     display: none;
+}
+
+/*规格图片*/
+
+.text-right .text .item.specification .specificationImg {
+     width: 90px;
+     height: 88px;
+     border: 1px solid #DADBE1;
+     position: relative;
+     margin-top: 10px;
+     background: url(../images/plus.png) no-repeat center;
+     text-align: center;
+     cursor: pointer;
+     border-radius: 5px;
+}
+
+.text-right .text .item.specification .specificationImg>img {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+     display: none;
+}
+
+.text-right .text .item.specification .specificationImg form {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+}
+
+.text-right .text .item.specification .specificationImg form input[type="text"] {
+     display: none;
+}
+
+.text-right .text .item.specification .specificationImg form input[type="file"] {
+     width: 100%;
+     height: 100%;
+     font-size: 20px;
+     opacity: 0;
+     filter: Alpha(Opacity=0);
+     position: absolute;
+     left: 0;
+     top: 0;
+}
+
+.text-right .text .item.specification .specificationImg .isShow {
+     width: 92px;
+     height: 89px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 100;
+     display: none;
+}
+
+.text-right .text .item.specification .specificationImg .background {
+     width: 92px;
+     height: 89px;
+     background: #000000;
+     opacity: 0.4;
+     filter: Alpha(Opacity=40);
+     position: absolute;
+     left: 0;
+     top: 0;
+}
+
+.text-right .text .item.specification .specificationImg .deltree {
+     width: 92px;
+     height: 35px;
+     background: #000000;
+     opacity: 0.4;
+     filter: Alpha(Opacity=40);
+     position: absolute;
+     left: 0;
+     top: 28px;
+}
+
+.text-right .text .item.specification .specificationImg .deltree_text {
+     width: 92px;
+     height: 35px;
+     position: absolute;
+     text-align: center;
+     left: 0;
+     top: 28px;
+     font-size: 15px;
+     font-weight: 400;
+     line-height: 35px;
+     color: #fff;
+     cursor: pointer;
+}
+
+/*批量操作*/
+
+.text-right .text .item.specification .bottom {
+     display: none;
+}
+
+.text-right .text .item.specification .bottom .batch {
+     overflow: hidden;
+     font-size: 16px;
+     font-weight: 300;
+     color: #4D4D4D;
+     line-height: 36px;
+     padding-top: 21px;
+     border-top: 1px solid #F2F2F2;
+     margin-top: 20px;
+}
+
+.text-right .text .item.specification .bottom .batch>div {
+     margin-right: 21px;
+}
+
+.text-right .text .item.specification .bottom .batch>div:first-child {
+     margin-right: 49px;
+}
+
+.text-right .text .item.specification .bottom .batch input {
+     width: 78px;
+     border: 1px solid #C4D1D8;
+     border-radius: 4px;
+     padding: 8px 10px;
+     font-size: 16px;
+     line-height: 18px;
+}
+
+/*明细表格*/
+
+.text-right .text .item.specification .bottom table {
+     width: 638px;
+     text-align: center;
+     font-size: 14px;
+     font-weight: 300;
+     color: #4D4D4D;
+     line-height: 42px;
+     margin: 20px 0 31px 0;
+}
+
+.text-right .text .item.specification .bottom table tr {
+     background: #FCFCFC;
+}
+
+.text-right .text .item.specification .bottom table .firstTr {
+     background: #F2F2F2;
+}
+
+.text-right .text .item.specification .bottom table tr td {
+     border-left: 1px solid #EBEBEB;
+     border-top: 1px solid #EBEBEB;
+}
+
+.text-right .text .item.specification .bottom table tr.firstTr td {
+     border: 0;
+}
+
+.text-right .text .item.specification .bottom table tr:first-child+tr td {
+     border-top: 0;
+}
+
+.text-right .text .item.specification .bottom table tr td:first-child {
+     border-left: 0;
+}
+
+.text-right .text .item.specification .bottom table tr td input {
+     width: 63px;
+     font-size: 14px;
+     font-weight: 300;
+     color: #4D4D4D;
+     padding: 3px 2px;
+}
+
+/*按钮*/
+
+.btn {
+     text-align: center;
+}
+
+.btn button {
+     width: 179px;
+     height: 45px;
+     background: #E1212D;
+     border: 1px solid #E1212D;
+     border-radius: 3px;
+     font-size: 16px;
+     font-weight: 400;
+     color: #FFFFFF;
+     cursor: pointer;
+}
+.btn button:first-child {
+      background: #fff;
+      color: #000;
+      margin-right: 20px;
+}
+.btn button:first-child + button {
+     margin-right: 40px;
+}
+
+/*弹窗*/
+
+.alertForm {
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     display: none;
+}
+
+.alertForm .dog_alert {
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     background: #000000;
+     opacity: 0.3;
+     /*font-size: 100px;*/
+     filter: Alpha(Opacity=30);
+}
+
+.alertForm .text {
+     width: 820px;
+     height: 624px;
+     background: #FFFFFF;
+     border-radius: 10px;
+     margin: auto;
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     *left: 50%;
+     *margin-left: -410px;
+     *top: 50%;
+     *margin-top: -312px;
+}
+
+.alertForm .text h3 {
+     padding: 13px 0;
+     font-size: 18px;
+     font-family: MicrosoftYaHeiLight;
+     font-weight: bold;
+     color: #4D4D4D;
+     text-align: center;
+     font-weight: 400;
+     border-bottom: 1px solid #EBEBEB;
+     margin-bottom: 20px;
+}
+
+.alertForm .text h3 img {
+     width: 16px;
+     margin-right: 12px;
+     *position: relative;
+     *top: -40px;
+     cursor: pointer;
+}
+
+.alertForm .text .btn {
+     text-align: center;
+     padding-right: 16px;
+}
+
+.alertForm .text .btn button {
+     cursor: pointer;
+     width: 160px;
+     height: 36px;
+     line-height: 36px;
+     font-size: 16px;
+     background: #E2231A;
+     border: 1px solid #E2231A;
+     border-radius: 4px;
+     color: #fff;
+}
+
+.alertForm .text .btn button:first-child {
+     margin-right: 70px;
+     color: #E2231A;
+     background: #fff;
+}
+
+.alertForm.leaveMsg1 .textdata {
+     padding: 0 49px;
+     height: 460px;
+     overflow-y: auto;
+     /*三角箭头的颜色*/
+     scrollbar-arrow-color: transparent;
+     /*滚动条滑块按钮的颜色*/
+     scrollbar-face-color: transparent;
+     /*滚动条整体颜色*/
+     scrollbar-highlight-color: transparent;
+     /*滚动条阴影*/
+     scrollbar-shadow-color: transparent;
+     /*滚动条轨道颜色*/
+     scrollbar-track-color: transparent;
+}
+
+/*滚动条整体部分,必须要设置*/
+
+.alertForm.leaveMsg1 .textdata::-webkit-scrollbar,
+.alertForm.leaveMsg1 .textdata::-webkit-scrollbar {
+     width: 2px;
+     height: 2px;
+     background-color: transparent;
+}
+
+/*滚动条的轨道*/
+
+.alertForm.leaveMsg1 .textdata::-webkit-scrollbar-track body::-webkit-scrollbar-track {
+     box-shadow: none;
+     background-color: transparent;
+}
+
+.alertForm.leaveMsg1 .textdata label {
+     display: inline-block;
+     width: 100px;
+}
+
+.alertForm.leaveMsg1 .textdata>div {
+     overflow: hidden;
+     /*margin-bottom: 20px;*/
+}
+
+.alertForm.leaveMsg1 .textdata span {
+     display: inline-block;
+     width: 300px;
+}
+
+.alertForm.leaveMsg1 .textdata img {
+     max-width: 200px;
+     max-height: 150px;
+}
+
+.alertForm.leaveMsg1 .title {
+     font-size: 18px;
+     line-height: 19px;
+     color: #999999;
+     text-align: center;
+     margin-bottom: 21px;
+}
+
+.alertForm.leaveMsg1 .textdata h4 {
+     font-size: 18px;
+     color: #4D4D4D;
+}
+
+/*拖拽*/
+
+.item_content ul {
+     list-style: none;
+     overflow: hidden;
+     position: relative;
+}
+
+.item_content ul li {
+     width: 160px;
+     height: 42px;
+     float: left;
+     margin: 10px;
+}
+
+.item_content {
+     height: auto;
+     /*border: 1px solid #ccc;*/
+     float: left;
+}
+
+.item_content .item {
+     width: 160px;
+     height: 42px;
+     line-height: 42px;
+     text-align: center;
+     cursor: pointer;
+     background: #E7ECFE;
+     border-radius: 5px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+}
+
+.item_content .item img {
+     border-radius: 6px;
+}
+
+.item_container .item {
+     background: #E7ECFE;
+}
+
+.item_container {
+     width: 100%;
+     position: relative;
+}
+
+.item_container>.item {
+     width: 160px;
+     height: 42px;
+     text-align: center;
+     line-height: 42px;
+     border-radius: 5px;
+     font-size: 16px;
+     color: #808080;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+}

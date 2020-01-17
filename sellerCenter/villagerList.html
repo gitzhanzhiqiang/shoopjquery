@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+     <meta charset="UTF-8">
+     <title>爱心购商城-消薄平台_扶贫帮困，致力于扶贫帮困消除经济薄弱村！</title>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     <meta name="renderer" content="webkit" />
+     <meta name="data-spm" content="a2e15" />
+     <link rel="stylesheet" href="../common/css/zxf_page.css">
+     <link rel="stylesheet" href="../common/css/common.css">
+     <link rel="stylesheet" href="css/villagerList.css">
+</head>
+
+<body>
+     <div>
+          <!--公共头部-->
+          <div class="header" id="header"></div>
+          <!--中心的头部搜索-->
+          <div class="header-seach" id="header-seach"></div>
+
+
+          <!--主要内容-->
+          <div class="content-centre body-center">
+               <!--侧边导航-->
+               <div id="centre-left-nav" class="fl"></div>
+               <!-- 右边内容 -->
+               <div class="text-right fr">
+                    <div class="title">
+                         <p>村民名录</p>
+                    </div>
+                    <div class="text">
+                         <ul class="nav" id="nav">
+                              <li class="fl tab" status="3"><span class="hover">全部</span></li>
+                              <li class="fl tab" status="0">
+                                   <span>申请列表</span>
+                                   <!--<span>6</span>-->
+                              </li>
+                              <li class="fl" style="display: none;">
+                                   <span>模板</span><span>12</span>
+                              </li>
+                              <li class="fl">
+                                   <button onClick="downLoad()">下载模板</button>
+                              </li>
+                              <li class="fl upLoad">
+                                   <form id="ajaxForm" target="nm_iframe" enctype="multipart/form-data" action="" method="post">
+                                        <div class="fl">
+                                             <button>导入分配列表</button>
+                                             <input id="file" type="file" name="file" accept=".xlsx">
+                                        </div>
+                                        <!--<i class="fl">//列表文件路径</i>-->
+                                   </form>
+                              </li>
+                         </ul>
+                         <!--tab头-->
+                         <ul class="table-header">
+                              <li class="fl">姓名<span></span></li>
+                              <li class="fl">手机号<span></span></li>
+                              <li class="fl">身份证号<span></span></li>
+                              <li class="fl">历史分配总额<span></span></li>
+                              <li class="fl">操作</li>
+                         </ul>
+                         <!--list-->
+                         <div id="list">
+                              <ul class="list">
+                                   <!--<li>
+                              <dl>
+                                   <dt class="fl">张宏<span></span></dt>
+                                   <dt class="fl">17894561578<span></span></dt>
+                                   <dt class="fl">321461198309030017<span></span></dt>
+                                   <dt class="fl">￥170683.13<span></span></dt>
+                                   <dt class="fl">删除</dt>
+                              </dl>
+                         </li>
+                         <li>
+                              <dl>
+                                   <dt class="fl">张宏<span></span></dt>
+                                   <dt class="fl">17894561578<span></span></dt>
+                                   <dt class="fl">321461198309030017<span></span></dt>
+                                   <dt class="fl">￥170683.13<span></span></dt>
+                                   <dt class="fl">
+                                        <p>不同意</p>
+                                        <button>同意</button>
+                                   </dt>
+                              </dl>
+                         </li>-->
+                              </ul>
+                         </div>
+                         <!--翻页-->
+                         <div class="zxf_pagediv"></div>
+                    </div>
+               </div>
+          </div>
+          <script src="../common/js/json2.js"></script>
+          <script src="../common/js/jquery.js"></script>
+          <script src="../common/js/zxf_page.js"></script>
+          <script src="../common/js/jquery.form.js"></script>
+          <script src="../common/js/common.js"></script>
+          <script src="js/villagerList.js"></script>
+</body>
+
+
+</html>

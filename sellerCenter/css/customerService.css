@@ -1,0 +1,413 @@
+.content-centre {
+     overflow: hidden;
+     padding-top: 36px;
+}
+
+/*右边正文*/
+
+.content-centre .text-right {
+     width: 1041px;
+     font-weight: 300;
+}
+
+.content-centre .title {
+     width: 1005px;
+     padding: 0 18px;
+     height: 59px;
+     background: #FFFFFF;
+     box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+     border-radius: 3px;
+     line-height: 59px;
+     margin-bottom: 13px;
+}
+
+.content-centre .title p {
+     font-size: 20px;
+     color: #333333;
+}
+
+.content-centre .text {
+     width: 1005px;
+     padding: 0 18px 85px 18px;
+     min-height: 20px;
+     background: #fff;
+     box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+     border-radius: 3px;
+     margin-bottom: 100px;
+}
+
+.content-centre .text .nav {
+     width: 100%;
+     height: 66px;
+}
+
+.content-centre .text .nav li {
+     cursor: pointer;
+     margin-right: 32px;
+     font-size: 16px;
+     color: #333333;
+     padding: 24px 0 7px 0;
+}
+
+.content-centre .text .nav li span {
+     float: left;
+}
+
+.content-centre .text .nav li span:first-child+span {
+     margin-left: 10px;
+     color: #F9B34C;
+}
+
+.content-centre .text .nav li .hover {
+     border-bottom: 2px solid #286AC7;
+     font-weight: 400;
+     color: #286AC7;
+     padding-bottom: 7px;
+}
+
+.content-centre .text .table-header {
+     width: 100%;
+     height: 37px;
+     line-height: 37px;
+     background: #F6F6F6;
+     font-size: 14px;
+     color: #333333;
+}
+
+.content-centre .text .table-header li {
+     text-align: center;
+     height: 37px;
+     position: relative;
+}
+
+.content-centre .text .table-header li span {
+     display: inline-block;
+     width: 1px;
+     height: 15px;
+     background: #CCCCCC;
+     margin-top: 12px;
+     position: absolute;
+     top: 0;
+     right: 0;
+}
+
+.content-centre .text .table-header li:first-child {
+     width: 338px;
+}
+
+.content-centre .text .table-header li:first-child+li {
+     width: 106px;
+}
+
+.content-centre .text .table-header li:first-child+li+li {
+     width: 107px;
+}
+
+.content-centre .text .table-header li:first-child+li+li+li {
+     width: 450px;
+}
+
+.content-centre .list li {
+     margin-top: 17px;
+     width: 1005px;
+     height: auto;
+     min-width: 1px;
+     border: 1px solid #CCCCCC;
+}
+
+.content-centre .list li .list-head {
+     width: 1005px;
+     height: 48px;
+     background: #F6F6F6;
+     line-height: 48px;
+     font-size: 15px;
+     font-weight: 300;
+     color: #333333;
+}
+
+.content-centre .list .list-head .date {
+     margin-right: 47px;
+     font-weight: 400;
+}
+
+.content-centre .list li .list-head>div:first-child {
+     padding-left: 11px;
+     overflow: hidden;
+     margin-right: 13px;
+}
+
+.content-centre .list li .list-head>div:first-child .noSelected {
+     width: 18px;
+     height: 18px;
+     position: relative;
+     top: 15px;
+     margin-right: 13px;
+     background: url('../images/checkout.png') center 100%;
+     cursor: pointer;
+}
+
+.content-centre .list li .list-head>div:first-child .Selected {
+     width: 18px;
+     height: 18px;
+     position: relative;
+     top: 15px;
+     margin-right: 13px;
+     background: url('../images/checkoutSelecd.png') center 100%;
+     cursor: pointer;
+}
+
+.content-centre .list li .list-head>div:first-child img.Selected {
+     display: none;
+}
+
+.content-centre .list .list-content {
+     width: 100%;
+     height: 117px;
+     overflow: hidden;
+}
+
+.content-centre .list .list-content>.fl {
+     border-top: 1px solid #ccc;
+}
+
+.content-centre .list .list-content.first>.fl {
+     border-top: 0;
+}
+
+.content-centre .list .list-content>.fl:first-child+.fl+.fl {
+     display: none;
+}
+
+.content-centre .list .list-content.first>.fl:first-child+.fl+.fl {
+     display: block;
+}
+
+.content-centre .list .list-content .list-text {
+     width: 320px;
+     height: 87px;
+     padding: 14px 0 16px 18px;
+}
+
+.content-centre .list .list-content .list-text img {
+     width: 87px;
+     height: 87px;
+     border-radius: 3px;
+     display: inline-block;
+}
+
+.content-centre .list .list-content .list-text div {
+     width: 183px;
+     margin-left: 16px;
+}
+
+.content-centre .list .list-content .list-text h3 {
+     font-size: 14px;
+     font-weight: 300;
+     color: #333333;
+     line-height: 20px;
+     margin-bottom: 10px;
+}
+
+.content-centre .list .list-content .list-text p {
+     height: 12px;
+     font-size: 12px;
+     font-weight: normal;
+     color: #808080;
+}
+
+.content-centre .list .list-content .number {
+     width: 211px;
+     height: 100px;
+     padding-top: 17px;
+     border-left: 1px solid #CCCCCC;
+     border-right: 1px solid #CCCCCC;
+}
+
+.content-centre .list .list-content .number div {
+     width: 49.9%;
+     text-align: center;
+}
+
+.content-centre .list .list-content .logistics {
+     width: 454px;
+}
+
+.content-centre .list .list-content .logistics div {
+     width: 315px;
+     min-height: 34px;
+     font-size: 15px;
+     font-weight: 400;
+     color: #333333;
+     line-height: 20px;
+     margin-left: 20px;
+     margin-top: 16px;
+     clear: both;
+}
+
+.content-centre .list .list-content .logistics span {
+     display: inline-block;
+     max-width: 232px;
+     font-size: 14px;
+     font-weight: 300;
+     float: left;
+}
+
+.content-centre .list .list-button {
+     width: 1005px;
+     height: 48px;
+     background: #F6F6F6;
+}
+
+.content-centre .list .list-button p {
+     width: 106px;
+     height: 31px;
+     background: #FFFFFF;
+     border: 1px solid #CCCCCC;
+     box-shadow: 0px 3px 3px 0px rgba(217, 217, 217, 0.52);
+     border-radius: 3px;
+     text-align: center;
+     line-height: 31px;
+     margin: 9px 10px;
+     cursor: pointer;
+}
+
+.content-centre .list .list-button a {
+     display: inline-block;
+     width: 65px;
+     height: 48px;
+     font-size: 15px;
+     font-weight: 300;
+     color: #286AC7;
+     line-height: 48px;
+     margin-right: 17px;
+}
+
+/*弹窗*/
+
+.alertForm {
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     display: none;
+}
+
+.alertForm .dog_alert {
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     background: #000000;
+     opacity: 0.3;
+     /*font-size: 100px;*/
+     filter: Alpha(Opacity=30);
+}
+
+.alertForm .text {
+     width: 615px;
+     height: 600px;
+     background: #FFFFFF;
+     border-radius: 10px;
+     margin: auto;
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     *left: 50%;
+     *margin-left: -227px;
+     *top: 50%;
+     *margin-top: -175px;
+}
+
+.alertForm .text h3 {
+     padding: 13px 0;
+     font-size: 18px;
+     font-family: MicrosoftYaHeiLight;
+     font-weight: bold;
+     color: #4D4D4D;
+     text-align: center;
+     font-weight: 400;
+     border-bottom: 1px solid #EBEBEB;
+     margin-bottom: 20px;
+}
+
+.alertForm .text h3 img {
+     width: 16px;
+     margin-right: 12px;
+     *position: relative;
+     *top: -40px;
+     cursor: pointer;
+}
+
+.alertForm .text .input {
+     text-align: center;
+     outline: none;
+     resize: none;
+}
+
+.alertForm .text .input textarea {
+     width: 394px;
+     height: 243px;
+     background: #F7F7F7;
+     border: 1px solid #B3B3B3;
+     border-radius: 4px;
+     line-height: 25px;
+     font-size: 16px;
+     padding: 5px 10px;
+     *position: relative;
+     *left: 15px;
+}
+
+.alertForm .text .input p {
+     color: red;
+     position: absolute;
+     left: 17px;
+     top: 311px;
+}
+
+.alertForm .text .btn {
+     text-align: right;
+     padding-right: 16px;
+}
+
+.alertForm .text .btn button {
+     background: #fff;
+     border: 0;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 32px;
+     color: #000;
+     cursor: pointer;
+}
+
+.alertForm .text .btn button:first-child {
+     margin-right: 29px;
+     color: #999999;
+}
+
+.alertForm.leaveMsg1 .textdata {
+     padding-left: 20px;
+}
+
+.alertForm.leaveMsg1 .textdata label {
+     display: inline-block;
+     width: 100px;
+}
+
+.alertForm.leaveMsg1 .textdata>div {
+     overflow: hidden;
+     margin-bottom: 20px;
+}
+
+.alertForm.leaveMsg1 .textdata span {
+     display: inline-block;
+     width: 300px;
+}
+
+.alertForm.leaveMsg1 .textdata img {
+     max-width: 200px;
+     max-height: 150px;
+}

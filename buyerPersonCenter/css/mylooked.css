@@ -1,0 +1,161 @@
+/*主要内容*/
+
+.content-centre {
+     position: relative;
+     min-height: 722px;
+     overflow: hidden;
+     padding: 26px 0 0;
+     margin-bottom: 26px;
+}
+
+/*右侧内容*/
+
+.text-right {
+     width: 1039px;
+     min-height: 722px;
+     background: #fff;
+}
+
+/*筛选*/
+
+.text-right .filtrate {
+     width: 972px;
+     height: 36px;
+     padding: 30px 0 0 37px;
+     font-size: 16px;
+     font-weight: 300;
+     color: #4D4D4D;
+     position: relative;
+}
+
+.text-right .filtrate span {
+     cursor: pointer;
+     display: inline-block;
+     width: 60px;
+     height: 34px;
+     line-height: 36px;
+     text-align: center;
+     border: 1px solid #E2231A;
+     background: #E2231A;
+     color: #fff;
+     position: absolute;
+     top: 30px;
+     left: 295px;
+     border-top-right-radius: 4px;
+     border-bottom-right-radius: 4px;
+}
+
+.text-right .filtrate input {
+     width: 230px;
+     height: 18;
+     border: 1px solid #C4D1D8;
+     border-radius: 4px;
+     font-size: 16px;
+     font-weight: 400;
+     color: #333333;
+     margin-left: 19px;
+     padding: 9px 0 7px 10px;
+}
+
+/*商品列表*/
+
+.text-right .list {
+     width: 937px;
+     margin-top: 20px;
+     padding: 0 47px 20px 55px;
+     overflow: hidden;
+}
+
+.text-right .list li {
+     width: 202px;
+     height: 294px;
+     padding: 10px;
+     margin-right: 10px;
+     float: left;
+     border: 1px solid #ffffff;
+     position: relative;
+}
+
+.text-right .list li:hover {
+     border: 1px solid #E2231A;
+}
+
+.text-right .list li img {
+     width: 204px;
+     height: 204px;
+     display: block;
+     cursor: pointer;
+}
+
+.text-right .list li .price {
+     font-size: 22px;
+     font-weight: 400;
+     color: #E2231A;
+     margin: 10px 0 5px 0;
+}
+
+.text-right .list li .key-word {
+     height: 42px;
+     font-size: 16px;
+     font-weight: 300;
+     color: #4D4D4D;
+}
+
+.text-right .list li .location {
+     font-size: 12px;
+     font-weight: 300;
+     color: #999999;
+     margin-top: 5px;
+}
+
+.text-right .list li .location span {
+     display: inline-block;
+     width: 12px;
+     height: 15px;
+     position: relative;
+     top: 3px;
+     margin-right: 5px;
+     background: url('../image/weizhi.png') center 100%;
+}
+
+/*删除商品*/
+
+.text-right .list li .del {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 203px;
+     height: 50px;
+     line-height: 50px;
+     background: #000;
+     opacity: .6;
+     filter: Alpha(Opacity=60);
+     padding: 0 10px;
+     display: none;
+     z-index: 9;
+     color: #fff;
+     text-align: center;
+}
+
+.text-right .list li .del .delete {
+     cursor: pointer;
+}
+
+/*鼠标移入效果*/
+
+.text-right .list li:hover .del {
+     display: block;
+}
+
+/*翻页*/
+
+.zxf_pagediv {
+     text-align: center !important;
+     margin-bottom: 15px;
+}
+
+/*隐藏时间控件确认按钮*/
+
+#laydate_ok {
+     display: none !important;
+}

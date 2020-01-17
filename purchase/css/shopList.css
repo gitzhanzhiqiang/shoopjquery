@@ -1,0 +1,348 @@
+/*商品列表*/
+
+.s-header .seachbox {
+     /* margin-top: 40px !important; */
+}
+
+/*店铺名*/
+
+#container {
+     width: 100%;
+     height: 100px;
+     background: #E2231A;
+     margin-top: 13px;
+}
+
+
+#center {
+     width: 1200px;
+     margin: 0 auto;
+}
+
+#center .store {
+     width: 380px;
+     height: 100px;
+     line-height: 100px;
+     position: relative;
+}
+
+#center .store img {
+     position: absolute;
+     top: 10px;
+     left: 34px;
+     width: 80px;
+     height: 80px;
+}
+
+#center .store .name {
+     display: inline-block;
+     font-size: 18px;
+     font-family: MicrosoftYaHei-Bold;
+     color: #fff;
+     margin-left: 153px;
+     width: 700px;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     overflow: hidden;
+}
+
+#center .tel {
+     width: 790px;
+     text-align: right;
+     height: 100px;
+     line-height: 100px;
+}
+
+#center .tel img {
+     width: 20px;
+     height: 16px;
+}
+
+#center .tel span {
+     font-family: MicrosoftYaHeiLight;
+     color: #fff;
+}
+
+#center .tel .word {
+     font-size: 14px;
+     font-weight: 300;
+     margin: 0 18px 0 9px;
+}
+
+#center .tel .telphone {
+     font-size: 16px;
+     font-weight: bold;
+}
+
+/* E 导航列表 E */
+
+/*banner图*/
+
+.banner {
+     margin-bottom: 10px;
+     margin-top: 10px;
+}
+
+.banner,
+.banner .body-center {
+     height: 420px;
+}
+
+.banner .left {
+     width: 1200px;
+     height: 420px;
+     position: absolute;
+}
+
+.banner .left .swiper-container {
+     width: 1200px;
+     height: 420px;
+     float: right;
+}
+
+.banner .left img {
+     width: 100%;
+     height: 420px;
+}
+
+/*轮播*/
+
+.banner .left .pagination {
+     position: absolute;
+     z-index: 20;
+     bottom: 5px;
+     width: 100%;
+     text-align: center;
+}
+
+.banner .left .swiper-pagination-switch {
+     display: inline-block;
+     width: 8px;
+     height: 8px;
+     border-radius: 8px;
+     background: #fff;
+     margin: 0 5px;
+     opacity: 0.8;
+     border: 1px solid #fff;
+     cursor: pointer;
+}
+
+.banner .left .swiper-active-switch {
+     background: #e2231a;
+}
+
+/*筛选导航*/
+
+.productList {
+     width: 1200px;
+     margin: 0 auto;
+     padding-bottom: 30px;
+}
+
+.productList .type-nav {
+     height: 41px;
+     line-height: 46px;
+     margin-left: 32px;
+}
+
+.productList .type-nav li {
+     width: 50px;
+     text-align: left;
+     font-size: 18px;
+     color: #333333;
+     margin-right: 36px;
+}
+
+.productList .type-nav li span {
+     cursor: pointer;
+}
+
+.productList .type-nav li img {
+     cursor: pointer;
+}
+
+.productList .type-nav li .active {
+     color: #E2231A;
+}
+
+/*商品列表*/
+
+.productList .text-list {
+     min-height: 921px;
+     background: #ffffff;
+}
+
+.productList .list {
+     width: 1170px;
+     padding: 25px 10px 10px 20px;
+     overflow: hidden;
+}
+
+.productList .list li {
+     float: left;
+     width: 202px;
+     height: 325px;
+     padding: 10px;
+     margin: 0 10px 5px 0;
+     border: 1px solid rgba(235, 235, 235, 1);
+}
+
+.productList .list li:hover {
+     border: 1px solid #E2231A;
+}
+
+.productList .list li img {
+     width: 204px;
+     height: 204px;
+     display: block;
+     cursor: pointer;
+}
+
+.productList .list li .price {
+     font-size: 22px;
+     font-weight: 400;
+     color: #E2231A;
+     margin: 10px 0 5px 0;
+}
+
+.productList .list li .key-word {
+     height: 42px;
+     font-size: 16px;
+     font-weight: 300;
+     color: #4D4D4D;
+     cursor: pointer;
+}
+
+.productList .list li .key-word:hover {
+     color: #E2231A;
+}
+
+.productList .list li .payment {
+     font-size: 12px;
+     font-weight: 300;
+     color: #999999;
+     text-align: right;
+     margin: 8px 0 15px 0;
+}
+
+.productList .list li button {
+     width: 120px;
+     height: 36px;
+     font-size: 16px;
+     font-weight: 400;
+     background: #ffffff;
+     color: #E2231A;
+     border-radius: 4px;
+     border: 1px solid #E2231A;
+     float: right;
+     cursor: pointer;
+}
+
+.zxf_pagediv {
+     margin-bottom: 10px;
+     text-align: center !important;
+}
+
+/* S 消息弹框 S */
+
+.details_alertForm {
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     display: none;
+}
+
+.details_alertForm .dog_alert {
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     background: #000000;
+     opacity: 0.3;
+     /*font-size: 100px;*/
+     filter: Alpha(Opacity=30);
+}
+
+.details_alertForm .text {
+     width: 627px;
+     height: 316px;
+     background: #FFFFFF;
+     margin: auto;
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     *left: 50%;
+     *margin-left: -313px;
+     *top: 50%;
+     *margin-top: -113px;
+}
+
+.details_alertForm .text .title {
+     font-size: 16px;
+     font-weight: 400;
+     color: #4C4C4C;
+     height: 47px;
+     width: 100%;
+     line-height: 51px;
+     text-indent: 23px;
+}
+
+.details_alertForm .text .title img {
+     margin-left: 500px;
+     width: 16px;
+     height: 16px;
+     cursor: pointer;
+}
+
+.details_alertForm .text .box {
+     margin: 106px 0 28px;
+     height: 105px;
+     font-size: 16px;
+     font-weight: 400;
+     color: #4C4C4C;
+}
+
+.details_alertForm .text .box li:first-child {
+     height: 40px;
+     margin-bottom: 15px;
+     text-align: center;
+     line-height: 1.8;
+     font-size: 18px;
+     color: #4D4D4D;
+}
+
+.details_alertForm .text .button {
+     height: 31px;
+     text-align: center;
+}
+
+.details_alertForm .text .button p {
+     width: 160px;
+     height: 29px;
+     border: 1px solid #E2231A;
+     color: #E2231A;
+     text-align: center;
+     line-height: 29px;
+     display: inline-block;
+     border-radius: 3px;
+     cursor: pointer;
+     background: #FFFFFF;
+     margin: 0 10px;
+}
+
+.details_alertForm .text .button p.cancle {
+     /* margin: 0 27px 0 218px; */
+}
+
+.details_alertForm .text .button p.submit {
+     background: #E2231A;
+     height: 31px;
+     color: #FFFFFF;
+}
+
+/* E 消息弹框 E */

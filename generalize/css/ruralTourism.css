@@ -1,0 +1,488 @@
+/* S 分类导航菜单 S */
+
+.s-header .slider-menu {
+  width: 1200px;
+  position: relative;
+  z-index: 99;
+  margin: 0 auto;
+}
+
+.s-header .slider-menu .menu-nav {
+  position: relative;
+  width: 140px;
+}
+
+.s-header .slider-menu .menu-nav h3 {
+  width: 100%;
+  height: 44px;
+  float: left;
+  line-height: 44px;
+  /* border-radius: 4px; */
+  text-align: center;
+  background: #C52721;
+  font-size: 16px;
+  font-family: MicrosoftYaHeiLight;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+}
+
+/*<img src="./common/images/kun.png" width="16px" height="14px" alt="">*/
+
+.s-header .slider-menu .menu-nav h3 img {
+  width: 16px;
+  height: 14px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 9px;
+  margin-right: 10px;
+}
+
+.s-header .slider-menu .menu-nav h3 b {
+  float: left;
+}
+
+.s-header .slider-menu .menu-nav .cate-menu {
+  position: absolute;
+  top: 43px;
+  width: 140px;
+  height: 421px;
+  /* padding-top: 4px;
+  padding-bottom: 10px; */
+  /* display: none; */
+  overflow-y: auto;
+  background: rgba(65, 65, 65, 1);
+  opacity: 0.8;
+}
+
+/*滚动条整体部分,必须要设置*/
+
+.s-header .slider-menu .menu-nav .cate-menu::-webkit-scrollbar {
+  width: 5px;
+  /* background: #e2231a; */
+}
+
+/*滚动条的轨道*/
+
+.s-header .slider-menu .menu-nav .cate-menu::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/*滚动条的滑块按钮*/
+
+.s-header .slider-menu .menu-nav .cate-menu::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  /* background-color: #e2231a; */
+}
+
+/*滚动条的上下两端的按钮*/
+.ac {
+  color: #C52721 !important;
+}
+
+.s-header .slider-menu .menu-nav .cate-menu::-webkit-scrollbar-button {
+  display: none;
+}
+
+.s-header .slider-menu .menu-nav .cate-menu .cate-menu-item {
+  /* margin-left: 6px; */
+  text-align: left;
+  padding-left: 45px;
+  color: #fff;
+  position: relative;
+}
+
+.s-header .slider-menu .menu-nav .cate-menu .cate-menu-item.actived {
+  background: #fff;
+}
+
+.s-header .slider-menu .menu-nav .cate-menu .cate-menu-item em {
+  position: absolute;
+  right: 16px;
+  top: 12px;
+}
+
+.s-header .slider-menu .menu-nav .cate-menu .cate-menu-item a {
+  height: 46px;
+  line-height: 46px;
+  margin: 0 5px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: PingFang-SC-Regular, PingFang-SC;
+}
+
+.s-header .slider-menu .menu-nav .cate-menu .cate-menu-item:hover {
+  background: #fff;
+}
+
+.s-header .slider-menu .menu-nav .cate-menu .cate-menu-item:hover,
+.s-header .slider-menu .menu-nav .cate-menu .cate-menu-item:hover a {
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.s-header .slider-menu .menu-nav .cate-pop {
+  position: absolute;
+  left: 140px;
+  top: 43px;
+  width: 460px;
+  /*width: 945px;*/
+  height: 401px;
+  padding: 10px 10px 10px 10px;
+  font-size: 14px;
+  background: #fff;
+  display: none;
+  overflow-y: auto;
+}
+
+/*滚动条整体部分,必须要设置*/
+
+.s-header .slider-menu .menu-nav .cate-pop::-webkit-scrollbar {
+  width: 5px;
+  background: #fff;
+}
+
+/*滚动条的轨道*/
+
+.s-header .slider-menu .menu-nav .cate-pop::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/*滚动条的滑块按钮*/
+
+.s-header .slider-menu .menu-nav .cate-pop::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #000;
+}
+
+.s-header .slider-menu .menu-nav .cate-pop .cate-pop-col {
+  width: 94%;
+  margin-bottom: 10px;
+}
+
+.s-header .slider-menu .menu-nav .cate-pop .cate-pop-tit a {
+  text-align: left;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 12px;
+  font-family: MicrosoftYaHeiLight;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+}
+
+.s-header .slider-menu .menu-nav .cate-pop .cate-pop-con {
+  width: 300px;
+  margin-left: 15px;
+  border-bottom: 1px dotted #e5e5e5;
+  padding-bottom: 8px;
+}
+
+.s-header .slider-menu .menu-nav .cate-pop .cate-pop-con a {
+  line-height: 20px;
+  margin-right: 11px;
+  font-size: 12px;
+  font-family: PingFang-SC-Regular, PingFang-SC;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+}
+
+.s-header .slider-menu .menu-nav .cate-pop .cate-pop-con a:last-child {
+  margin-right: 0;
+}
+
+.cate-pop-tit {
+  width: 95px !important;
+  overflow: hidden;
+  height: 23px;
+  text-align: right;
+}
+
+/* E 分类导航菜单 E */
+
+/* S 导航列表 S */
+
+.s-header .slider-menu .navitems {
+  max-width: 1020px;
+  position: relative;
+  height: 44px;
+  /*line-height: 44px;*/
+}
+
+.s-header .slider-menu .navitems-group ul {
+  /* width: 946px */
+  margin-right: 5px;
+}
+
+.s-header .slider-menu .navitems-group li {
+  float: left;
+  margin-left: 19px;
+}
+
+.s-header .slider-menu .navitems-group li a {
+  font-size: 14px;
+  font-family: MicrosoftYaHeiLight;
+  font-weight: bold;
+  color: #000;
+  padding: 8px 13px;
+  /* background: #E2231A; */
+  display: inline-block;
+  margin-top: 6px;
+  border-radius: 4px;
+}
+
+.s-header .slider-menu .navitems-group li a.hover {
+  padding: 8px 13px;
+  /*background: #cb252a;*/
+  color: #cb252a;
+  display: inline-block;
+}
+
+.s-header .slider-menu .navitems-group .more-icon {
+  width: 15px;
+  height: 7px;
+  background: url("../../common/images/arrow-down.png") no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.s-header .slider-menu .navitems .navitems-select {
+  display: none;
+  position: absolute;
+  top: 35px;
+  right: -25px;
+  width: 118px;
+  padding-top: 25px;
+  z-index: 999;
+  border-radius: 4px;
+  overflow: hidden;
+  background: url("../../common/images/more_nav.png") center top no-repeat;
+}
+
+.s-header .slider-menu .navitems .navitems-select ul {
+  padding: 0 15px 15px 15px;
+  background: url("../../common/images/more_navbg.png") repeat-y center;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.s-header .slider-menu .navitems .navitems-select li {
+  width: 100%;
+  line-height: 35px;
+}
+
+.s-header .slider-menu .navitems .navitems-select li a {
+  line-height: 30px;
+  font-size: 14px;
+  font-family: MicrosoftYaHeiLight;
+  font-weight: 300;
+  color: rgba(51, 51, 51, 1);
+  text-align: center;
+  display: block;
+}
+#cate-menu {
+     display: none;
+}
+
+/* E 导航列表 E */
+
+/*banner图*/
+
+.banner {
+  width: 1200px;
+  height: 420px;
+  margin: 0 auto;
+  /* margin-bottom: 22px; */
+  background: url(../images/1.png);
+  background-size: 100% 100%;
+}
+/*bannner下的导航*/
+.banner_nav {
+     width: 1200px;
+     height: 75px;
+     background: #1974DA;
+     margin: 0 auto;
+}
+.banner_nav b{
+	width: 170px;
+	height: 75px;
+	display: block;
+	float: left;
+	font-size:24px;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align: center;
+	line-height: 75px;
+}
+.banner_nav ul {
+     /*overflow: hidden;*/
+}
+.banner_nav ul li {
+     padding: 10px 14px;
+     font-size: 16px;
+     font-weight: bold;
+     color: #fff;
+     margin-top: 19px;
+      cursor: pointer;
+}
+.banner_nav ul li.hover {
+    color: #1974DA;
+    background: #fff;
+    border-radius:18px;
+}
+.banner_nav ul li.last {
+     position: relative;
+}
+.banner_nav ul li.last ul {
+     position: absolute;
+     width: 100px;
+     text-align: center;
+     padding: 25px 0;
+     display: none;
+     background: url('../../common/images/more_nav.png') center top no-repeat;
+}
+.banner_nav ul li.last ul li {
+     background: #fff;
+     color: #000;
+     padding: 0;
+     line-height: 35px;
+     margin-top: 0;
+     font-weight: normal;
+}
+.banner_nav ul li.last:hover ul {
+     display: block;
+}
+.eacharts {
+     width: 1200px;
+     height: 669px;
+     background: url('../images/eacharts11.png') center no-repeat;
+     margin: 0 auto;
+     margin-bottom: 7px;
+}
+
+.eacharts .map {
+     width: 607px;
+     height: 504px;
+     margin: 0 auto;
+     position: relative;
+     top: 24px;
+     cursor: pointer;
+     /*background: #fff;*/
+}
+
+.eacharts .map.china {
+     background: url('../images/china.png') center no-repeat;
+}
+
+.eacharts .map.gs {
+     background: url('../images/gu.png') center no-repeat;
+}
+
+/*列表*/
+.rural .body-center{
+     margin-bottom: 94px;
+}
+.rural .body-center ul {
+     overflow: hidden;
+}
+
+.rural .body-center {
+     background: #fff;
+}
+
+.rural .body-center .list-head {
+     padding: 0 29px;
+}
+
+
+
+.rural .body-center .list-head li {
+     line-height: 21px;
+     margin-right: 40px;
+     padding: 30px 0;
+     font-size: 16px;
+     font-weight: bold;
+     color: #333333;
+}
+.rural .body-center .list-head span.cityList {
+     margin-bottom: 20px;
+}
+.rural .body-center .list-head span.cityList li {
+     padding-bottom:0;
+}
+.rural .body-center .list-head li.oli {
+     cursor: pointer;
+}
+
+.rural .body-center .list-head li.hover {
+     color: #FF5E2D;
+}
+.rural .body-center .list-head  .cityList {
+     width: 909px;
+     display: inline-block;
+}
+.rural .list_bottom {
+     padding: 0 1px 0 31px;
+     overflow: hidden;
+}
+
+.rural .list_bottom dl {
+  width: 260px;
+  height: 402px;
+  margin: 0 30px 30px 0;
+  border: 1px solid #EBEBEB;
+}
+
+.rural .list_bottom dl dt,
+.rural .list_bottom dl dt img {
+     width: 100%;
+     height: 262px;
+}
+
+.rural .list_bottom dl dd {
+     width: 260px;
+     height: 139px;
+     /* border: 1px solid #EBEBEB; */
+     border-top: 0;
+}
+
+.rural .list_bottom dl dd p:first-child {
+     font-size: 22px;
+     font-weight: 400;
+     color: #E2231A;
+     padding: 13px 0 0 14px;
+}
+
+.rural .list_bottom dl dd p:first-child+p {
+     font-size: 16px;
+     font-weight: 300;
+     color: #4D4D4D;
+     margin-bottom: 13px;
+     margin-left: 14px;
+     width: 240px;
+        height: 40px;
+    line-height: 20px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     display: -webkit-box;
+     -webkit-line-clamp: 2;
+     -webkit-box-orient: vertical;
+}
+
+.rural .list_bottom dl dd button {
+     margin-right: 10px;
+     width: 120px;
+     height: 36px;
+     border: 1px solid #E2231A;
+     border-radius: 4px;
+     background: #fff;
+     font-size: 16px;
+     color: #E2231A;
+     cursor: pointer;
+}

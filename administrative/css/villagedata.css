@@ -1,0 +1,116 @@
+/*
+ * @Author: liwanli 
+ * @Date: 2019-03-26 10:24:23 
+ * @Last Modified by: liwanli
+ * @Last Modified time: 2019-03-26 14:18:31
+ */
+
+/* 乡村数据样式表 */
+.content-centre {
+    overflow: hidden;
+    padding-top: 36px;
+}
+
+/*=================================右边正文======================================*/
+
+.content-centre .text-right {
+    width: 1041px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+/*title*/
+
+.content-centre .title {
+    width: 1005px;
+    padding: 0 18px;
+    height: 59px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+    border-radius: 3px;
+    line-height: 59px;
+    margin-bottom: 13px;
+}
+
+.content-centre .title p {
+    font-size: 14px;
+    color: #666666;
+}
+
+/* 乡村数据左侧table */
+.content-centre .data-left {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 609px;
+    margin-bottom: 100px;
+}
+
+.content-centre .data-left .data-table {
+    padding: 14px 18px;
+    margin-bottom: 17px;
+    background: #fff;
+    box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.content-centre .data-left .data-table-th {
+    height: 37px;
+    margin-bottom: 10px;
+    background: #F6F6F6;
+}
+
+.content-centre .data-left .data-table li {
+    position: relative;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 37px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.content-centre .data-left .data-table-td li {
+    color: #286AC7;
+}
+
+.content-centre .data-left .data-table span {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 15px;
+    background: #CCCCCC;
+    margin-top: 12px;
+}
+
+/* 乡村数据右图表echarts */
+
+.content-centre .data-right {
+    display: none;
+    position: relative;
+    float: right;
+    width: 406px;
+    margin-left: 21px;
+}
+
+.content-centre .data-right .data-echarts {
+    overflow: hidden;
+    margin-bottom: 17px;
+    background: #fff;
+    box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+    border-radius: 3px;
+}
+
+.content-centre .data-right .data-echarts .echats {
+    float: left;
+}
+
+.content-centre .data-right .data-title {
+    font-size: 16px;
+    font-weight: normal;
+    color: #B3B3B3;
+    text-align: center;
+}

@@ -1,0 +1,147 @@
+.content-centre {
+    position: relative;
+    min-height: 722px;
+    overflow: hidden;
+    padding: 26px 0 0;
+    margin-bottom: 26px;
+}
+
+
+/* 右边 */
+
+.text-right {
+    width: 1039px;
+    min-height: 470px;
+}
+
+
+/* 可用余额 */
+
+.top_balance {
+    width: 100%;
+    height: 96px;
+    background: #FFFFFF;
+    line-height: 96px;
+}
+
+.top_balance p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #4D4D4D;
+}
+
+.top_balance p.tip {
+    margin-left: 53px;
+    height: 100%;
+}
+
+.top_balance .button {
+    margin: 30px 0 0 120px;
+    width: 120px;
+    height: 36px;
+    border: 1px solid #E2231A;
+    border-radius: 3px;
+    color: #E2231A;
+    text-align: center;
+    line-height: 36px;
+    font-size: 16px;
+}
+
+.top_balance p.tip span {
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #E2231A;
+}
+
+
+/* 交易明细 */
+
+.bottom_details {
+    margin-top: 12px;
+    background: #FFFFFF;
+}
+
+.bottom_details>h1 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #4D4D4D;
+    height: 79px;
+    border-bottom: 1px solid #F2F2F2;
+    line-height: 79px;
+    text-indent: 53px;
+}
+
+.bottom_details .list {
+    padding-bottom: 143px;
+}
+
+.bottom_details .list li {
+    height: 119px;
+    width: 900px;
+    border-bottom: 1px solid #F2F2F2;
+    margin: 0 auto;
+}
+
+.bottom_details .list li div {
+    padding-top: 15px;
+}
+
+.bottom_details .list li div:first-child {
+    width: 368px;
+}
+
+.bottom_details .list li div:first-child+div {
+    width: 326px;
+}
+
+.bottom_details .list li div p {
+    margin-top: 13px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #999999;
+}
+
+.bottom_details .list li div p span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000000;
+}
+
+.bottom_details .list li div:first-child+div p:first-child+p span {
+    font-weight: 300;
+}
+
+
+/* 没有数据的提示 */
+
+.noData {
+    width: 100%;
+    height: 535px;
+    background: #FFFFFF;
+    padding-top: 1px;
+    display: none;
+}
+
+.noData img {
+    width: 496px;
+    height: 231px;
+    margin: 150px auto 0;
+    display: block;
+}
+
+.noData p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #333333;
+    text-align: center;
+    margin-top: 52px;
+}
+
+.noData p a {
+    font-weight: bold;
+    color: #FE9D48;
+    margin-left: 18px;
+}

@@ -1,0 +1,352 @@
+.content-centre {
+    overflow: hidden;
+    padding-top: 36px;
+}
+
+
+/*=================================右边正文======================================*/
+
+.content-centre .text-right {
+    width: 1041px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+
+/*title*/
+
+.content-centre .title {
+    width: 1005px;
+    padding: 0 18px;
+    height: 59px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+    border-radius: 3px;
+    line-height: 59px;
+    margin-bottom: 13px;
+}
+
+.content-centre .title p {
+    font-size: 20px;
+    color: #333333;
+}
+
+
+/*订单导航*/
+
+.content-centre .text {
+    width: 1005px;
+    padding: 0 18px 85px 18px;
+    min-height: 20px;
+    background: #fff;
+    box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+    border-radius: 3px;
+    margin-bottom: 100px;
+}
+
+.content-centre .text .nav {
+    width: 100%;
+    height: 66px;
+}
+
+.content-centre .text .nav li {
+    cursor: pointer;
+    margin-right: 32px;
+    font-size: 16px;
+    color: #333333;
+    padding: 24px 0 7px 0;
+}
+
+.content-centre .text .nav li span {
+    float: left;
+}
+
+.content-centre .text .nav li span:first-child+span {
+    margin-left: 10px;
+    color: #F9B34C;
+}
+
+.content-centre .text .nav li:first-child+li+li+li,
+.content-centre .text .nav li:first-child+li+li+li+li {
+    padding: 12px 0 14px;
+}
+
+.content-centre .text .nav li .hover {
+    border-bottom: 2px solid #286AC7;
+    font-weight: 400;
+    color: #286AC7;
+    display: inline-block;
+    padding-bottom: 7px;
+}
+
+.content-centre .text .nav button {
+    width: 140px;
+    height: 40px;
+    background: #F7F7F7;
+    border: 1px solid #A6A6A6;
+    box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+/*=======表格头=====*/
+
+.content-centre .text .table-header {
+    width: 100%;
+    height: 37px;
+    line-height: 37px;
+    background: #F6F6F6;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 17px;
+}
+
+.content-centre .text .table-header li {
+    text-align: center;
+    height: 37px;
+    position: relative;
+}
+
+.content-centre .text .table-header li span {
+    display: inline-block;
+    width: 1px;
+    height: 15px;
+    background: #CCCCCC;
+    margin-top: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/*表头各单元格宽度*/
+
+.content-centre .text .table-header li:first-child {
+    width: 338px;
+}
+
+.content-centre .text .table-header li:first-child+li {
+    /*width: 106px;*/
+    width: 230px;
+}
+
+.content-centre .text .table-header li:first-child+li+li {
+    /*width: 107px;*/
+    width: 80px;
+}
+
+.content-centre .text .table-header li:first-child+li+li+li {
+    /*width: 107px;*/
+    width: 80px;
+}
+
+.content-centre .list li>div:first-child+div+div,
+.content-centre .list li>div:first-child+div+div+div {
+    /*width: 106px;*/
+    width: 79px;
+    overflow: hidden;
+}
+.content-centre .text .table-header li:first-child+li+li+li+li {
+     width: 130px;
+}
+.content-centre .text .table-header li:first-child+li+li+li+li+li {
+    width: 107px;
+}
+
+.content-centre .text .table-header li:first-child+li+li+li+li+li+li,
+.content-centre .list li>div:first-child+div+div+div+div+div {
+    width: 145px;
+}
+
+
+/* 选中框 */
+
+.checkout {
+    /* height: 95%; */
+}
+
+.checkout .noSelected {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 33px;
+    margin-right: 13px;
+    background: url('../images/checkout.png') center 100%;
+    cursor: pointer;
+}
+
+.checkout .Selected {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 33px;
+    margin-right: 13px;
+    background: url('../images/checkoutSelecd.png') center 100%;
+    cursor: pointer;
+}
+
+
+/* 操作按钮 */
+
+.handle-btn {
+    display: none;
+    height: 32px;
+    width: 996px;
+    padding-left: 11px;
+    margin: 18px 0;
+}
+
+.handle-btn .checkout .noSelected,
+.handle-btn .checkout .Selected {
+    top: 8px;
+}
+
+.handle-btn .fl span {
+    display: inline-block;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333333;
+    line-height: 27px;
+    margin-right: 16px;
+}
+
+.handle-btn .fl button {
+    width: 57px;
+    height: 32px;
+    background: #F7F7F7;
+    border: 1px solid #A6A6A6;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+/* 表格内容 */
+
+.text .list li {
+    width: 994px;
+    height: 117px;
+    border: 1px solid #CCCCCC;
+    margin-top: 17px;
+    padding-left: 11px;
+    clear: both;
+}
+
+.content-centre .list li img {
+    width: 87px;
+    height: 87px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.content-centre .list li>div {
+    border-left: 1px solid #CCCCCC;
+    height: 100%;
+    text-align: center;
+    line-height: 117px;
+}
+
+.content-centre .list li>div:first-child {
+    padding: 12px 0 18px;
+    border: none;
+    width: 326px;
+    height: 89px;
+    text-align: left;
+}
+
+.content-centre .list li>div:first-child+div {
+    width: 230px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #E1212D;
+}
+.content-centre .list li>div:first-child+div input {
+     width: 200px;
+     text-align: center;
+}
+.content-centre .list li>div:first-child+div+div+div+div {
+    /*width: 212px;*/
+    width: 130px;
+}
+
+.content-centre .list li h3 {
+    width: 183px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333333;
+    line-height: 20px;
+    margin: 4px 0 10px 16px;
+}
+
+.content-centre .list li div:first-child p {
+    width: 183px;
+    height: 12px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #808080;
+    margin-left: 16px;
+    line-height: 12px;
+}
+
+.content-centre .list li>div:first-child+div+div p {
+    width: 42px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    border-radius: 3px;
+    text-align: center;
+    margin: 45px auto 5px;
+    background: #FFFFFF;
+    color: #333333;
+    border: 1px solid #ccc;
+}
+
+.content-centre .list li>div:first-child+div+div+div+div {
+    line-height: 20px;
+}
+
+.content-centre .list li>div span {
+    display: inline-block;
+    width: 80px;
+    margin-top: 42px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #333333;
+    line-height: 20px;
+}
+
+.content-centre .list li>div span:first-child {
+    margin-right: 12px;
+}
+
+.content-centre .list li>div span:first-child+span {
+    margin-left: 12px;
+}
+
+.content-centre .list li>div:first-child+div+div+div+div+div {
+    font-size: 15px;
+    font-weight: 300;
+    color: #286AC7;
+    line-height: 115px;
+}
+
+.content-centre .list li .fr p {
+    width: 44px;
+    height: 22px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    border-radius: 3px;
+    text-align: center;
+    background: #6597DD;
+    color: #fff;
+    margin: 45px 0 0 15px;
+    cursor: pointer;
+}
+
+.content-centre .list li .fr p.fr {
+    margin: 45px 15px 0 0;
+}

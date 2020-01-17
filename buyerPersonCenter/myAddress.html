@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+     <meta charset="UTF-8">
+     <title>爱心购商城-消薄平台_扶贫帮困，致力于扶贫帮困消除经济薄弱村！</title>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     <meta name="renderer" content="webkit" />
+     <meta name="data-spm" content="a2e15" />
+     <link rel="stylesheet" href="../common/css/common.css">
+     <link rel="stylesheet" href="css/myAddress.css">
+</head>
+
+<body>
+     <!--公共头部-->
+     <div id="header-top" class="header-top"></div>
+     <!--中心的头部搜索-->
+     <div id="s-header" class="s-header my"></div>
+
+
+     <!--主要内容-->
+     <div class="content-centre body-center">
+          <!--侧边导航-->
+          <ul class="text-left-nav fl">
+               <li><a href="myshopping.html">我的爱心购</a></li>
+               <li><a href="myOrder.html">我的订单</a></li>
+               <li><a href="myCart.html">我的购物车</a></li>
+               <li><a href="myCollecting.html">我的收藏</a></li>
+               <li><a href="mylooked.html">我的浏览</a></li>
+               <li><a href="myProfile.html">我的资料</a></li>
+               <li><a href="myAccount.html">我的账户</a></li>
+               <li class="hover"><a href="javascript:;">我的地址</a></li>
+               <li><a href="myEvaluation.html">我的评价</a></li>
+               <li><a href="myGrade.html">我的积分</a></li>
+               <!--<li><a href="javascript:;">我的卡券</a></li>-->
+               <li><a href="myMessage.html">我的消息</a></li>
+               <li><a href="securityCenter.html">安全中心</a></li>
+          </ul>
+          <!-- 右侧内容 -->
+          <div class="text-right fr">
+               <!--位置导航-->
+               <div class="crumb">
+                    <span>收货地址</span>
+                    <span onClick="addNewAddress()">创建新地址</span>
+               </div>
+               <!--地址列表-->
+               <ul class="list" id="list">
+                    <!--<li>
+                         <span class="default">默认地址</span>
+                         <span>钢铁侠 </span>
+                         <span>浙江省杭州市下城区天堂小区233号 </span>
+                         <span>13333333333</span>
+                         <span class="edit-address">修改地址</span>
+                         <sapn class="delete">删除</sapn>
+
+                    </li>
+                    <li>
+                         <span class="to-default">设为默认</span>
+                         <span>钢铁侠 </span>
+                         <span>浙江省杭州市下城区天堂小城区天堂小区233号 </span>
+                         <span>13333333333</span>
+                         <span class="edit-address">修改地址</span>
+                         <span class="delete">删除</span>
+                    </li>-->
+               </ul>
+          </div>
+          <!-- 编辑地址-弹框开始 -->
+          <div class="alertForm" id="alertForm" rules="rules" label-width="152" position-verification="">
+               <div class="dog_alert"></div>
+               <div class="text">
+                    <div class="title"><span>修改地址</span><img src="image/delete.png" alt="" onClick="CloseAlert()"></div>
+                    <div class="box">
+                         <div class="form-item">
+                              <label class="fl">收货人姓名：</label>
+                              <div class="verification-el-input fl">
+                                   <input name="name" class="verification-input" type="text" placeholder="请输入收货人姓名" requir="true" msg="请填写收货人姓名！">
+                              </div>
+                         </div>
+                         <div class="form-item">
+                              <label class="fl">手机号码：</label>
+                              <div class="verification-el-input fl">
+                                   <input name="phone" class="verification-input" type="text" placeholder="请输入11位手机号" requir="true" msg="请输入11位手机号！">
+                              </div>
+                         </div>
+                         <div class="form-item first">
+                              <label class="fl">联系人地址：</label>
+                              <ul id="select_data" class="fl"></ul>
+                         </div>
+                         <div class="form-item">
+                              <label class="fl">详细地址：</label>
+                              <div class="verification-el-input fl">
+                                   <input name="addressSupple" class="verification-input" type="text" placeholder="例：天堂小区1幢1单元233室" requir="true" msg="请填写联系人详细地址！">
+                              </div>
+                         </div>
+                    </div>
+                    <div class="button">
+                         <p class="cancle" onClick="CloseAlert()">取消</p>
+                         <p class="submit" onclick="form_submit()">提交</p>
+                    </div>
+               </div>
+          </div>
+          <!-- 弹框结束 -->
+     </div>
+</body>
+<script src="../common/js/json2.js"></script>
+<script src="../common/js/verification.js"></script>
+<script src="../common/js/jquery.js"></script>
+<script src="../common/js/jquery.form.js"></script>
+<script src="../common/js/common.js"></script>
+<script src="js/myAddress.js"></script>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+     <meta charset="UTF-8">
+     <title>爱心购商城-消薄平台_扶贫帮困，致力于扶贫帮困消除经济薄弱村！</title>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     <meta name="format-detection" content="telephone=no,email=no,address=no">
+     <meta name="renderer" content="webkit" />
+     <meta name="data-spm" content="a2e15" />
+     <link rel="stylesheet" href="../common/css/common.css">
+     <link rel="stylesheet" href="./css/villagedata.css">
+
+</head>
+
+<body>
+     <!--公共头部-->
+     <div class="header" id="header"></div>
+     <!--中心的头部搜索-->
+     <div class="header-seach" id="header-seach"></div>
+
+     <!--主要内容-->
+     <div class="content-centre body-center">
+          <!--侧边导航-->
+          <ul class="centre-left-nav fl">
+               <li><a href="./administrativeagencies.html">政府/机构信息</a></li>
+               <li class="hover"><a href="javascript:;">乡村数据</a><span></span></li>
+          </ul>
+          <div class="text-right fr">
+               <div class="title">
+                    <p>政府/机构信息 > 乡村数据</p>
+               </div>
+               <div class="data-left">
+                    <div class="data-table">
+                         <ul class="data-table-th">
+                              <li style="width: 131px;">帮扶村数量 <span></span></li>
+                              <li style="width: 171px;">非经营性收入总额<span></span></li>
+                              <li style="width: 121px;">销售收入<span></span></li>
+                              <li style="width: 150px;">劳务收入</li>
+                         </ul>
+                         <div class="data-top-content">
+                         </div>
+                    </div>
+                    <div class="data-table">
+                         <ul class="data-table-th">
+                              <li style="width: 131px;">服务收入 <span></span></li>
+                              <li style="width: 171px;">租赁收入<span></span></li>
+                              <li style="width: 121px;">管理收入<span></span></li>
+                              <li style="width: 150px;">完成进度</li>
+                         </ul>
+                         <div class="data-bottom-content">
+                         </div>
+                    </div>
+               </div>
+               <!-- ECharts单文件引入 -->
+               <div class="data-right">
+                    <div class="data-echarts">
+                         <div class="data-content-ract" id="ractbar" style="width: 100%; height:260px;"></div>
+                    </div>
+                    <div class="data-echarts">
+                         <div class="echats progress" id="progress" style="width: 203px;height:206px"></div>
+                         <div class="echats balance" id="balance" style="width: 203px;height:206px"></div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+</body>
+<script src="../common/js/json2.js"></script>
+<script src="../common/js/jquery.js"></script>
+<script src="../common/js/common.js"></script>
+<script src="../common/js/echarts-all.js"></script>
+<script src="./js/villagedata.js"></script>
+
+</html>

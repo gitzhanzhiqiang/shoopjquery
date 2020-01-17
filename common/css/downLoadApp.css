@@ -1,0 +1,22 @@
+.code {
+     margin: 20px 0;
+     height:500px;
+     /*background: #fff;*/
+}
+.code .body-center {
+     overflow: hidden;
+     height: 500px;
+     background: #fff;
+}
+.code .fl:first-child {
+     margin-left: 200px;
+}
+.code .fl {
+     width: 400px;
+     text-align: center;
+     margin-top: 100px;
+}
+.code .fl  img {
+     width: 200px;
+     height: 200px;
+}

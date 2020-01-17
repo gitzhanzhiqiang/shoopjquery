@@ -1,0 +1,113 @@
+.content {
+     margin-top: 15px;
+}
+
+.content .body-center {
+     background: #fff;
+}
+
+.content .body-center>h3 {
+     font-size: 16px;
+     font-family: MicrosoftYaHei-Bold;
+     font-weight: bold;
+     color: #333333;
+     padding: 39px 0 45px 97px;
+     line-height: 18px;
+}
+
+.content .top {
+     width: 979px;
+     margin: 0 auto;
+     border-top: 1px solid #EEEEEE;
+     padding-top: 23px;
+}
+
+.content .top ul {
+     overflow: hidden;
+     font-size: 16px;
+     font-family: MicrosoftYaHei;
+     font-weight: 400;
+     color: #333333;
+     padding-bottom: 24px;
+}
+
+.content .top ul li {
+     margin-right: 144px;
+}
+
+.content .top ul li:first-child {
+     margin-left: 98px;
+}
+
+.content .top ul li>div {
+     height: 39px;
+}
+
+.content .list {
+     width: 878px;
+     margin: 0 auto;
+     padding: 37px 0;
+     background: #F3F3F3;
+}
+
+.content .list li {
+     overflow: hidden;
+     margin-left: 37px;
+     font-size: 14px;
+     font-family: MicrosoftYaHei-Bold;
+     font-weight: bold;
+     color: #4C4C4C;
+     line-height: 25px;
+     margin-bottom: 10px;
+}
+
+.content .list li .left span {
+     margin: 0 20px 0 17px;
+}
+
+.content .list li .right {
+     font-weight: 400;
+}
+
+.content .list li .right p {
+     margin-bottom: 10px;
+}
+
+.content .list li .right span {
+     margin-left: 20px;
+     display: inline-block;
+     width: 574px;
+     vertical-align: top;
+     line-height: 1.5;
+}
+
+.content .text {
+     padding: 34px 0 199px 0;
+     width: 878px;
+     margin: 0 auto;
+     font-size: 16px;
+     font-family: MicrosoftYaHei;
+     font-weight: 400;
+     color: #4C4C4C;
+     line-height: 18px;
+}
+
+.content .text p {
+     margin-bottom: 26px;
+}
+
+.content .text p span:first-child {
+     margin-left: 17px;
+}
+
+.content .text p:first-child span:first-child {
+     margin-right: 63px;
+}
+
+.content .text p:first-child span:first-child+span {
+     margin: 0 64px 0 17px;
+}
+
+.content .text p:first-child span:first-child+span+span {
+     margin-left: 16px;
+}

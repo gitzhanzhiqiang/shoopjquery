@@ -1,0 +1,464 @@
+/*主要内容*/
+
+.content {
+     width: 1201px;
+     /*min-height: 722px;*/
+     margin: 25px auto 146px;
+     background: #fff;
+     position: relative;
+     overflow-y: auto;
+}
+
+.content::-webkit-scrollbar {
+     display: none;
+}
+
+/*位置导航*/
+
+.content .crumb {
+     width: 1153px;
+     padding: 0 24px;
+}
+
+.content .crumb p {
+     height: 56px;
+     font-size: 16px;
+     font-weight: 400;
+     color: #4C4C4C;
+     line-height: 62px;
+     border-bottom: 1px solid #EEEEEE;
+}
+
+/*列表头*/
+
+.content .list-header {
+     width: 1113px;
+     height: 74px;
+     padding: 0 30px 0 58px;
+     font-size: 16px;
+     font-weight: 300;
+     color: #4C4C4C;
+}
+
+.content .list-header li {
+     height: 74px;
+     line-height: 70px;
+     text-align: center;
+}
+
+.content .list-header li.rateNum {
+     width: 80px !important;
+     ;
+}
+
+/* 全选-选中框 */
+
+.checkout-all .noSelected {
+     position: relative;
+     top: 27px;
+     width: 16px;
+     height: 16px;
+     margin-right: 5px;
+     background: url('../image/notSelect.png') center 100%;
+     cursor: pointer;
+}
+
+.checkout-all .Selected {
+     width: 16px;
+     height: 16px;
+     position: relative;
+     top: 27px;
+     margin-right: 5px;
+     background: url('../image/selected.png') center 100%;
+     cursor: pointer;
+}
+
+/*表头宽度*/
+
+.content .list-header li:first-child {
+     width: 70px;
+     text-align: left;
+}
+
+.content .list-header li:first-child+li {
+     width: 410px;
+}
+
+.content .list-header li:first-child+li+li,
+.content .list li .list-one li .unitPrice {
+     width: 146px;
+}
+
+.content .list-header li:first-child+li+li+li,
+.content .list li .list-one li .count {
+     width: 116px;
+}
+
+.content .list-header li:first-child+li+li+li+li,
+.content .list li .list-one li .totalPrice {
+     width: 100px;
+}
+
+.content .list li .list-one li .integralNum {
+     width: 80px;
+     overflow: hidden;
+}
+
+.content .list-header li:first-child+li+li+li+li+li,
+.content .list li .list-one li .handle-btn {
+     width: 189px;
+}
+
+.content .list-header li:last-child {
+     width: 189px;
+}
+
+/*店铺列表*/
+
+.content .list {
+     width: 1081px;
+     padding-left: 90px;
+     font-weight: 400;
+}
+
+.content .list li .store-info {
+     width: 1081px;
+     height: 16px;
+     line-height: 16px;
+     font-size: 12px;
+     color: #999;
+     margin-bottom: 11px;
+     overflow: hidden;
+}
+
+.content .list li .store-info a {
+     color: #999;
+}
+
+.content .list li .store-info .serviceBtn {
+     cursor: pointer;
+     float: right;
+}
+
+/* 部分-选中框 */
+.checkout-part input.shopAll {
+     display: none;
+}
+
+.checkout-part .noSelected {
+     width: 16px;
+     height: 16px;
+     position: relative;
+     margin-right: 6px;
+     background: url('../image/notSelect.png') center 100%;
+     cursor: pointer;
+}
+
+.checkout-part .Selected {
+     width: 16px;
+     height: 16px;
+     position: relative;
+     margin-right: 6px;
+     background: url('../image/selected.png') center 100%;
+     cursor: pointer;
+}
+
+/*店铺logo*/
+
+.content .list li .store-logo {
+     display: inline-block;
+     width: 16px;
+     height: 14px;
+     position: relative;
+     top: 1px;
+     margin-right: 3px;
+     background: url('../image/store.png') center 100%;
+}
+
+/*客服logo*/
+
+.content .list li .service-logo {
+     display: inline-block;
+     width: 16px;
+     height: 16px;
+     margin: 0 4px 0 30px;
+     background: url('../image/service.png') center 100%;
+     float: right;
+}
+
+/*店铺下商品列表*/
+
+.content .list li .list-one li {
+     width: 1063px;
+     height: 100px;
+     padding: 25px 0 25px 18px;
+     border: 1px solid #EBEBEB;
+     border-bottom: 0;
+     border-bottom: none;
+}
+
+.content .list li .list-one li .currshop {
+     display: none;
+}
+
+.content .list li .list-one li:last-child {
+     border-bottom: 1px solid #EBEBEB;
+     margin-bottom: 18px;
+}
+
+/* 单条-选中框 */
+
+.checkout-one .noSelected {
+     width: 16px;
+     height: 16px;
+     position: relative;
+     margin-right: 7px;
+     background: url('../image/notSelect.png') center 100%;
+     cursor: pointer;
+}
+
+.checkout-one .Selected {
+     width: 16px;
+     height: 16px;
+     position: relative;
+     margin-right: 7px;
+     background: url('../image/selected.png') center 100%;
+     cursor: pointer;
+}
+
+/*商品封面*/
+
+.content .list li .list-one li img {
+     width: 99px;
+     height: 99px;
+     display: inline-block;
+     float: left;
+     margin-right: 15px;
+}
+
+/*商品名称、重量*/
+
+.content .list li .list-one li .key-word {
+     width: 239px;
+     padding-right: 52px;
+     position: relative;
+     top: -4px;
+}
+
+.content .list li .list-one li .key-word .name {
+     width: 239px;
+     height: 41px;
+     font-size: 16px;
+     color: #000000;
+     margin-bottom: 17px;
+     line-height: 24px;
+}
+
+.content .list li .list-one li .key-word .weight {
+     font-size: 14px;
+     color: #999999;
+}
+
+/*商品单价*/
+
+.content .list li .list-one li .unitPrice {
+     font-size: 16px;
+     color: #010000;
+}
+
+/*商品数量*/
+
+.content .list li .list-one li .count .minus {
+     display: inline-block;
+     width: 20px;
+     height: 22px;
+     background: url('../image/minus.png') center 100%;
+     margin-left: 36px;
+     cursor: pointer;
+}
+
+.content .list li .list-one li .count .plus {
+     display: inline-block;
+     width: 20px;
+     height: 22px;
+     background: url('../image/plus.png') center 100%;
+     cursor: pointer;
+}
+
+.content .list li .list-one li .count input {
+     width: 35px;
+     height: 20px;
+     font-size: 16px;
+     color: #010000;
+     border: 1px solid #D0D0D0;
+     float: left;
+     text-indent: 1em;
+}
+
+.content .list li .list-one li .count input.inputNum {
+     text-indent: 0em;
+     text-align: center;
+}
+
+/*总金额*/
+
+.content .list li .list-one li .totalPrice {
+     font-size: 16px;
+     color: #E2231A;
+}
+
+/*操作*/
+
+.content .list li .list-one li .handle-btn button {
+     width: 81px;
+     height: 25px;
+     background: #E31E1E;
+     border-radius: 3px;
+     color: #FFFFFF;
+     font-size: 14px;
+     margin-bottom: 12px;
+     border: none;
+     cursor: pointer;
+}
+
+.content .list li .list-one li .handle-btn P {
+     font-size: 14px;
+     color: #E31E1E;
+     cursor: pointer;
+}
+
+/*公共*/
+
+.content .list li .list-one li .unitPrice,
+.content .list li .list-one li .count,
+.content .list li .list-one li .totalPrice,
+.content .list li .list-one li .handle-btn {
+     text-align: center;
+}
+
+/*失效商品*/
+
+/* .content .list li .list-one .expired {
+     background: url('../image/bg.png') center 100%;
+     opacity: .5;
+     filter: Alpha(Opacity=50);
+} */
+.content .list li .list-one li.expired {
+     background: #f9f9f9;
+     border: 1px dashed #EBEBEB;
+     border-bottom: 0;
+}
+
+.content .list li .list-one li.expired .handle-btn button {
+     background: #d8d8d8;
+}
+
+.content .list li .list-one li.expired:last-child {
+     border: 1px dashed #EBEBEB;
+}
+
+/*底部结算*/
+
+.content .bottom-pay {
+     width: 1143px;
+     height: 65px;
+     line-height: 68px;
+     margin: 0 auto;
+     padding-left: 56px;
+     background: #EEECEC;
+     font-weight: 400;
+}
+
+/*底部位置不固定*/
+
+.content .relative {
+     position: relative;
+}
+
+/*底部位置固定*/
+
+.content .fixed {
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     right: 0;
+}
+
+/* 删除-选中框 */
+
+.bottom-pay .noSelected {
+     width: 16px;
+     height: 16px;
+     position: relative;
+     top: 26px;
+     margin-right: 6px;
+     background: url('../image/notSelect.png') center 100%;
+     cursor: pointer;
+}
+
+.bottom-pay .Selected {
+     width: 16px;
+     height: 16px;
+     position: relative;
+     top: 26px;
+     margin-right: 6px;
+     background: url('../image/selected.png') center 100%;
+     cursor: pointer;
+}
+
+/*全选*/
+
+.content .bottom-pay .select-all {
+     font-size: 16px;
+     font-weight: 300;
+     color: #4C4C4C;
+     margin-right: 5px;
+}
+
+/*删除*/
+
+.content .bottom-pay .del {
+     font-size: 14px;
+     margin-left: 10px;
+     color: #E31E1E;
+     cursor: pointer;
+}
+
+/*选中件数*/
+
+.content .bottom-pay .pay .selected {
+     font-size: 16px;
+     color: #010000;
+     margin-right: 31px;
+}
+
+/*选中金额*/
+
+.content .bottom-pay .pay .total-amount {
+     font-size: 14px;
+     color: #999999;
+     margin-right: 22px;
+}
+
+/*底部数字标红*/
+
+.content .bottom-pay .pay .highlight {
+     font-size: 18px;
+     color: #E31E1E;
+}
+
+/*结算*/
+
+.content .bottom-pay .pay button {
+     position: relative;
+     width: 104px;
+     height: 65px;
+     background: #E2231A;
+     font-size: 18px;
+     font-weight: bold;
+     color: #F5F5F5;
+     border: none;
+     cursor: pointer;
+     top: 0;
+     right: 0;
+}

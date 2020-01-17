@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+     <meta charset="UTF-8">
+     <title>爱心购商城-消薄平台_扶贫帮困，致力于扶贫帮困消除经济薄弱村！</title>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     <meta name="format-detection" content="telephone=no,email=no,address=no">
+     <meta name="renderer" content="webkit" />
+     <meta name="data-spm" content="a2e15" />
+     <link rel="stylesheet" href="../common/css/common.css">
+     <link rel="stylesheet" href="../sellerCenter/css/sellercenter.css">
+</head>
+
+<body>
+     <!--公共头部-->
+     <div class="header" id="header"></div>
+     <!--中心的头部搜索-->
+     <div class="header-seach" id="header-seach"></div>
+     <!--主要内容-->
+     <div class="content-centre body-center">
+          <!--侧边导航-->
+          <div id="centre-left-nav" class="fl"></div>
+          <div class="text-right fr">
+               <div class="title">
+                    <p>爱心供应商认证<span id="status" style="font-size: 16px;"></span>（请用谷歌浏览器）</p>
+               </div>
+               <div class="text">
+                    <div class="text_top">
+                         <ul class="text_top_ul">
+                              <li class="left"><span>商品数量</span><i></i></li>
+                              <li class="left"><span>上架商品</span><i></i></li>
+                              <li class="left"><span>仓库商品</span><i></i></li>
+                              <li class="left"><span>订单数量</span><i></i></li>
+                              <li class="left"><span>订单总额</span><i></i></li>
+                              <li class="left"><span>净收入</span><i></i></li>
+                              <li class="left"><span>提现金额</span></li>
+                         </ul>
+                    </div>
+                    <div class="text_bottom">
+                         <ul class="text_top_ul" id="list">
+
+                         </ul>
+                    </div>
+               </div>
+          </div>
+          <div class="text_buttom">
+               <p class="buttom">提现</p>
+               <!--<p class="buttom" style="margin-right: 16px;">充值</p>-->
+          </div>
+          <div class="title_ti">
+               <p class="title_ti_p">认证信息</p>
+               <!--<span class="title_ti_span">添加</span>-->
+               <i class="title_ti_i"></i>
+          </div>
+          <!--position-verification只有一个值 bottom-->
+          <!--target="nm_iframe" -->
+
+          <div class="form fr form-common-verification" id="form" rules="rules" label-width="200" position-verification="">
+               <div class="first_form">
+                    <input name="id" type="text" value="" style="display: none;">
+                    <div class="form-item first type" style="height: 35px;">
+                         <label class="fl">商户类型:</label>
+                         <ul>
+                              <li class="fl">
+                                   <div class="verification-el-input">
+                                        <select name="merchantType" class="verification-input fl" requir="true" msg="请选择">
+                                             <option value="01">个人店商</option>
+                                             <option value="02">个体工商户(个人)</option>
+                                             <option value="03">企业商户</option>
+                                             <option value="04">个体工商户(对公账户)</option>
+                                        </select>
+                                   </div>
+                              </li>
+                         </ul>
+                    </div>
+                    <div class="form-item type_01">
+                         <label class="fl">用户职业:</label>
+                         <div class="verification-el-input fl">
+                              <input name="personProfession" class="verification-input" type="text" placeholder="请填写认证人职业名称" requir="true" msg="请填写认证人职业名称"
+                                   props="">
+                         </div>
+                    </div>
+                    <div class="form-item">
+                         <label class="fl">商户名称:</label>
+                         <div class="verification-el-input fl">
+                              <input name="merchantName" class="verification-input" type="text" placeholder="请填写商户名称！" requir="true" msg="请填写商户名称！">
+                              <span>(企业填写企业名称，个人填写用户姓名)</span>
+                         </div>
+                    </div>
+                    <!--<div class="form-item type_02">
+                         <label class="fl">商户名称:</label>
+                         <div class="verification-el-input fl">
+                              <input name="merchantName" class="verification-input" type="text" placeholder="请填写商户负责人姓名"
+                                   requir="true" msg="请填写商户负责人姓名！">
+                         </div>
+                    </div>
+                    <div class="form-item type_03">
+                         <label class="fl">商户名称:</label>
+                         <div class="verification-el-input fl">
+                              <input name="merchantName" class="verification-input" type="text" placeholder="请填写企业商户全称"
+                                   requir="true" msg="请填写企业商户全称！">
+                         </div>
+                    </div>-->
+                    <div class="form-item first">
+                         <label class="fl">支付宝线下经营项目:</label>
+                         <ul>
+                              <li class="fl">
+                                   <div class="verification-el-input">
+                                        <select name="mcc" id="" requir="true" class="verification-input fl">
+                                             <option value="2015050700000000">美食</option>
+                                             <option value="2015091000052157">超市便利店</option>
+                                             <option value="2015062600004525">休闲娱乐</option>
+                                             <option value="2015062600002758">购物</option>
+                                             <option value="2016062900190124">爱车</option>
+                                             <option value="2015063000020189">生活服务</option>
+                                             <option value="2016042200000148">教育培训</option>
+                                             <option value="2016062900190296">医疗健康</option>
+                                             <option value="2015080600000001">航旅</option>
+                                             <option value="2016062900190337">专业销售/批发</option>
+                                             <option value="2016062900190371">政府/社会组织</option>
+                                        </select>
+                                   </div>
+                              </li>
+                              <span>(选择与经营范围相近的)</span>
+                         </ul>
+                    </div>
+                    <div class="form-item">
+                         <label class="fl">银行卡号:</label>
+                         <div class="verification-el-input fl">
+                              <input name="bankCardNo" class="verification-input" type="text" placeholder="请填写银行卡号码" requir="true" msg="请填写银行卡号码！">
+                              <span>(如有对公账号，请填写银行对公账号)</span>
+                         </div>
+                    </div>
+                    <input name="contactLine" type="text" style="display: none">
+                    <div class="form-item first">
+                         <label class="fl">开户支行:</label>
+                         <ul class="bankList">
+                              <li class="fl">
+                                   <div class="verification-el-input">
+                                        <select name="" class="verification-input fl bank" requir="true" msg="请选择">
+                                             <option value="">请选择银行</option>
+                                        </select>
+                                   </div>
+                              </li>
+                              <li class="fl">
+                                   <div class="verification-el-input">
+                                        <select name="" class="verification-input fl bank" requir="true" msg="请选择">
+                                             <option value="">请选择省份</option>
+                                        </select>
+                                   </div>
+                              </li>
+                              <li class="fl">
+                                   <div class="verification-el-input fl">
+                                        <input name="branchName" style="width: 150px;height: 16px;" class="verification-input" type="text" placeholder="请输入支行名称检索！"
+                                             requir="true" msg="请填写开户支行！">
+                                   </div>
+                              </li>
+                              <li class="fl" style="margin-left: 20px;">
+                                   <div class="verification-el-input">
+                                        <select name="" style="width: 220px;" class="verification-input fl" requir="true" msg="请选择">
+                                             <option value="">请选择支行</option>
+                                        </select>
+                                   </div>
+                              </li>
+                         </ul>
+                    </div>
+                    <div class="form-item">
+                         <label class="fl">银行账户名:</label>
+                         <div class="verification-el-input fl">
+                              <input name="bankCertName" class="verification-input" type="text" placeholder="请填写银行账户名" requir="true" msg="请填写银行卡所属人姓名！">
+                         </div>
+                    </div>
+                    <div class="form-item">
+                         <label class="fl">银行卡手机号码:</label>
+                         <div class="verification-el-input fl">
+                              <input name="principalMobile" class="verification-input" type="text" placeholder="银行绑定的手机号" requir="true" msg="请填写银行卡绑定的手机号码！"
+                                   props="principalMobile">
+                         </div>
+                    </div>
+                    <div class="form-item">
+                         <label class="fl">联系人姓名:</label>
+                         <div class="verification-el-input fl">
+                              <input name="contactName" class="verification-input" type="text" placeholder="请填写联系人姓名" requir="true" msg="联系人姓名不能为空！">
+                         </div>
+                    </div>
+                    <div class="form-item">
+                         <label class="fl">联系人手机号码:</label>
+                         <div class="verification-el-input fl">
+                              <input name="contactMobile" class="verification-input" type="text" placeholder="请填写联系人手机号" requir="true" msg="手机号码不能为空" props="phone">
+                         </div>
+                    </div>
+
+                    <div class="form-item">
+                         <label class="fl type_01 type_02">负责人姓名:</label>
+                         <label class="fl type_03">法人姓名:</label>
+                         <div class="verification-el-input fl">
+                              <input name="principalPerson" class="verification-input" type="text" placeholder="请填写姓名" requir="true" msg="请填写姓名">
+                         </div>
+                    </div>
+                    <div class="form-item">
+                         <label class="fl type_01 type_02">负责人身份证号码:</label>
+                         <label class="fl type_03">法人身份证号码:</label>
+                         <div class="verification-el-input fl">
+                              <input name="principalCertNo" class="verification-input" type="text" placeholder="请填写身份证号码" requir="true" msg="身份证号码不能为空"
+                                   props="principalCertNo">
+                         </div>
+                    </div>
+                    <div class="form-item">
+                         <label class="fl type_01 type_02">负责人身份证件有效期到期日:</label>
+                         <label class="fl type_03">法人身份证有效期到期日:</label>
+                         <ul class="timeClass">
+                              <li class="fl">
+                                   <div class="verification-el-input fl">
+                                        <div class="verification-el-input fl">
+                                             <input name="personCertValids" class="verification-input" type="text" id="J-xl1" readonly placeholder="身份证件开始有效期" requir="true"
+                                                  msg="请选择身份证件开始有效期！">
+                                        </div>
+                                   </div>
+                              </li>
+                              <li class="fl ">-</li>
+                              <li class="fl">
+                                   <div class="verification-el-input fl">
+                                        <div class="verification-el-input fl">
+                                             <input name="personCertValids" class="verification-input" type="text" id="J-xl2" readonly placeholder="身份证件结束有效期" requir="true"
+                                                  msg="请选择身份证件结束有效期！">
+                                        </div>
+                                   </div>
+                              </li>
+                              <li class="fl">
+                                   <div class="verification-el-input fl">
+                                        <span class="fl">是否长期:</span>
+                                        <div class="verification-el-input fl">
+                                             <input class="checkboxChange" style="position: relative; top: 2px;" name="personCertValidsCheck" type="checkbox">
+                                        </div>
+                                   </div>
+                              </li>
+                         </ul>
+                         <span>（个体和企业商户必填）</span>
+                    </div>
+                    <div class="form-item type_02 type_03">
+                         <label class="fl">控股股东姓名:</label>
+                         <div class="verification-el-input fl">
+                              <input name="shareHolderName" class="verification-input" type="text" placeholder="控股股东姓名" requir="true" msg="请填写控股股东姓名！">
+                              <span>（个体和企业商户必填）</span>
+                         </div>
+                    </div>
+                    <div class="form-item type_02 type_03">
+                         <label class="fl">控股股东身份证件号码:</label>
+                         <div class="verification-el-input fl">
+                              <input name="shareHolderCertNo" class="verification-input" type="text" placeholder="控股股东身份证件号码" requir="true" msg="请填写控股股东身份证件号码！"
+                                   props="principalCertNo1">
+                              <span>（个体和企业商户必填）</span>
+                         </div>
+                    </div>
+                    <div class="form-item type_02 type_03">
+                         <label class="fl">控股股东身份证件有效期到期日:</label>
+                         <ul class="timeClass">
+                              <li>
+                                   <div class="verification-el-input fl">
+                                        <input name="shareHolderCertValid" class="verification-input" type="text" id="J-xl" readonly placeholder="身份证件开始有效期" requir="true"
+                                             msg="请选择控股股东身份证件有效期！">
+                                   </div>
+                              </li>
+                              <li class="fl ">-</li>
+                              <li class="fl">
+                                   <div class="verification-el-input fl">
+                                        <div class="verification-el-input fl">
+                                             <input name="shareHolderCertValid" class="verification-input" type="text" id="J-x2" readonly placeholder="身份证件结束有效期" requir="true"
+                                                  msg="请选择控股股东身份证件有效期！">
+                                        </div>
+                                   </div>
+                              </li>
+                              <li class="fl">
+                                   <div class="verification-el-input fl">
+                                        <span class="fl">是否长期:</span>
+                                        <div class="verification-el-input fl">
+                                             <input class="checkboxChange" style="position: relative; top: 2px;" name="shareHolderCertValidCheck" type="checkbox">
+                                        </div>
+                                   </div>
+                              </li>
+                         </ul>
+                         <span>（个体和企业商户必填）</span>
+                    </div>
+                    <div class="form-item type_02 type_03">
+                         <label class="fl">统一社会信用代码:</label>
+                         <div class="verification-el-input fl">
+                              <input name="bussAuthNum" class="verification-input" type="text" placeholder="工商注册号" placeholder="工商注册号" requir="true" msg="请填写工商注册号！">
+                              <!--props="bussAuthNum"-->
+                              <span>（个体和企业商户必填）</span>
+                         </div>
+                    </div>
+                    <div class="form-item">
+                         <label class="fl">客服电话:</label>
+                         <div class="verification-el-input fl">
+                              <input name="servicePhoneNo" class="verification-input" type="text" placeholder="请填写客服联系方式" requir="true" msg="客服电话不能为空(客服电话不能为空(客服电话5-15位数字， 不能带'-')"
+                                   props="servicePhoneNo">
+                         </div>
+                    </div>
+                    <div class="form-item first" id="address">
+                         <label class="fl">所在地区:</label>
+                         <ul id="select_data">
+                              <li class="fl">
+                                   <div class="verification-el-input">
+                                        <select name="addressList" id="" class="verification-input fl" requir="true" msg="请选择">
+                                             <option value="">请选择</option>
+                                        </select>
+                                   </div>
+                              </li>
+                         </ul>
+                    </div>
+                    <div class="form-item">
+                         <label class="fl">详细地址:</label>
+                         <div class="verification-el-input fl">
+                              <input name="address" class="verification-input" type="text" placeholder="请填写商户详细地址" requir="true" msg="请具体到街道门牌号！">
+                         </div>
+                    </div>
+                    <div class="form-item">
+                         <label class="fl">是否申请代理:</label>
+                         <div class="verification-el-input fl">
+                              <label style="margin-right: 10px;"><input   style="position: relative; top:2px;" name="needProxy" class="verification-input" type="radio" value="1">代运营</label>
+                              <label><input name="needProxy" checked style="position: relative; top:2px;"  class="verification-input" type="radio" value="0">自营</label>
+                         </div>
+                    </div>
+                    <div class="form-item  agreement">
+                         <!--<label class="fl">是否申请代理:</label>-->
+                         <div class="verification-el-input fl">
+                              <label style="margin-right: 10px;"><input   style="position: relative; top:2px;" name="electron" class="verification-input" type="checkbox" >代运营需要同意</label>
+                              <a href="../sellerCenter/businessAgreement.html" target="view_window">《电子商务代运营合作协议》</a>
+                         </div>
+                    </div>
+                    <div class="form-item  agreement">
+                         <div class="verification-el-input fl">
+                              <label style="margin-right: 10px;"><input   style="position: relative; top:2px;" name="InAgreement" class="verification-input" type="checkbox" >申请认证需要同意</label>
+                              <a href="../sellerCenter/InAgreement.html" target="view_window">《消薄爱心购平台商家入驻协议》</a>
+                         </div>
+                    </div>
+               </div>
+               <div class="button first">
+                    <button class="fr" onclick="form_submit('.first_form')">下一步</button>
+               </div>
+               <form id="ajaxForm" target="nm_iframe" enctype="multipart/form-data" action="" method="post">
+                    <input name="rank" type="text" value="2" style="display: none;">
+                    <input name="id" type="text" value="" style="display: none;">
+                    <div class="form-item" style="height: auto;" id="tishi">
+                         <!-- <p>个人必传：身份证正反面，手持身份证</p>
+                         <p>门头照/店内照/租赁协议三选一</p>
+                         <p>个人必传：身份证正反面，手持身份证</p>
+                         <p>个体工商户必传：执照，身份证正反面，门头照，店内照</p>
+                         <p>企业必传：执照，身份证正反面，门头照，店内照，开户许可证，组织机构代码证(多证合一传执照)</p> -->
+                         <p>1.门头照+门店内景照、租赁协议二选一上传即可；</p>
+                         <p>2.选择上传门头照时必须上传门店内景照;</p>
+                    </div>
+                    <div class="form-item last">
+                         <label class="fl">证照:(单张照片大小限制1.5M)</label>
+                         <ul>
+
+                              <li class="fl">
+                                   <div class="verification-el-input">
+                                        <p>身份证正面</p>
+                                        <div class="img">
+                                             <img src="" alt="">
+                                             <input type="file" name="certPhotoA" accept="image/*" class="verification-input" requir="true" msg="图片不能为空">
+                                        </div>
+                                        <div class="isShow">
+                                             <div class="parent "></div>
+                                             <p class="top_background "></p>
+                                             <p class="p">删除图片</p>
+                                        </div>
+                                   </div>
+                              </li>
+                              <li class="fl">
+                                   <div class="verification-el-input">
+                                        <p>身份证反面</p>
+                                        <div class="img">
+                                             <img src="" alt="">
+                                             <input type="file" name="certPhotoB" accept="image/*" class="verification-input" requir="true" msg="图片不能为空">
+                                        </div>
+                                        <div class="isShow">
+                                             <div class="parent "></div>
+                                             <p class="top_background "></p>
+                                             <p class="p ">删除图片</p>
+                                        </div>
+                                   </div>
+                              </li>
+                              <li class="fl type_01">
+                                   <div class="verification-el-input">
+                                        <p>手持身份证照片</p>
+                                        <div class="img">
+                                             <img src="" alt="">
+                                             <input type="file" name="certPhotoC" accept="image/*" class="verification-input" requir="true" msg="图片不能为空">
+                                        </div>
+                                        <div class="isShow">
+                                             <div class="parent "></div>
+                                             <p class="top_background "></p>
+                                             <p class="p ">删除图片</p>
+                                        </div>
+                                   </div>
+                              </li>
+                              <li class="fl type_02 type_03">
+                                   <div class="verification-el-input">
+                                        <p>营业执照</p>
+                                        <div class="img">
+                                             <img src="" alt="">
+                                             <input type="file" name="licensePhoto" id="aa" accept="image/*" class="verification-input" requir="true" msg="图片不能为空" style="display: block;">
+                                        </div>
+                                        <div class="isShow">
+                                             <div class="parent "></div>
+                                             <p class="top_background "></p>
+                                             <p class="p ">删除图片</p>
+                                        </div>
+
+                                   </div>
+                              </li>
+                              <li class="fl type_03">
+                                   <div class="verification-el-input">
+                                        <p>组织机构代码证图片</p>
+                                        <div class="img">
+                                             <img src="" alt="">
+                                             <input type="file" name="prgPhoto" accept="image/*" class="verification-input" requir="true" msg="图片不能为空">
+                                        </div>
+                                        <div class="isShow">
+                                             <div class="parent "></div>
+                                             <p class="top_background "></p>
+                                             <p class="p ">删除图片</p>
+                                        </div>
+                                   </div>
+                              </li>
+                              <li class="fl type_03">
+                                   <div class="verification-el-input">
+                                        <p>开户许可证</p>
+                                        <div class="img">
+                                             <img src="" alt="">
+                                             <input type="file" name="industryLicensePhoto" accept="image/*" class="verification-input" requir="true" msg="图片不能为空">
+                                        </div>
+                                        <div class="isShow">
+                                             <div class="parent "></div>
+                                             <p class="top_background "></p>
+                                             <p class="p ">删除图片</p>
+                                        </div>
+                                   </div>
+                              </li>
+                              <li class="fl type_01">
+                                   <div class="verification-el-input">
+                                        <p>租赁协议图片</p>
+                                        <div class="img">
+                                             <img src="" alt="">
+                                             <input type="file" name="contractPhoto" accept="image/*" class="verification-input" requir="true" msg="图片不能为空">
+                                        </div>
+                                        <div class="isShow">
+                                             <div class="parent "></div>
+                                             <p class="top_background "></p>
+                                             <p class="p ">删除图片</p>
+                                        </div>
+                                   </div>
+                              </li>
+                              <li class="fl">
+                                   <div class="verification-el-input">
+                                        <p>门头照</p>
+                                        <div class="img">
+                                             <img src="" alt="">
+                                             <input type="file" name="shopPhoto" accept="image/*" class="verification-input" requir="true" msg="图片不能为空">
+                                        </div>
+                                        <div class="isShow">
+                                             <div class="parent "></div>
+                                             <p class="top_background "></p>
+                                             <p class="p ">删除图片</p>
+                                        </div>
+                                   </div>
+                              </li>
+                              <li class="fl">
+                                   <div class="verification-el-input">
+                                        <p>门店内景照</p>
+                                        <div class="img">
+                                             <img src="" alt="">
+                                             <input type="file" name="shopEntrancePhoto" accept="image/*" class="verification-input" requir="true" msg="图片不能为空">
+                                        </div>
+                                        <div class="isShow">
+                                             <div class="parent "></div>
+                                             <p class="top_background "></p>
+                                             <p class="p ">删除图片</p>
+                                        </div>
+                                   </div>
+                              </li>
+                              <!-- <li class="fl type_01">
+                                   <div class="verification-el-input">
+                                        <p>其它照片</p>
+                                        <div class="img">
+                                             <img src="" alt="">
+                                             <input type="file" name="otherPhoto" accept="image/*"
+                                                  class="verification-input" requir="true" msg="图片不能为空">
+                                        </div>
+                                        <div class="isShow">
+                                             <div class="parent "></div>
+                                             <p class="top_background "></p>
+                                             <p class="p ">删除图片</p>
+                                        </div>
+                                   </div>
+                              </li> -->
+                         </ul>
+                    </div>
+                    <!--<div class="form-item  agreement">
+                         <div class="verification-el-input fl">
+                              <label style="margin-right: 10px;"><input   style="position: relative; top:2px;" name="InAgreement" class="verification-input" type="checkbox" >申请认证需要同意</label>
+                              <a href="InAgreement.html" target="view_window">《消薄爱心购平台商家入驻协议》</a>
+                         </div>
+                    </div>-->
+               </form>
+               <div class="button next">
+                    <button class="fr" onclick="form_submit_img('#ajaxForm')">下一步</button>
+                    <button class="fr" onclick="last_step()">上一步</button>
+               </div>
+               <div class="submit_code">
+                    <div class="form-item">
+                         <label class="fl">手机验证码:</label>
+                         <div class="verification-el-input fl">
+                              <input name="authCode" onkeydown="inputMaxLength(this, 6)" maxlength="6" class="verification-input" type="text" placeholder="手机验证码"
+                                   requir="true" msg="请填写手机验证码！">
+                         </div>
+                    </div>
+               </div>
+               <div class="button next1">
+                    <button class="fr" onclick="submitIphoneCode()">提交</button>
+               </div>
+          </div>
+     </div>
+     <div class="footer" id="footer"></div>
+</body>
+<script src="../common/js/verification.js"></script>
+<script src="../common/js/json2.js"></script>
+<script src="../common/js/jquery.js"></script>
+<script src="../common/js/jquery.form.js"></script>
+<script src="../common/js/common.js"></script>
+<script src="../common/laydate/laydate.dev.js"></script>
+<script src="js/sellercenter.js"></script>
+
+</html>

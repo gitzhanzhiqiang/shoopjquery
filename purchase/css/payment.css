@@ -1,0 +1,262 @@
+/*
+ * @Author: liwanli 
+ * @Date: 2019-05-29 10:11:00 
+ * @Last Modified by: liwanli
+ * @Last Modified time: 2019-06-27 15:54:48
+ * 订单付款页面样式文件 payment.css
+ */
+
+
+#payment {
+    position: relative;
+    margin-top: 12px;
+    height: 656px;
+    background: #fff;
+    overflow: hidden;
+}
+
+#payment .payment-inner {
+    padding-top: 39px;
+    padding-left: 93px;
+
+}
+
+#payment .title {
+    font-size: 16px;
+    margin-bottom: 41px;
+    color: #000;
+}
+
+#payment .surplus-time {
+    margin-left: 71px;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 62px;
+}
+
+#payment .surplus-time span {
+    color: #E2231A;
+    margin-left: 5px;
+}
+
+#payment .payment-sec,
+#payment .mode {
+    margin-bottom: 40px;
+    margin-left: 71px;
+}
+
+#payment .e-bank {
+    padding-left: 30px;
+    line-height: 1.8;
+    font-size: 16px;
+    color: #000;
+}
+
+#payment .e-bank ul dl {
+    /* overflow: hidden; */
+    font-size: 14px;
+    color: #999;
+    height: 45px;
+    line-height: 45px;
+    margin-top: 7px;
+}
+
+#payment .e-bank ul dl dt {
+    width: 150px;
+    text-align: right;
+    margin-right: 15px;
+    float: left;
+}
+
+#payment .e-bank ul dl.money dd {
+    color: #E2231A;
+    font-size: 28px;
+}
+
+#payment .e-bank ul dl span {
+    color: #000;
+    font-size: 16px;
+}
+
+#payment .e-bank ul dl.money dd b {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#payment .e-bank ul dl.money dd em {
+    font-size: 14px;
+    font-weight: normal;
+    color: #999
+}
+
+#payment .e-bank ul dl.tip dd.content {
+    padding-top: 10px;
+    display: inline-block;
+    line-height: 2;
+}
+
+#payment .payment-sec>span,
+#payment .mode>span {
+    font-size: 18px;
+    color: #000;
+    margin-top: 7px;
+    text-align: right;
+    width: 120px;
+    margin-right: 15px;
+    float: left;
+}
+
+#payment .mode .mode-ul {
+    /* width: 640px; */
+    float: left;
+    border: 1px solid #999;
+    border-radius: 20px;
+}
+
+#payment .mode .mode-ul .mode-item {
+    width: 159px;
+    height: 38px;
+    float: left;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    line-height: 38px;
+    cursor: pointer;
+    border-right: 1px solid #999;
+}
+
+#payment .mode .mode-ul .mode-item.active {
+    background: #FF8533;
+    color: #fff;
+}
+
+#payment .mode .mode-ul .mode-item:first-child {
+    border-radius: 20px 0 0 20px;
+}
+
+#payment .mode .mode-ul .mode-item:last-child {
+    border-radius: 0 20px 20px 0;
+    border-right: 0
+}
+
+/* 认证支付 | 网银支付 */
+
+#payment .authPay .all-bank .nobank,
+#payment .e-bank .all-bank .nobank {
+    margin-top: 10px;
+}
+
+#payment .authPay .all-bank .nobank a,
+#payment .e-bank .all-bank .nobank a {
+    color: #FF8533;
+    margin: 0 15px;
+}
+
+#payment .authPay .all-bank,
+#payment .e-bank .all-bank {
+    width: 810px;
+    min-height: 100px;
+    margin-bottom: 30px;
+}
+
+#payment .authPay .bank-item,
+#payment .e-bank .bank-item {
+    width: 230px;
+    height: 50px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    float: left;
+
+}
+
+#payment .authPay .paybtn,
+#payment .e-bank .paybtn {
+    width: 230px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 135px;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #E2231A;
+}
+
+/* 支付宝支付 */
+#payment .buyplay-zfb .code,{
+    width: 220px;
+    height: 220px;
+    background: #ccc;
+}
+
+
+.payment-sec .payForAnother label{
+     margin-left: 10px;
+}
+.payment-sec .payForAnother label input {
+     position: relative;
+     top: 2px;
+}
+
+/*快捷支付*/
+.buyplay-wechart span {
+     width: 120px!important;
+}
+.buyplay-wechart {
+     margin-left: 100px!important;
+}
+.buyplay-wechart select {
+     width: 200px;
+     padding: 5px 0;
+}
+.buyplay-wechart >div.first, div {
+     /*overflow: hidden;*/
+}
+.buyplay-wechart button {
+     width: 100px;
+     height: 40px;
+     background: red;
+     border: 0;
+     line-height: 40px;
+     color:#fff;
+     border-radius: 5px;
+     margin: 30px 0 0 300px;
+     cursor: pointer!important;
+}
+.buyplay-wechart  .two  {
+     display: none;
+}
+.buyplay-wechart  .two input {
+     width: 200px;
+     padding: 5px;
+     font-size:16px;
+    
+}
+.buyplay-wechart  .two button{
+      margin-left: 200px;
+}
+
+.buyplay-wechart .two .countDown {
+    display: inline-block;
+    margin-left: 15px;
+    color: #E2231A;
+}
+/*底部按钮*/
+.bottom_button {
+     margin-left: 300px;
+}
+.bottom_button button {
+     padding: 0 20px;
+     background: #E2231A;
+     border-radius: 4px ;
+     height: 44px;
+     font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 44px;
+     outline: none;
+     border:0 ;
+     color: #fff;
+     font-size: 20px;
+     cursor: pointer;
+}

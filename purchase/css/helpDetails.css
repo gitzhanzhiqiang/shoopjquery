@@ -1,0 +1,29 @@
+.content .body-center {
+     background: #fff;
+     height: auto;
+     padding-bottom: 100px;
+     margin-top: 29px;
+}
+
+.content h3,
+.content p {
+     width: 928px;
+     margin: 0 auto;
+}
+
+.content h3 {
+     font-size: 16px;
+     font-family: MicrosoftYaHei;
+     font-weight: 400;
+     color: #333333;
+     line-height: 17px;
+     padding: 46px 0 32px 0;
+}
+
+.content p {
+     font-size: 16px;
+     font-family: MicrosoftYaHei;
+     font-weight: 400;
+     color: #999999;
+     line-height: 24px;
+}

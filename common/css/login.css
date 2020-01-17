@@ -1,0 +1,291 @@
+html,
+body {
+     width: 100%;
+     height: 100%;
+     background: #F7F7F7;
+     position: relative;
+}
+
+.content {
+     width: 1200px;
+     margin: 0 auto;
+}
+
+/* 头部 */
+
+.login-header {
+     height: 128px;
+     line-height: 110px;
+     position: absolute;
+     top: 0;
+     left: 50%;
+     margin-left: -600px;
+}
+
+.login-header img {
+     width: 323px;
+     height: 66px;
+     padding-top: 32px;
+}
+
+/* 中间 */
+
+.login-center {
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 128px;
+     bottom: 110px;
+     background: url("../images/loginbg.png") center no-repeat;
+     background-size: cover;
+}
+
+.login-center .content {
+     height: 100%;
+     position: relative;
+}
+
+.login-center .content>div.fl {
+     margin-top: 69px;
+}
+
+.login-center .content>div.fr {
+     margin: auto;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     *margin-top: 10%;
+     z-index: 10;
+}
+
+.login-center .content>div.fr {
+     right: 0;
+}
+
+.login-center .content>div.fl p {
+     width: 424px;
+     font-size: 14px;
+     color: #FFFFFF;
+     margin-bottom: 17px;
+}
+
+.login-center .content>div.fl p:first-child {
+     font-size: 22px;
+     color: #E2231A;
+     margin-bottom: 16px;
+}
+
+.login-center .content>div.fl p:first-child+p {
+     font-size: 14px;
+     color: #fff;
+     margin-bottom: 29px;
+}
+
+.login-center .content>div.fr {
+     width: 296px;
+     height: 416px;
+     padding: 0 42px;
+     background: #FFFFFF;
+     border-radius: 10px;
+}
+
+.login-center .code {
+     display: none;
+}
+
+.login-center ul li {
+     min-height: 16px;
+     color: #999999;
+     font-size: 15px;
+     font-weight: 300;
+}
+
+.login-center ul li:first-child {
+     height: 80px;
+     font-size: 20px;
+     font-weight: 400;
+     line-height: 80px;
+}
+
+.login-center ul li:first-child>div {
+     width: 50%;
+     text-align: center;
+}
+
+.login-center ul li:first-child .fl {
+     color: #333333;
+     cursor: pointer;
+}
+
+.login-center ul li:first-child+li {
+     height: 193px;
+     margin-bottom: 27px;
+}
+
+.login-center ul li:first-child+li div.qr {
+     width: 193px;
+     height: 193px;
+     margin: 0px auto;
+     background: #333333;
+}
+
+.account ul li:first-child+li {
+     position: relative;
+     height: 227px;
+}
+
+.login-center ul li:first-child+li input {
+     width: 272px;
+     /*height: 44px;*/
+     border: 1px solid rgba(196, 209, 216, 1);
+     border-radius: 4px;
+     padding: 0 12px;
+     margin-bottom: 20px;
+     font-size: 14px;
+     padding: 15px 10px;
+     color: #333333;
+}
+
+.login-center ul li .two {
+     overflow: hidden;
+}
+
+.login-center ul li .two input {
+     width: 167px !important;
+}
+
+.login-center ul li .two img {
+     width: 90px;
+     height: 44px;
+     float: right;
+     background: #fff;
+     cursor: pointer;
+     border: 1px solid #BFBFBF;
+}
+
+.login-center ul li:first-child+li>span {
+     font-size: 18px;
+     font-weight: 400;
+     color: #E62A2A;
+     position: absolute;
+     right: 15px;
+     bottom: 56px;
+     *bottom: 28px;
+     cursor: pointer;
+}
+
+/*按钮li*/
+
+
+.login-center ul li:first-child+li .protocol>div img {
+     cursor: pointer;
+     width: 20px;
+     margin-right: 12px;
+}
+
+.login-center ul li:first-child+li .protocol {
+     overflow: hidden;
+}
+
+.login-center ul li:first-child+li .protocol>div:first-child {
+     overflow: hidden;
+}
+
+.login-center ul li:first-child+li .protocol>div:first-child+div {
+     width: 100%;
+     text-align: right;
+}
+
+.login-center ul li:first-child+li .protocol>div {
+     overflow: hidden;
+     font-size: 12px;
+     line-height: 20px;
+     color: #000000;
+}
+
+.login-center ul li:first-child+li .protocol a {
+     color: #FCAD01;
+}
+
+/**/
+
+.login-center ul li>a {
+     display: inline-block;
+     width: 32px;
+     height: 32px;
+     margin-right: 10px;
+     border-radius: 50%;
+     position: relative;
+     top: 10px;
+}
+.login-center ul li a.wx {
+     background: url("../images/wx.png") center no-repeat;
+}
+
+.login-center ul li a.alipay {
+     background: url("../images/alipay.png") center no-repeat;
+}
+
+.login-center ul li a.qq {
+     background: url("../images/qq.png") center no-repeat;
+}
+.login-center ul li.last {
+     padding-top: 10px;
+}
+.login-center ul li button {
+      width: 150px;
+     height: 44px;
+     background: #E1212D;
+     border-radius: 5px;
+     font-size: 16px;
+     font-weight: bold;
+     color: #FFFFFF;
+     border: none;
+     cursor: pointer;
+}
+/* 尾部 */
+
+.login-footer {
+     height: 89px;
+     position: absolute;
+     bottom: 0;
+     width: 1200px;
+     left: 50%;
+     margin-left: -600px;
+}
+
+.login-footer li {
+     float: left;
+     width: 87px;
+     height: 20px;
+     font-size: 15px;
+     font-weight: 300;
+     color: #808080;
+     opacity: 0.8;
+     margin-right: 30px;
+     margin-top: 34px;
+}
+
+.login-footer li span {
+     display: inline-block;
+     width: 1px;
+     height: 13px;
+     background: #CCCCCC;
+     vertical-align: middle;
+     margin-left: 26px;
+}
+
+/*倒计时状态*/
+
+.account .getcode {
+     display: inline-block;
+     cursor: pointer;
+}
+
+.account .getcode.active {
+     cursor: default;
+}
+
+.account .count_down {
+     display: none;
+}

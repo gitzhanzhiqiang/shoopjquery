@@ -1,0 +1,278 @@
+.content-centre {
+     overflow: hidden;
+     padding-top: 36px;
+}
+
+/*右边正文*/
+
+.content-centre .text-topup {
+     width: 1041px;
+     font-weight: 300;
+     margin-bottom: 17px;
+}
+
+.content-centre .title {
+     width: 1005px;
+     padding: 0 18px;
+     height: 59px;
+     background: #FFFFFF;
+     box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+     border-radius: 3px;
+     line-height: 59px;
+     margin-bottom: 13px;
+}
+
+.content-centre .title p {
+     font-size: 20px;
+     color: #333333;
+}
+
+.content-centre .text .text_top,
+.content-centre .text .text_bottom,
+.content-centre .text .text_center {
+     width: 1041px;
+     height: auto;
+     background: #FFFFFF;
+     box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+     border-radius: 3px;
+     padding-bottom: 20px;
+}
+.content-centre .text .text_top .name {
+     height: 20px;
+     font-size: 16px;
+     font-weight: 300;
+     color: #808080;
+     margin: 0 0 5px 15px;
+}
+.content-centre .text .text_top p {
+     height: 20px;
+     font-size: 16px;
+     font-weight: 300;
+     color: #808080;
+     padding-top: 25px;
+     margin: 0 0 20px 15px;
+}
+
+.content-centre .text .text_top div.money {
+     height: 40px;
+     font-size: 20px;
+     font-weight: 400;
+     color: #333333;
+     margin-left: 15px;
+}
+
+.content-centre .text .text_top div.money span {
+     color: #286AC7;
+     font-size: 30px;
+}
+
+.content-centre .text .text_bottom {
+     height: 254px;
+     margin-top: 13px;
+}
+
+.content-centre .text .text_bottom p,
+.content-centre .text-withdraw .text_center p,
+.content-centre .text-withdraw .text_bottom p {
+     height: 24px;
+     font-size: 18px;
+     font-weight: 400;
+     color: #333333;
+     padding-top: 18px;
+     margin-left: 15px;
+}
+
+.content-centre .text .text_bottom input,
+.content-centre .text-withdraw .text_center input {
+     display: block;
+     width: 363px;
+     height: 15px;
+     padding: 11px 0 11px 14px;
+     background: #F7F7F7;
+     border-radius: 3px;
+     margin: 28px 0 33px 15px;
+     border: none;
+     font-size: 15px;
+}
+
+.content-centre .text .text_bottom input::placeholder,
+.content-centre .text-withdraw .text_center input::placeholder {
+     font-size: 15px;
+     font-weight: 300;
+     color: #B3B3B3;
+}
+
+.content-centre .text-topup .text_bottom a {
+     display: inline-block;
+     width: 65px;
+     height: 65px;
+     margin-right: 17px;
+     vertical-align: middle;
+}
+
+.content-centre .text .text_bottom a.zhifubao {
+     margin-left: 15px;
+     background: url("../../common/images/zhifubao.png");
+}
+
+.content-centre .text .text_bottom a.weixin {
+     background: url("../../common/images/weixin.png");
+}
+
+.content-centre .text .text_bottom a.yinlian {
+     background: url("../../common/images/yinlian.png");
+     width: 82px;
+     height: 49px;
+}
+
+/* 提现 */
+
+.content-centre .text-withdraw {
+     display: none;
+}
+
+.content-centre .text-withdraw .text_center {
+     height: auto;
+     margin: 13px 0;
+}
+
+.content-centre .text-withdraw .text_center>div {
+     height: 40px;
+     width: 394px;
+}
+
+.content-centre .text-withdraw .text_center p:first-child+p {
+     font-size: 18px;
+     font-weight: 500;
+     color: #286AC7;
+     cursor: pointer;
+}
+
+.content-centre .text-withdraw .text_bottom {
+     height: auto;
+     padding-bottom: 16px;
+     margin-bottom: 58px;
+}
+
+.content-centre .text-withdraw .text_bottom>div:first-child {
+     width: 394px;
+     height: 50px;
+}
+
+.content-centre .text-withdraw .text_bottom a {
+     display: inline-block;
+     width: 129px;
+     height: 38px;
+     background: #FFFFFF;
+     border: 1px solid #E1212D;
+     border-radius: 3px;
+     line-height: 40px;
+     text-align: center;
+     font-size: 18px;
+     font-weight: 500;
+     color: #286AC7;
+     margin-top: 9px;
+}
+
+.content-centre .text-withdraw .text_bottom ul {
+     margin-top: 15px;
+     padding-left: 65px;
+}
+
+.content-centre .text-withdraw .text_bottom ul li {
+     padding-top: 40px;
+     height: 26px;
+     position: relative;
+}
+
+.content-centre .text-withdraw .text_bottom ul li i {
+     display: inline-block;
+     width: 26px;
+     height: 26px;
+     background: url("../../common/images/noSelect.png") 100% 100%;
+     position: absolute;
+     top: 37px;
+     left: -50px;
+}
+
+.content-centre .text-withdraw .text_bottom ul li i.active {
+     width: 30px;
+     height: 30px;
+     background: url("../../common/images/selected.png") 100% 100%;
+}
+
+.content-centre .text-withdraw .text_bottom ul li span {
+     float: left;
+     display: inline-block;
+     font-size: 20px;
+     font-weight: 300;
+     color: #333333;
+     width: 65px;
+}
+
+.content-centre .text-withdraw .text_bottom ul li span.account {
+     width: 255px;
+}
+
+.content-centre .text-withdraw .text_bottom ul li span.type {
+     width: auto;
+     color: #808080;
+}
+.content-centre .text-withdraw .text_center .btn_div {
+     width: 100%;
+     text-align: right;
+}
+.content-centre .text-withdraw .text_center .btn_div button {
+     width: 188px;
+     height: 100%;
+     background: #E1212D;
+     border-radius: 3px;
+     font-size: 20px;
+     font-weight: 400;
+     color: #FFFFFF;
+     border: none;
+     margin-right: 20px;
+}
+.content-centre .text-withdraw .text_bottom .btn_div {
+     width: 100%;
+     height: 45px;
+     margin-top: 73px;
+}
+
+
+
+.content-centre .text-withdraw .text_bottom button {
+     width: 188px;
+     height: 100%;
+     background: #E1212D;
+     border-radius: 3px;
+     font-size: 20px;
+     font-weight: 400;
+     color: #FFFFFF;
+     border: none;
+     margin-right: 20px;
+}
+
+/* 返回上一页 */
+
+.button {
+     height: 45px;
+     margin-bottom: 100px;
+     clear: both;
+}
+
+.button a {
+     display: block;
+     float: right;
+     width: 229px;
+     height: 45px;
+     background: #FFFFFF;
+     border: 1px solid #E1212D;
+     border-radius: 3px;
+     font-size: 16px;
+     font-weight: 400;
+     color: #333333;
+     cursor: pointer;
+     text-align: center;
+     line-height: 45px;
+}

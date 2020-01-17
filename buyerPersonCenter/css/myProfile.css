@@ -1,0 +1,263 @@
+.content-centre {
+    position: relative;
+    min-height: 722px;
+    overflow: hidden;
+    padding-top: 26px;
+}
+
+
+/* 右边资料 */
+
+.text-right {
+    width: 1039px;
+    min-height: 722px;
+    background: #FFFFFF;
+}
+
+.text-right h1 {
+    height: 69px;
+    width: 950px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4C4C4C;
+    line-height: 69px;
+    margin: 0 auto;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.text-right ul {
+    width: 837px;
+    margin: 0 auto;
+}
+
+.text-right ul li {
+    min-height: 21px;
+    width: 100%;
+    margin-top: 35px;
+    color: #4C4C4C;
+    font-size: 16px;
+    font-weight: 300;
+    overflow: hidden;
+}
+
+.text-right ul li>div:first-child {
+    width: 65px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.text-right ul li>div>input {
+    color: #4C4C4C;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 2px 0;
+    text-align: center;
+    border: none;
+    width: 130px;
+    border-radius: 3px;
+}
+
+.text-right ul li>div p {
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+    margin-top: 2px;
+}
+
+.text-right ul li div p.select {
+    background: url("../image/select.png")
+}
+
+.text-right ul li div p.noSelect {
+    background: url("../image/noSelect.png")
+}
+
+.text-right ul li:first-child+li+li div:first-child+div {
+    margin-right: 20px;
+}
+
+.text-right ul li div.updated {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+    color: #E2231A;
+}
+
+
+/* 头像 */
+
+.text-right ul li form>div {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    background: url('../image/upload.png');
+    font-size: 16px;
+    font-weight: 300;
+    color: #999999;
+    text-align: center;
+}
+
+.text-right ul li form p {
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.text-right ul li img {
+    width: 140px;
+    height: 140px;
+    border-radius: 5px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+}
+
+.text-right ul li p input[type='file'] {
+    width: 140px;
+    height: 140px;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: Alpha(Opacity=0);
+    cursor: pointer;
+}
+
+.text-right ul li form span {
+    margin-top: 106px;
+    display: inline-block;
+}
+
+
+/*提交按钮*/
+
+.text-right .button {
+    width: 160px;
+    height: 44px;
+    background: #E2231A;
+    border-radius: 4px;
+    margin: 50px 0 0 120px;
+    text-align: center;
+    line-height: 44px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/**/
+
+
+/* 弹框 */
+
+.alertForm {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+
+.alertForm .dog_alert {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #000000;
+    opacity: 0.3;
+    /*font-size: 100px;*/
+    filter: Alpha(Opacity=30);
+}
+
+.alertForm .text {
+    width: 627px;
+    height: 227px;
+    background: #FFFFFF;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    *left: 50%;
+    *margin-left: -313px;
+    *top: 50%;
+    *margin-top: -113px;
+}
+
+.alertForm .text .title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4C4C4C;
+    height: 51px;
+    width: 100%;
+    line-height: 51px;
+    text-indent: 23px;
+}
+
+.alertForm .text .title img {
+    margin-left: 500px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.alertForm .text .box {
+    margin: 30px 0 57px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4C4C4C;
+}
+
+.alertForm .text .box span {
+    height: 40px;
+    display: inline-block;
+    margin-left: 55px;
+    *vertical-align: middle;
+}
+
+.alertForm .text .box input {
+    width: 437px;
+    height: 17px;
+    padding: 10px 21px;
+    border: 1px solid #EEEEEE;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.alertForm .text .button {
+    height: 31px;
+}
+
+.alertForm .text .button p {
+    width: 75px;
+    height: 29px;
+    border: 1px solid #E2231A;
+    color: #E2231A;
+    text-align: center;
+    line-height: 29px;
+    float: left;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.alertForm .text .button p.cancle {
+    margin: 0 27px 0 218px;
+}
+
+.alertForm .text .button p.submit {
+    background: #E2231A;
+    height: 31px;
+    color: #FFFFFF;
+}

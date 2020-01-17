@@ -1,0 +1,232 @@
+.text-right {
+     padding-bottom: 17px;
+     width: 1041px;
+}
+
+/* 头像和账户 */
+
+.info {
+     width: 1039px;
+     height: 155px;
+     margin-bottom: 3px;
+}
+
+.content-centre {
+     position: relative;
+     min-height: 722px;
+     overflow: hidden;
+     padding-top: 26px;
+}
+
+/* 头像 */
+
+.info .accountInfo {
+     background: #FFFFFF;
+     width: 411px;
+     height: 100px;
+     padding: 27px 0 28px;
+}
+
+.info .info-photo {
+     width: 170px;
+     height: 100px;
+}
+
+.info .info-photo img {
+     margin-left: 37px;
+     width: 100px;
+     height: 100px;
+     border-radius: 5px;
+     display: inline-block;
+     cursor: pointer;
+}
+
+.info .accountInfo .number {
+     height: 85px;
+     padding-top: 15px;
+}
+
+.info .accountInfo .number p {
+     font-size: 16px;
+     font-weight: bold;
+     color: #000000;
+     line-height: 17px;
+     margin-top: 25px;
+     cursor: pointer;
+}
+
+.info .accountInfo .number p span {
+     color: #4C4C4C;
+     font-weight: 300;
+}
+
+/* 余额 */
+
+.info .fr {
+     width: 605px;
+     height: 155px;
+     background: #FFFFFF;
+}
+
+.info .fr p:first-child {
+     line-height: 155px;
+     width: 369px;
+     height: 100%;
+     text-align: center;
+     font-size: 20px;
+     font-weight: 400;
+     color: #000000;
+}
+
+.info .fr p:first-child span {
+     color: #E31E1E;
+}
+
+.info .fr p:first-child+p {
+     width: 157px;
+     height: 40px;
+     background: #E31E1E;
+     border-radius: 5px;
+     color: #FFFFFF;
+     font-size: 20px;
+     font-weight: 400;
+     line-height: 40px;
+     text-align: center;
+     margin-top: 59px;
+     cursor: pointer;
+}
+
+/* 订单 */
+
+.order {
+     width: 100%;
+     min-height: 90px;
+     background: #FFFFFF;
+     margin: 20px 0 0;
+}
+
+.order .nav {
+     width: 100%;
+     height: 90px;
+}
+
+.order .nav li {
+     line-height: 90px;
+     margin-left: 157px;
+     font-size: 16px;
+     font-weight: 400;
+     cursor: pointer;
+}
+
+.order .nav li:first-child {
+     margin: 0 4px 0 37px;
+}
+
+.order .nav li span.hover {
+     color: #D5232F;
+     font-weight: bold;
+}
+
+.order .nav li .red {
+     color: #D5232F;
+}
+
+.order .list {
+     width: 100%;
+}
+
+.order .list li {
+     height: 183px;
+     border-top: 1px solid #DCDCDC;
+     padding-left: 34px;
+}
+
+.order .list li .top {
+     padding-top: 14px;
+     height: 20px;
+     color: #999999;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 20px;
+}
+
+.order .list li .top span {
+     margin-right: 69px;
+}
+
+.order .list li .top span:first-child {
+     font-weight: bold;
+}
+
+.order .list li .bottom {
+     margin-top: 20px;
+     height: 106px;
+}
+
+.order .list li .bottom img {
+     width: 106px;
+     height: 106px;
+}
+
+.order .list li .bottom div {
+     font-weight: 400;
+     color: #000000;
+     line-height: 24px;
+}
+
+/* 标题 */
+.order #list li .bottom .fl:first-child+.fl {
+     margin-left: 11px;
+     width: 240px;
+     margin-right: 70px;
+}
+
+/* 单价 */
+.order .list li .bottom .fl:first-child+.fl+.fl {
+     width: 200px;
+     color: #010000;
+}
+
+/* 实付 */
+.order .list li .bottom .fl:first-child+.fl+.fl+.fl {
+     width: 184px;
+     color: #010000;
+}
+
+/* 状态 */
+.order .list li .bottom .fl:first-child+.fl+.fl+.fl+.fl {
+     width: 125px;
+}
+
+/* 查看 */
+.order .list li .bottom .fl:first-child+.fl+.fl+.fl+.fl+.fl {
+     cursor: pointer;
+}
+
+.order #list li .bottom .fl:first-child+.fl p:first-child+p {
+     font-size: 14px;
+     font-weight: 400;
+     color: #999999;
+     margin-top: 5px;
+}
+
+.order .list li .bottom .fl:first-child+.fl+.fl+.fl p:first-child {
+     color: #FC751D;
+}
+
+.order .list li .bottom>div p span {
+     display: block;
+     font-size: 14px;
+     font-weight: 300;
+     color: #4C4C4C;
+     margin-bottom: 20px;
+}
+
+.order .list li .bottom .fl:first-child+.fl+.fl p:first-child {
+     margin-bottom: 44px;
+}
+
+.order .list li .bottom .fl:first-child+.fl+.fl+.fl+.fl,
+.order .list li .bottom .fl:first-child+.fl+.fl+.fl+.fl+.fl {
+     line-height: 75px;
+}

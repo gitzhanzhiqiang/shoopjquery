@@ -1,0 +1,678 @@
+.content-centre {
+     position: relative;
+     min-height: 722px;
+     overflow: hidden;
+     padding: 26px 0 0;
+     margin-bottom: 26px;
+}
+
+/* 右边 */
+
+.text-right {
+     width: 1039px;
+     min-height: 470px;
+}
+
+/* 导航 */
+
+.nav {
+     width: 100%;
+     height: 90px;
+     background: #FFFFFF;
+}
+
+.nav li {
+     line-height: 90px;
+     margin-left: 115px;
+     font-size: 16px;
+     font-weight: 400;
+     cursor: pointer;
+}
+
+.nav li:first-child {
+     margin-left: 34px;
+}
+
+.nav li span.hover {
+     color: #D5232F;
+     font-weight: bold;
+}
+
+.nav li .red {
+     color: #D5232F;
+}
+
+/* 订单 */
+
+.order {
+     width: 100%;
+     min-height: 53px;
+     margin-top: 18px;
+     /* display: none; */
+}
+
+.order .order-header {
+     width: 1037px;
+     height: 51px;
+     background: #EBEBEB;
+     border: 1px solid #BFBFBF;
+}
+
+.order .order-header li {
+     float: left;
+     font-size: 16px;
+     font-weight: 300;
+     color: #4C4C4C;
+     line-height: 51px;
+     text-align: center;
+}
+
+.order .order-header li:first-child {
+     width: 402px;
+}
+
+.order .order-header li:first-child+li {
+     width: 77px;
+}
+
+.order .order-header li:first-child+li+li {
+     width: 58px;
+}
+
+.order .order-header li:first-child+li+li+li {
+     width: 117px;
+}
+
+.order .order-header li:first-child+li+li+li+li {
+     width: 128px;
+}
+
+.order .order-header li:first-child+li+li+li+li+li {
+     width: 114px;
+}
+
+.order .order-header li:first-child+li+li+li+li+li+li {
+     width: 138px;
+}
+
+/* 列表 */
+
+.list {
+     margin-top: 18px;
+     background: #FFFFFF;
+}
+
+.list li {
+     width: 100%;
+     min-height: 177px;
+     border-bottom: 1px solid #DCDCDC;
+}
+
+/* 订单号 */
+
+.list li .top {
+     width: 1007px;
+     height: 37px;
+     background: #F0F0F0;
+     padding-left: 34px;
+     line-height: 37px;
+}
+
+.list li .top div:first-child {
+     width: 113px;
+}
+
+.list li .top div:first-child+div,
+.list li .top div:first-child+div+div,
+.list li .top div:first-child+div+div+div {
+     width: 314px;
+     overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+}
+
+.list li .top div:first-child+div+div {
+     width: 153px;
+     cursor: pointer;
+}
+
+.list li .top div:first-child+div+div+div {
+     width: 153px;
+     cursor: pointer;
+}
+
+.list li .top div:first-child+div+div+div+div {
+     cursor: pointer;
+     float: right;
+     margin-right: 35px;
+}
+
+.list li .top div img {
+     width: 16px;
+     margin-right: 5px;
+     float: left;
+     margin-top: 12px;
+}
+
+/* 订单标题单价 */
+
+.list li .bottom {
+     width: 100%;
+     height: 147px;
+     /* overflow: hidden; */
+}
+
+.list li .bottom:first-child {
+     border: 0;
+}
+
+.list li .bottom div {
+     height: 100px;
+     border-top: 1px solid #DCDCDC;
+     padding: 23px 0;
+     text-align: center;
+}
+
+.list li .bottom div:first-child {
+     width: 370px;
+     text-align: left;
+     padding-left: 34px;
+}
+
+.list li .bottom div:first-child+div {
+     width: 77px;
+}
+
+.list li .bottom div:first-child+div+div {
+     width: 58px;
+}
+
+.list li .bottom div:first-child+div+div+div {
+     width: 117px;
+}
+
+.list li .bottom div:first-child+div+div+div+div {
+     width: 128px;
+     border-left: 1px solid #DCDCDC;
+     border-top: 0;
+}
+
+.list li .bottom div:first-child+div+div+div+div+div {
+     width: 114px;
+     border-left: 1px solid #DCDCDC;
+     border-right: 1px solid #DCDCDC;
+     border-top: 0;
+}
+
+.list li .bottom div:first-child+div+div+div+div+div+div {
+     width: 138px;
+     border-top: 0;
+}
+
+/* 去掉上边框 */
+
+.content-centre .order .list li>div:first-child+div>.fl:first-child,
+.content-centre .order .list li>div:first-child+div>.fl:first-child+.fl,
+.content-centre .order .list li>div:first-child+div>.fl:first-child+.fl+.fl,
+.content-centre .order .list li>div:first-child+div>.fl:first-child+.fl+.fl+.fl {
+     border: none;
+}
+
+/* 去掉第二个及之后的bottom */
+
+.content-centre .order .list li .bottom>.fl:first-child+.fl+.fl+.fl+.fl p,
+.content-centre .order .list li .bottom>.fl:first-child+.fl+.fl+.fl+.fl+.fl p,
+.content-centre .order .list li .bottom>div.fr p {
+     display: none;
+}
+
+.content-centre .order .list li>div:first-child+div>.fl:first-child+.fl+.fl+.fl+.fl p,
+.content-centre .order .list li>div:first-child+div>.fl:first-child+.fl+.fl+.fl+.fl+.fl p,
+.content-centre .order .list li>div:first-child+div>.fr p {
+     display: block;
+}
+
+.list li .bottom div img {
+     width: 100px;
+     height: 100px;
+     float: left;
+}
+
+.list li .bottom div h1 {
+     width: 240px;
+     font-size: 16px;
+     font-weight: 400;
+     float: left;
+     margin-left: 14px;
+     line-height: 24px;
+}
+
+.list li .bottom div h1 p:first-child+p {
+     color: #999999;
+     font-size: 14px;
+     margin-top: 5px;
+}
+
+/* 实付 */
+
+.list li .bottom>.fl:first-child+.fl+.fl+.fl+.fl p:first-child {
+     font-weight: bold;
+     color: #010000;
+     margin-bottom: 4px;
+}
+
+.list li .bottom>.fl:first-child+.fl+.fl+.fl+.fl+.fl p,
+.list li .bottom>.fr p {
+     font-size: 14px;
+     font-weight: 400;
+     color: #E31E1E;
+     cursor: pointer;
+}
+
+/* 交易状态 */
+
+.list li .bottom>.fl:first-child+.fl+.fl+.fl+.fl+.fl p:first-child {
+     font-size: 16px;
+     color: #010000;
+     margin-bottom: 6px;
+     cursor: text;
+}
+
+.list li .bottom div .button {
+     width: 81px;
+     height: 25px;
+     border: 1px solid #E2231A;
+     border-radius: 3px;
+     color: #E2231A;
+     text-align: center;
+     line-height: 25px;
+     margin: 0 auto 5px;
+     font-size: 14px;
+     cursor: pointer;
+}
+
+.list li .bottom div.fr .button {
+     background: #E2231A;
+     color: #FFFFFF;
+}
+
+.list li .bottom div.fr .restTime,
+.list li .bottom>.fl:first-child+.fl+.fl+.fl+.fl p:first-child+p {
+     font-size: 14px;
+     font-weight: 400;
+     color: #A4A4A4;
+     cursor: text;
+}
+
+.list li .bottom div.fr p.more {
+     position: relative;
+}
+
+.list li .bottom div.fr p.more a {
+     position: absolute;
+     top: 20px;
+     right: 55px;
+     width: 95px;
+     height: 72px;
+     background: url("../image/more.png");
+     display: none;
+     cursor: default;
+}
+
+.list li .bottom div.fr p.more span:first-child {
+     margin-top: 17px;
+}
+
+.list li .bottom div.fr p.more span {
+     display: block;
+     width: 60px;
+     font-size: 14px;
+     font-weight: 300;
+     color: #E31E1E;
+     margin: 6px auto;
+     cursor: pointer;
+}
+
+/* 分页 */
+.order .zxf_pagediv {
+     background: #FFFFFF;
+}
+
+/* 没有订单的提示 */
+
+.noOrder {
+     width: 100%;
+     height: 632px;
+     background: #FFFFFF;
+     padding-top: 1px;
+     display: none;
+}
+
+.noOrder img {
+     width: 496px;
+     height: 231px;
+     margin: 150px auto 0;
+     display: block;
+}
+
+.noOrder p {
+     font-size: 14px;
+     font-weight: 300;
+     color: #333333;
+     text-align: center;
+     margin-top: 52px;
+}
+
+.noOrder p a {
+     font-weight: bold;
+     color: #FE9D48;
+     margin-left: 18px;
+}
+
+
+/* 弹框 */
+
+.alertForm {
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     display: none;
+}
+
+.alertForm .dog_alert {
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     background: #000000;
+     opacity: 0.3;
+     /*font-size: 100px;*/
+     filter: Alpha(Opacity=30);
+}
+
+.alertForm .text {
+     width: 820px;
+     height: 528px;
+     background: #FFFFFF;
+     margin: auto;
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     *left: 50%;
+     *margin-left: -410px;
+     *top: 50%;
+     *margin-top: -264px;
+}
+
+.alertForm .text .title {
+     font-size: 18px;
+     font-weight: bold;
+     color: #4D4D4D;
+     height: 79px;
+     width: 100%;
+     line-height: 79px;
+     text-align: center;
+     position: relative;
+     border-bottom: 1px solid #EBEBEB;
+}
+
+.alertForm .text .title img {
+     width: 16px;
+     height: 16px;
+     cursor: pointer;
+     position: absolute;
+     right: 20px;
+     top: 20px;
+}
+
+.alertForm .text .box {
+     margin: 30px 0 40px;
+     height: 300px;
+     font-size: 16px;
+     font-weight: 400;
+     color: #4C4C4C;
+}
+
+.alertForm .box .form-item {
+     margin-bottom: 23px;
+     line-height: 37px;
+     width: 100%;
+     height: 37px;
+}
+
+/*lebel定义*/
+
+.alertForm .box .form-item label {
+     width: 152px;
+     text-align: right;
+}
+
+.alertForm .box .form-item input[type=text] {
+     width: 459px;
+     height: 17px;
+     border: 1px solid #C4D1D8;
+     border-radius: 4px;
+     padding: 12px 0 11px 21px;
+     font-size: 16px;
+     margin-left: 10px;
+}
+
+.alertForm .text .button {
+     height: 36px;
+}
+
+.alertForm .text .button p {
+     width: 120px;
+     height: 36px;
+     border: 1px solid #E2231A;
+     color: #E2231A;
+     text-align: center;
+     line-height: 36px;
+     float: left;
+     border-radius: 3px;
+     cursor: pointer;
+     margin: 0 27px 0 274px;
+}
+
+.alertForm .text .button p.submit {
+     background: #E2231A;
+     height: 38px;
+     color: #FFFFFF;
+     margin: 0;
+}
+
+/* 地址输入框 */
+
+.alertForm .box .form-item.first {
+     overflow: hidden;
+     width: 100%;
+     height: 100px;
+}
+
+.alertForm .box .form-item.first label {
+     margin-right: 10px;
+}
+
+.alertForm .box .form-item.first ul {
+     width: 658px;
+}
+
+.alertForm .box .form-item.first li {
+     width: 184px;
+     height: 50px;
+     margin-right: 10px;
+     font-size: 13px;
+     color: #4D4D4D;
+     font-weight: 400px;
+}
+
+.alertForm .box .form-item.first select {
+     width: 184px;
+     height: 40px;
+     border: 1px solid #C4D1D8;
+     border-radius: 4px;
+     margin-top: 10px;
+     color: #333333;
+     padding-left: 21px;
+     font-size: 16px;
+     font-weight: 300;
+}
+
+.alertForm .box .form-item.first li input {
+     width: 100px;
+     height: 37px;
+     display: none;
+}
+
+.alertForm .box .form-item:first-child {
+     margin-top: 24px;
+}
+
+
+
+/* S 消息弹框 S */
+
+.details_alertForm {
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     display: none;
+}
+
+.details_alertForm .dog_alert {
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     background: #000000;
+     opacity: 0.3;
+     /*font-size: 100px;*/
+     filter: Alpha(Opacity=30);
+}
+
+.details_alertForm .text {
+     width: 627px;
+     height: 316px;
+     background: #FFFFFF;
+     margin: auto;
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     *left: 50%;
+     *margin-left: -313px;
+     *top: 50%;
+     *margin-top: -113px;
+}
+
+.details_alertForm .text .title {
+     font-size: 16px;
+     font-weight: 400;
+     color: #4C4C4C;
+     height: 47px;
+     width: 100%;
+     line-height: 51px;
+     text-indent: 23px;
+}
+
+.details_alertForm .text .title img {
+     margin-left: 500px;
+     width: 16px;
+     height: 16px;
+     cursor: pointer;
+}
+
+.details_alertForm .text .box {
+     margin: 30px 0 28px;
+     height: 155px;
+     font-size: 16px;
+     font-weight: 400;
+     color: #4C4C4C;
+}
+
+.details_alertForm .text .box li:first-child {
+     height: 40px;
+     margin-bottom: 15px;
+}
+
+.details_alertForm .text .box li:first-child+li {
+     height: 104px;
+}
+
+.details_alertForm .text .box span {
+     height: 40px;
+     display: inline-block;
+     margin-left: 55px;
+     *vertical-align: middle;
+     margin-top: 8px;
+}
+
+.details_alertForm .text .box input,
+.details_alertForm .text .box textarea {
+     width: 437px;
+     height: 17px;
+     padding: 10px 21px;
+     border: 1px solid #EEEEEE;
+     border-radius: 3px;
+     margin-left: 10px;
+     font-size: 16px;
+}
+
+.details_alertForm .text .box textarea {
+     width: 458px;
+     height: 92px;
+     padding: 10px 0 0 21px;
+}
+
+.details_alertForm .text .button {
+     height: 31px;
+}
+
+.details_alertForm .text .button p {
+     width: 75px;
+     height: 29px;
+     border: 1px solid #E2231A;
+     color: #E2231A;
+     text-align: center;
+     line-height: 29px;
+     float: left;
+     border-radius: 3px;
+     cursor: pointer;
+     background: #FFFFFF;
+}
+
+.details_alertForm .text .button p.cancle {
+     margin: 0 27px 0 218px;
+}
+
+.details_alertForm .text .button p.submit {
+     background: #E2231A;
+     height: 31px;
+     color: #FFFFFF;
+}
+
+/* E 消息弹框 E */
+
+.selectNum {
+     width: 224px;
+     outline: none;
+     padding: 10px 21px;
+     border: 1px solid #EEEEEE;
+     border-radius: 3px;
+     margin-left: 10px;
+     font-size: 16px
+}
+
+.item {
+     margin: 31px auto;
+     width: 50%;
+}

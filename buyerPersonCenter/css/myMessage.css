@@ -1,0 +1,328 @@
+.content-centre {
+    position: relative;
+    min-height: 722px;
+    overflow: hidden;
+    padding: 26px 0 0;
+    margin-bottom: 26px;
+}
+
+
+/* 右边 */
+
+.text-right {
+    width: 1039px;
+    background: #FFFFFF;
+    min-height: 722px;
+}
+
+.text-right h1 {
+    width: 950px;
+    height: 69px;
+    border-bottom: 1px solid #EEEEEE;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4C4C4C;
+    line-height: 69px;
+    margin: 0 auto;
+}
+
+
+/*样式 ======== 我的消息===================================*/
+
+.text-right .tab {
+    height: 90px;
+    width: 831px;
+    margin: 0 auto;
+    line-height: 90px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    border-bottom: 1px solid #EEEEEE;
+}
+.text-right .tab b{
+    padding-left: 10px;
+    width: 150px;
+    line-height: 52px;
+}
+.text-right .tab span {
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.text-right .tab .hover {
+    font-weight: bold;
+    color: #E2231A;
+}
+
+.text-right .list {
+    width: 831px;
+    margin: 0 auto;
+}
+
+.text-right .list li {
+    height: 82px;
+    border-bottom: 1px solid #EEEEEE;
+    padding-top: 20px;
+}
+
+.text-right .list li img {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.text-right .list li>div {
+    float: right;
+    width: 760px;
+}
+
+.text-right .list li>div h5 {
+    height: 21px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.text-right .list li>div h5 span {
+    font-size: 14px;
+    font-weight: 400;
+    float: right;
+}
+
+.text-right .list li>div>p {
+    height: 21px;
+    line-height: 21px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #999999;
+    margin-top: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+
+/*样式 ======== 消息详情===================================*/
+
+.details_list {
+    width: 832px;
+    margin: 0 auto;
+}
+
+.details_list li {
+    min-height: 114px;
+    border-bottom: 1px solid #EEEEEE;
+    padding-top: 40px;
+}
+
+.details_list li h5 {
+    font-size: 16px;
+    height: 21px;
+    font-weight: bold;
+    color: #333333;
+    line-height: 21px;
+}
+
+.details_list li p {
+    width: 640px;
+    min-height: 25px;
+    margin: 13px 0 15px;
+    color: #999999;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.details_list li div {
+    height: 19px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 21px;
+}
+
+.details_list li div span:first-child+span {
+    float: right;
+    font-weight: 400;
+}
+
+
+/* 按钮 */
+
+.button {
+    height: 46px;
+    margin-top: 35px;
+    display: none;
+}
+
+.button p {
+    width: 168px;
+    height: 46px;
+    background: #E2231A;
+    border-radius: 4px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 46px;
+    cursor: pointer;
+}
+
+
+/* 弹框 */
+
+.details_alertForm {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+
+.details_alertForm .dog_alert {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #000000;
+    opacity: 0.3;
+    /*font-size: 100px;*/
+    filter: Alpha(Opacity=30);
+}
+
+.details_alertForm .text {
+    width: 627px;
+    height: 316px;
+    background: #FFFFFF;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    *left: 50%;
+    *margin-left: -313px;
+    *top: 50%;
+    *margin-top: -113px;
+}
+
+.details_alertForm .text .title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4C4C4C;
+    height: 47px;
+    width: 100%;
+    line-height: 51px;
+    text-indent: 23px;
+}
+
+.details_alertForm .text .title img {
+    margin-left: 500px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.details_alertForm .text .box {
+    margin: 30px 0 28px;
+    height: 155px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4C4C4C;
+}
+
+.details_alertForm .text .box li:first-child {
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.details_alertForm .text .box li:first-child+li {
+    height: 104px;
+}
+
+.details_alertForm .text .box span {
+    height: 40px;
+    display: inline-block;
+    margin-left: 55px;
+    *vertical-align: middle;
+    margin-top: 8px;
+}
+
+.details_alertForm .text .box input,
+.details_alertForm .text .box textarea {
+    width: 437px;
+    height: 17px;
+    padding: 10px 21px;
+    border: 1px solid #EEEEEE;
+    border-radius: 3px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.details_alertForm .text .box textarea {
+    width: 458px;
+    height: 92px;
+    padding: 10px 0 0 21px;
+}
+
+.details_alertForm .text .button {
+    height: 31px;
+}
+
+.details_alertForm .text .button p {
+    width: 75px;
+    height: 29px;
+    border: 1px solid #E2231A;
+    color: #E2231A;
+    text-align: center;
+    line-height: 29px;
+    float: left;
+    border-radius: 3px;
+    cursor: pointer;
+    background: #FFFFFF;
+}
+
+.details_alertForm .text .button p.cancle {
+    margin: 0 27px 0 218px;
+}
+
+.details_alertForm .text .button p.submit {
+    background: #E2231A;
+    height: 31px;
+    color: #FFFFFF;
+}
+
+
+/* 没有数据的提示 */
+
+.noData {
+    width: 100%;
+    height: 540px;
+    background: #FFFFFF;
+    padding-top: 1px;
+    display: none;
+}
+
+.noData img {
+    width: 496px;
+    height: 231px;
+    margin: 150px auto 0;
+    display: block;
+}
+
+.noData p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #333333;
+    text-align: center;
+    margin-top: 52px;
+}
+
+.noData p a {
+    font-weight: bold;
+    color: #FE9D48;
+    margin-left: 18px;
+}

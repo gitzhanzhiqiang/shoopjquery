@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+     <meta charset="UTF-8">
+     <title>爱心购商城-消薄平台_扶贫帮困，致力于扶贫帮困消除经济薄弱村！</title>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     <meta name="renderer" content="webkit" />
+     <meta name="data-spm" content="a2e15" />
+     <link rel="stylesheet" href="../common/css/zxf_page.css">
+     <link rel="stylesheet" href="../common/css/common.css">
+     <link rel="stylesheet" href="../supplierCenter/css/addNewEMS.css">
+</head>
+
+<body>
+     <!--公共头部-->
+     <div class="header" id="header"></div>
+     <!--中心的头部搜索-->
+     <div class="header-seach" id="header-seach"></div>
+
+
+     <!--主要内容-->
+     <div class="content-centre body-center">
+          <!--侧边导航-->
+          <div id="centre-left-nav" class="fl"></div>
+          <!-- 右边内容 -->
+          <div class="text-right fl">
+               <!--title-->
+               <div class="title">
+                    <p class="fl">卖家中心 > 物流管理 > 客户号管理</p>
+                    <!-- <div class="search fr">
+                         <input type="text" class="fl" id="idvalue" placeholder="输入订单快速搜索~">
+                         <button class="fl" id="searchs">搜索</button>
+                    </div> -->
+               </div>
+
+               <!--订单分类导航-->
+               <div class="head">
+                    <ul class="nav fl" id="nav">
+                         <!-- <li class="fl" status="0">
+                              <span class="fl hover">待发货订单</span><span class="fl type1">0</span>
+                         </li>
+                         <li class="fl" status="1">
+                              <span class="fl">已发货订单</span><span class="fl type1">0</span>
+                         </li>
+                         <li class="fl" status="2">
+                              <span class="fl">已签收订单</span><span class="fl type1">0</span>
+                         </li> -->
+                    </ul>
+                    <!--筛选-->
+                    <!--<div class="filter fr">
+                         <span class="fl">筛选条件：</span>
+                         <select class="fl" name="" id="chooses">
+                             <option value="">所有订单</option>
+                              <option value="0">卖家商品</option>
+                              <option value="1">供应商商品</option>
+                         </select>
+                    </div>-->
+                    <div class="addNew fr">
+                         <span>新增</span>
+                    </div>
+               </div>
+
+               <div class="form-item expressage">
+                    <ul>
+                         <li>
+                              <table id="tb">
+                                   <tr>
+                                        <td colspan="2">
+                                             <span>快递公司名称</span>
+                                        </td>
+                                        <td>
+                                             <span>客户号</span>
+                                        </td>
+                                        <td>
+                                             <span>SendSite</span>
+                                        </td>
+                                        <td>
+                                             <span>操作</span>
+                                        </td>
+                                   </tr>
+                                   <!-- <tr class="oli" id="oli">
+                                        <td colspan="2">
+                                             <span>1</span>
+                                        </td>
+                                        <td>
+                                             <span>2</span>
+                                        </td>
+                                        <td>
+                                             <span>3</span>
+                                        </td>
+
+                                        <td>
+                                             <span class="del">删除</span>
+                                             <span class="add">编辑</span>
+                                        </td>
+                                   </tr> -->
+                              </table>
+                         </li>
+                    </ul>
+               </div>
+
+          </div>
+
+          <!--弹窗-->
+          <div class="alertForm leaveMsg">
+               <div class="dog_alert"></div>
+               <div class="text">
+                    <h3>
+                         <span>新增</span>
+                         <img class="fr" src="../common/images/delete.png" alt="" onClick="CloseAlert()">
+                    </h3>
+                    <div class="input">
+                         <div class="tab_div">
+                              <div class="oli">
+                                   <div class="five shipments">
+                                        <span>快递公司名称：</span>
+                                        <select name="expressId" id="expressId" placeholder="请选择"></select>
+                                   </div>
+                                   <div>
+                                        <span>客户号：</span>
+                                        <input name="customerName" type="text" placeholder="请填写">
+                                   </div>
+                                   <div>
+                                        <span>密码：</span>
+                                        <input name="customerPwd" type="text" placeholder="请填写">
+                                   </div>
+                                   <div>
+                                        <span>网点编号：</span>
+                                        <input name="sendSite" type="text" placeholder="请填写">
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="btn">
+                              <button onClick="submitLeaveMessage()">确定</button>
+                              <button onClick="CloseAlert()">取消</button>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="alertForm leaveMsg1">
+               <div class="dog_alert"></div>
+               <div class="text">
+                    <h3><img class="fr" src="../common/images/delete.png" alt="" onClick="CloseAlert()"></h3>
+                    <div class="input">
+                    </div>
+               </div>
+          </div>
+     </div>
+</body>
+<script src="../common/js/json2.js"></script>
+<script src="../common/js/jquery.js"></script>
+<script src="../common/js/common.js"></script>
+<script src="../common/js/zxf_page.js"></script>
+<script src="js/addNewEMS.js"></script>
+
+</html>

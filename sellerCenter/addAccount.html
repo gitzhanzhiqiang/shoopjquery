@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+     <meta charset="UTF-8">
+     <title>爱心购商城-消薄平台_扶贫帮困，致力于扶贫帮困消除经济薄弱村！</title>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     <meta name="format-detection" content="telephone=no,email=no,address=no">
+     <meta name="renderer" content="webkit" />
+     <meta name="data-spm" content="a2e15" />
+     <link rel="stylesheet" href="../common/css/common.css">
+     <link rel="stylesheet" href="css/addAccount.css">
+</head>
+
+<body>
+     <!--公共头部-->
+     <div class="header" id="header"></div>
+     <!--中心的头部搜索-->
+     <div class="header-seach" id="header-seach">
+     </div>
+
+
+     <!--主要内容-->
+     <div class="content-centre body-center">
+          <!--侧边导航-->
+          <div id="centre-left-nav" class="fl"></div>
+          <div class="text-right fr">
+               <div class="title">
+                    <p>添加账户</p>
+               </div>
+               <div class="text">
+                    <div class="text_top">
+                         <p>选择账户类型</p>
+                         <ul id="account_type">
+                              <li class="zhifubao">
+                                   <img src="../common/images/zhifubao.png" alt="">
+                                   <i class="active"></i>
+                              </li>
+                              <li class="weixin">
+                                   <img src="../common/images/weixin.png" alt="">
+                                   <i></i>
+                              </li>
+                              <li class="yinlian">
+                                   <img src="../common/images/yinlian.png" alt="">
+                                   <i></i>
+                              </li>
+                         </ul>
+                    </div>
+                    <div class="text_bottom alipay">
+                         <p>填写支付宝账户信息</p>
+                         <!--position-verification只有一个值 bottom-->
+                         <div class="form fr form-common-verification" id="form" rules="rules" label-width="" position-verification="">
+                              <div class="form-item">
+                                   <label class="fl">支付宝账号：</label>
+                                   <div class="verification-el-input fl">
+                                        <input class="verification-input" type="text" placeholder="此处填写支付宝账号或手机号" required msg="账号不能为空！">
+                                   </div>
+                              </div>
+                              <div class="form-item">
+                                   <label class="fl">姓名:</label>
+                                   <div class="verification-el-input fl">
+                                        <input class="verification-input" type="text" placeholder="此处填写银行账户开户姓名" required msg="联系人姓名不能为空！">
+                                   </div>
+                              </div>
+                              <div class="button"><button class="fr" onclick="form_submit('#form')">保存</button></div>
+                         </div>
+                    </div>
+                    <div class="text_bottom wechat">
+                         <p>填写微信账户信息</p>
+                         <!--position-verification只有一个值 bottom-->
+                         <div class="form fr form-common-verification" id="form" rules="rules" label-width="" position-verification="">
+                              <div class="form-item">
+                                   <label class="fl">微信账号：</label>
+                                   <div class="verification-el-input fl">
+                                        <input class="verification-input" type="text" placeholder="此处填写微信账号或手机号" required msg="账号不能为空！">
+                                   </div>
+                              </div>
+                              <div class="form-item">
+                                   <label class="fl">姓名:</label>
+                                   <div class="verification-el-input fl">
+                                        <input class="verification-input" type="text" placeholder="此处填写银行账户开户姓名" required msg="联系人姓名不能为空！">
+                                   </div>
+                              </div>
+                              <div class="button"><button class="fr" onclick="form_submit('#form')">保存</button></div>
+                         </div>
+                    </div>
+                    <div class="text_bottom unionpay">
+                         <p>填写银联账户信息</p>
+                         <!--position-verification只有一个值 bottom-->
+                         <div class="form fr form-common-verification" id="form" rules="rules" label-width="" position-verification="">
+                              <div class="form-item">
+                                   <label class="fl">银行卡号：</label>
+                                   <div class="verification-el-input fl">
+                                        <input class="verification-input" type="text" placeholder="此处填写银行卡号" required msg="银行卡号不能为空！">
+                                   </div>
+                              </div>
+                              <div class="form-item">
+                                   <label class="fl">手机号：</label>
+                                   <div class="verification-el-input fl">
+                                        <input class="verification-input" type="text" placeholder="此处填写银行账户预留手机号" required msg="手机号码不能为空" props="phone">
+                                   </div>
+                              </div>
+                              <div class="form-item">
+                                   <label class="fl">姓名:</label>
+                                   <div class="verification-el-input fl">
+                                        <input class="verification-input" type="text" placeholder="此处填写银行账户开户姓名" required msg="联系人姓名不能为空！">
+                                   </div>
+                              </div>
+                              <div class="button"><button class="fr" onclick="form_submit('#form')">保存</button></div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+          <div class="comeback fl">
+               <a href="javascript:history.go(-1)">返回上一页</a>
+          </div>
+
+     </div>
+     <script src="../common/js/json2.js"></script>
+     <!-- <script src="../common/js/verification.js"></script> -->
+     <script src="../common/js/jquery.js"></script>
+     <script src="../common/js/common.js"></script>
+     <script src="js/addAccount.js"></script>
+</body>
+
+
+</html>

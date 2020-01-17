@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+     <meta charset="UTF-8">
+     <title>爱心购商城-消薄平台_扶贫帮困，致力于扶贫帮困消除经济薄弱村！</title>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     <meta name="renderer" content="webkit" />
+     <meta name="data-spm" content="a2e15" />
+     <link rel="stylesheet" href="../common/css/common.css">
+     <link rel="stylesheet" href="../common/css/zxf_page.css">
+     <link rel="stylesheet" href="css/shopList.css">
+     <link rel="stylesheet" href="../common/css/idangerous.swiper2.7.6.css">
+</head>
+
+<body>
+     <!-- 顶部 top -->
+     <div id="header-top" class="header-top"></div>
+     <!-- 头部 header -->
+     <div id="s-header" class="s-header"></div>
+     <!-- banner -->
+     <div class="banner">
+          <div class="body-center">
+               <div class="left fl">
+                    <div class="swiper-container img">
+                         <div class="swiper-wrapper img"></div>
+                    </div>
+                    <div class="pagination"></div>
+               </div>
+          </div>
+     </div>
+     <!--店铺列表-->
+     <div class="productList">
+          <!--筛选导航-->
+          <ul class="type-nav" id="nav">
+               <li class="fl">
+                    <span class="active">综合</span>
+               </li>
+               <li class="fl saleCount">
+                    <span>销量</span>
+                    <img src="images/moren.png" alt="">
+               </li>
+               <li class="fl goodsPrice">
+                    <span>价格</span>
+                    <img src="images/moren.png" alt="">
+               </li>
+          </ul>
+          <div class="text-list">
+               <!--店铺列表-->
+               <ul class="list" id="list"></ul>
+               <!--翻页-->
+               <div class="zxf_pagediv"></div>
+               <!-- 没有数据显示 -->
+               <div id="nodata" style="display: none;">
+                    <img src="../common/images/noData.png" alt="">
+               </div>
+          </div>
+     </div>
+     <!-- 弹框开始 -->
+     <div class="details_alertForm">
+          <div class="dog_alert"></div>
+          <div class="text">
+               <ul class="box">
+                    <li>
+                         店铺尚未开通<br> 点击立即申请，可免费入驻店铺哟~
+                    </li>
+               </ul>
+               <div class="button">
+                    <p class="cancle" onClick="backList()">返回店铺列表</p>
+                    <p class="submit" onClick="applyNow()">立即申请</p>
+               </div>
+          </div>
+     </div>
+     <!-- 弹框结束 -->
+
+
+</body>
+
+<script src="../common/js/json2.js"></script>
+<script src="../common/js/jquery.js"></script>
+<script src="../common/js/zxf_page.js"></script>
+<script src="../common/js/common.js"></script>
+<script src="../common/js/idangerous.swiper2.7.6.min.js"></script>
+<script src="js/shopList.js"></script>
+
+</html>

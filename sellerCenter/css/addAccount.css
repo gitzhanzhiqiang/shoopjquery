@@ -1,0 +1,232 @@
+.content-centre {
+    overflow: hidden;
+    padding-top: 36px;
+}
+
+
+/*=================================右边正文======================================*/
+
+.content-centre .text-right {
+    width: 1041px;
+    font-weight: 300;
+}
+
+
+/*title*/
+
+.content-centre .title {
+    width: 1005px;
+    padding: 0 18px;
+    height: 59px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+    border-radius: 3px;
+    line-height: 59px;
+    margin-bottom: 13px;
+}
+
+.content-centre .title p {
+    font-size: 20px;
+    color: #333333;
+}
+
+.content-centre .title p:first-child+p {
+    display: none;
+}
+
+.text-right .text {
+    margin-bottom: 58px;
+}
+
+
+/*右边正文*/
+
+.content-centre .text-right {
+    width: 1041px;
+    font-weight: 300;
+    margin-bottom: 17px;
+}
+
+.content-centre .title {
+    width: 1005px;
+    padding: 0 18px;
+    height: 59px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+    border-radius: 3px;
+    line-height: 59px;
+    margin-bottom: 13px;
+}
+
+.content-centre .title p,
+.content-centre .text p {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.content-centre .text p {
+    padding-top: 22px;
+    margin-left: 15px;
+}
+
+
+/* 选择 */
+
+.content-centre .text .text_top {
+    width: 1041px;
+    height: 134px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+    border-radius: 3px;
+}
+
+.content-centre .text .text_top ul {
+    height: 78px;
+    margin: 16px 0 0 16px;
+}
+
+.content-centre .text .text_top ul li {
+    width: 44px;
+    height: 100%;
+    margin-right: 29px;
+    float: left;
+}
+
+.content-centre .text-right .text_top img {
+    width: 44px;
+    height: 44px;
+}
+
+.content-centre .text .text_top li:first-child+li+li {
+    width: 60px;
+}
+
+/* 银联 */
+
+.content-centre .text .text_top li:first-child img {
+    width: 44px;
+    height: 37px;
+    margin: 3px 0 3px;
+}
+
+.content-centre .text-right .text_top i {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url("../../common/images/smallNoselect.png") no-repeat;
+    margin: 2px auto 0;
+}
+
+.content-centre .text-right .text_top i.active {
+    width: 19px;
+    height: 19px;
+    background: url("../../common/images/smallSelected.png") no-repeat;
+    margin-top: 0px;
+}
+
+.content-centre .text .text_bottom {
+    width: 1041px;
+    height: 316px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+    border-radius: 3px;
+    margin-top: 13px;
+}
+
+.content-centre .text .wechat,
+.content-centre .text .alipay {
+    display: none;
+}
+
+/*验证*/
+
+.form {
+    background: #fff;
+    border-radius: 3px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #333333;
+}
+
+.form .form-item {
+    margin-bottom: 23px;
+    padding-left: 17px;
+    line-height: 37px;
+    width: 100%;
+    height: 37px;
+}
+
+.form .form-item:first-child {
+    margin-top: 24px;
+}
+
+.form .form-item label {
+    width: 104px;
+}
+
+
+/*lebel定义*/
+
+.form .form-item input[type=text] {
+    width: 269px;
+    background: #F6F6F6;
+    border-radius: 3px;
+    border: 0;
+    font-size: 15px;
+    height: 17px;
+    line-height: 17px;
+    padding: 10px 0 10px 21px;
+}
+
+.content-centre .text .text_bottom .button {
+    margin-top: 36px;
+    height: 45px;
+}
+
+.content-centre .text .text_bottom .button button {
+    margin-right: 20px;
+    width: 186px;
+    height: 43px;
+    background: #E1212D;
+    border-radius: 3px;
+    line-height: 45px;
+    text-align: center;
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button button:active {
+    box-shadow: 0px 0px 50px #F60 inset;
+    color: #fff;
+}
+
+.content-centre .text .alipay .button,
+.content-centre .text .wechat .button {
+    margin-top: 96px;
+}
+
+/* 返回上一页 */
+
+.comeback {
+    width: 100%;
+    height: 80px;
+}
+
+.comeback a {
+    float: right;
+    display: block;
+    width: 227px;
+    height: 43px;
+    background: #FFFFFF;
+    border: 1px solid #E1212D;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+    line-height: 43px;
+}

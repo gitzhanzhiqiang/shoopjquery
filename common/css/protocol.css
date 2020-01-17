@@ -1,0 +1,43 @@
+html,
+body {
+     width: 100%;
+     height: 100%;
+     background: #F7F7F7;
+     position: relative;
+}
+
+.content {
+     width: 1200px;
+     margin: 0 auto;
+}
+.content h2{
+    text-align: center;
+    margin: 20px 0;
+}
+.tc{
+    text-align: center;
+}
+.textIn5{
+    text-indent: 30px;
+}
+.textIn6{
+    text-indent: 50px;
+}
+.fontwB{
+    font-weight: bold;
+}
+.pad10_10{
+    padding: 10px 10px;
+}
+.textDecoration{
+    text-decoration: underline ;
+}
+.fontStyleI{
+    font-style:italic 
+}
+.fonts18{
+    font-size: 18px;
+}
+.martop30{
+    margin-top: 30px;
+}

@@ -1,0 +1,25 @@
+
+/*侧边栏*/
+.hide {
+	display: blcok
+}
+.side_bar {
+	position: fixed;
+	left: 50%;
+	margin-left: 610px;
+	bottom: 20px;
+	width: 48px;
+	z-index: 10000;
+}
+.side_bar li {
+	margin: 3px 0;
+}
+.side_bar a {
+	display: inline-block;
+	padding: 10px 12px;
+	line-height: 14px;
+	color: #FFF;
+}
+.side_bar a:hover {
+	color: #000000;
+}

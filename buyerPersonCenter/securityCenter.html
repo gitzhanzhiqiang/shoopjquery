@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+     <meta charset="UTF-8">
+     <title>爱心购商城-消薄平台_扶贫帮困，致力于扶贫帮困消除经济薄弱村！</title>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     <meta name="renderer" content="webkit" />
+     <meta name="data-spm" content="a2e15" />
+     <link rel="stylesheet" href="../common/css/common.css">
+     <link rel="stylesheet" href="css/securityCenter.css">
+</head>
+
+<body>
+     <!--公共头部-->
+     <div id="header-top" class="header-top"></div>
+     <!--中心的头部搜索-->
+     <div id="s-header" class="s-header"></div>
+
+
+     <!--主要内容-->
+     <div class="content-centre body-center">
+          <!--侧边导航-->
+          <ul class="text-left-nav fl">
+               <li><a href="myshopping.html">我的爱心购</a></li>
+               <li><a href="myOrder.html">我的订单</a></li>
+               <li><a href="myCart.html">我的购物车</a></li>
+               <li><a href="myCollecting.html">我的收藏</a></li>
+               <li><a href="mylooked.html">我的浏览</a></li>
+               <li><a href="myProfile.html">我的资料</a></li>
+               <li><a href="myAccount.html">我的账户</a></li>
+               <li><a href="myAddress.html">我的地址</a></li>
+               <li><a href="myEvaluation.html">我的评价</a></li>
+               <li><a href="myGrade.html">我的积分</a></li>
+               <!--<li><a href="javascript:;">我的卡券</a></li>-->
+               <li><a href="myMessage.html">我的消息</a></li>
+               <li class="hover"><a href="javascript:;">安全中心</a></li>
+          </ul>
+          <!-- 右侧内容 -->
+          <div class="text-right fr">
+               <!--位置导航-->
+               <div class="crumb">
+                    <p>安全中心</p>
+               </div>
+               <!--列表-->
+               <ul class="list">
+                    <li>
+                         <span>手机号码： </span>
+                         <span>*********** </span>
+                         <span class="edit-phone">修改</span>
+                    </li>
+                    <li style="display: none;">
+                         <span>交易密码： </span>
+                         <span>已设置 </span>
+                         <span class="edit-password">修改</span>
+                         <!--<span>未设置 </span>
+                         <span class="create-password">设置</span>-->
+                    </li>
+                    <li>
+                         <span>绑定银行卡： </span>
+                         <span></span>
+                         <span class="bind">绑定</span>
+                    </li>
+                    <div class="bindBankList">
+                    </div>
+               </ul>
+          </div>
+          <!-- 弹框-修改手机号码-->
+          <div class="alertForm" id="alertForm-phone">
+               <div class="dog_alert"></div>
+               <div class="text">
+                    <div class="title">修改手机号<img src="image/delete.png" alt="" onClick="CloseAlert()"></div>
+                    <div class="box">
+                         <div class="form-item">
+                              <label class="fl">新手机号：</label>
+                              <div class="verification-el-input fl">
+                                   <input name="newPhone" class="verification-input" type="text" placeholder="请输入手机号" requir="true" msg="请输入手机号!">
+                              </div>
+                         </div>
+                         <div class="form-item captcha-input">
+                              <label class="fl">图形验证码：</label>
+                              <div class="verification-el-input fl">
+                                   <input name="captcha" class="verification-input" type="text" placeholder="请输入图形验证码" requir="true" msg="请输入图形验证码！">
+                              </div>
+                              <span class="captcha">
+                            <img onclick="getCode()" src="" alt="">
+                        </span>
+                         </div>
+                         <div class="form-item captcha-input">
+                              <label class="fl">手机验证码：</label>
+                              <div class="verification-el-input fl">
+                                   <input name="phoneCaptcha" class="verification-input" type="text" placeholder="请输入短信验证码" requir="true" msg="请输入短信验证码！">
+                              </div>
+                              <span class="get-captcha fl" onclick="getIphoneCode('#alertForm-phone')">获取</span>
+                              <p class="time fl">还剩 <span>0</span></p>
+                         </div>
+                    </div>
+                    <div class="button">
+                         <p class="cancle" onClick="CloseAlert(1)">取消</p>
+                         <p class="submit" onclick="subIphone()">提交</p>
+                    </div>
+               </div>
+          </div>
+          <!-- 弹框-设置交易密码-->
+          <div class="alertForm" id="alertForm-create-password">
+               <div class="dog_alert"></div>
+               <div class="text">
+                    <div class="title">设置交易密码<img src="image/delete.png" alt="" onClick="CloseAlert()"></div>
+                    <div class="box">
+                         <div class="form-item">
+                              <label class="fl">交易密码：</label>
+                              <div class="verification-el-input fl">
+                                   <input name="password" class="verification-input" type="text" placeholder="由六位数字组成" requir="true" msg="请输入交易密码!">
+                              </div>
+                         </div>
+                         <div class="form-item">
+                              <label class="fl">确认密码：</label>
+                              <div class="verification-el-input fl">
+                                   <input name="password" class="verification-input" type="text" placeholder="请再次输入设置的交易密码" requir="true" msg="请再次输入设置的交易密码!">
+                              </div>
+                         </div>
+                    </div>
+                    <div class="button">
+                         <p class="cancle" onClick="CloseAlert()">取消</p>
+                         <p class="submit">提交</p>
+                    </div>
+               </div>
+          </div>
+          <!-- 弹框-修改交易密码-->
+          <div class="alertForm" id="alertForm-edit-password">
+               <div class="dog_alert"></div>
+               <div class="text">
+                    <div class="title">修改交易密码<img src="image/delete.png" alt="" onClick="CloseAlert()"></div>
+                    <div class="box">
+                         <div class="form-item">
+                              <label class="fl">旧交易密码：</label>
+                              <div class="verification-el-input fl">
+                                   <input name="password" class="verification-input" type="text" placeholder="由六位数字组成" requir="true" msg="请输入旧交易密码!">
+                              </div>
+                         </div>
+                         <div class="form-item">
+                              <label class="fl">新交易密码：</label>
+                              <div class="verification-el-input fl">
+                                   <input name="password" class="verification-input" type="text" placeholder="由六位数字组成" requir="true" msg="请输入新交易密码!">
+                              </div>
+                         </div>
+                         <div class="form-item">
+                              <label class="fl">确认密码：</label>
+                              <div class="verification-el-input fl">
+                                   <input name="password" class="verification-input" type="text" placeholder="请再次输入设置的交易密码" requir="true" msg="请再次输入设置的交易密码!">
+                              </div>
+                         </div>
+                    </div>
+                    <div class="button">
+                         <p class="cancle" onClick="CloseAlert()">取消</p>
+                         <p class="submit">提交</p>
+                    </div>
+               </div>
+          </div>
+          <!-- 弹框-绑定银行卡-->
+          <div class="alertForm" id="alertForm-bind">
+               <div class="dog_alert"></div>
+               <div class="text">
+                    <div class="title">
+                         <span>绑定银行卡></span><img src="image/delete.png" alt="" onClick="CloseAlert()">
+                    </div>
+                    <div class="box">
+                         <div class="form-item bankBind">
+                              <label class="fl">持卡人姓名：</label>
+                              <div class="verification-el-input fl">
+                                   <input name="name" class="verification-input" type="text" placeholder="请填写银行卡持有人姓名" requir="true" msg="请填写银行卡持有人姓名!">
+                              </div>
+                         </div>
+                         <div class="form-item bankBind">
+                              <label class="fl">证件号：</label>
+                              <div class="verification-el-input fl">
+                                   <input name="idCard" class="verification-input" type="text" placeholder="请输入身份证号" requir="true" msg="请输入身份证号!">
+                              </div>
+                         </div>
+                         <div class="form-item bankBind">
+                              <label class="fl">银行卡号：</label>
+                              <div class="verification-el-input fl">
+                                   <input name="bankCard" class="verification-input" type="text" placeholder="由十九位数字组成" requir="true" msg="请输入银行卡号!">
+                              </div>
+                         </div>
+                         <div class="form-item">
+                              <label class="fl">预留手机号：</label>
+                              <div class="verification-el-input fl">
+                                   <input name="phone" class="verification-input" type="text" placeholder="请输入银行预留手机号" requir="true" msg="请输入银行预留手机号!">
+                              </div>
+                         </div>
+                         <div class="form-item captcha-input">
+                              <label class="fl">手机验证码：</label>
+                              <div class="verification-el-input fl">
+                                   <input name="phoneCaptcha" class="verification-input" type="text" placeholder="请输入短信验证码" requir="true" msg="请输入短信验证码！">
+                              </div>
+                              <span class="get-captcha fl" onclick="getIphoneCode('#alertForm-bind')">获取</span>
+                              <p class="time fl">还剩 <span>0</span></p>
+                         </div>
+                    </div>
+                    <div class="button">
+                         <p class="cancle" onClick="CloseAlert(1)">取消</p>
+                         <p class="submit" onclick="subBank()">提交</p>
+                    </div>
+               </div>
+          </div>
+
+     </div>
+</body>
+<script src="../common/js/json2.js"></script>
+<script src="../common/js/verification.js"></script>
+<script src="../common/js/jquery.js"></script>
+<script src="../common/js/jquery.form.js"></script>
+<script src="../common/js/common.js"></script>
+<script src="js/securityCenter.js"></script>
+
+</html>

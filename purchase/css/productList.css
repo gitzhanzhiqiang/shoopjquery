@@ -1,0 +1,110 @@
+/*商品列表*/
+
+/*筛选导航*/
+
+.productList {
+     width: 1200px;
+     margin: 0 auto;
+     padding-bottom: 30px;
+}
+
+.productList .type-nav {
+     height: 41px;
+     line-height: 46px;
+     margin-left: 32px;
+}
+
+.productList .type-nav li {
+     width: 50px;
+     text-align: left;
+     font-size: 18px;
+     color: #333333;
+     margin-right: 36px;
+}
+
+.productList .type-nav li span {
+     cursor: pointer;
+}
+
+.productList .type-nav li img {
+     cursor: pointer;
+}
+
+.productList .type-nav li .active {
+     color: #E2231A;
+}
+
+/*商品列表*/
+
+.productList .text-list {
+     background: #ffffff;
+}
+
+.productList .list {
+     width: 1170px;
+     padding: 25px 10px 10px 20px;
+     overflow: hidden;
+}
+
+.productList .list li {
+     float: left;
+     width: 202px;
+     height: 325px;
+     padding: 10px;
+     margin: 0 10px 5px 0;
+    border:1px solid rgba(235,235,235,1);
+}
+
+.productList .list li:hover {
+     border: 1px solid #E2231A;
+}
+
+.productList .list li img {
+     width: 204px;
+     height: 204px;
+     display: block;
+     cursor: pointer;
+}
+
+.productList .list li .price {
+     font-size: 22px;
+     font-weight: 400;
+     color: #E2231A;
+     margin: 10px 0 5px 0;
+}
+
+.productList .list li .key-word {
+     height: 42px;
+     font-size: 16px;
+     font-weight: 300;
+     color: #4D4D4D;
+     cursor: pointer;
+}
+.productList .list li .key-word:hover{
+	color: #E2231A;
+}
+.productList .list li .payment {
+     font-size: 12px;
+     font-weight: 300;
+     color: #999999;
+     text-align: right;
+     margin: 8px 0 15px 0;
+}
+
+.productList .list li button {
+     width: 120px;
+     height: 36px;
+     font-size: 16px;
+     font-weight: 400;
+     background: #ffffff;
+     color: #E2231A;
+     border-radius: 4px;
+     border: 1px solid #E2231A;
+     float: right;
+     cursor: pointer;
+}
+
+.zxf_pagediv {
+     margin-bottom: 10px;
+     text-align: center !important;
+}

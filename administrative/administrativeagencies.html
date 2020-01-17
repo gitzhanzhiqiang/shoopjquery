@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+     <meta charset="UTF-8">
+     <title>爱心购商城-消薄平台_扶贫帮困，致力于扶贫帮困消除经济薄弱村！</title>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     <meta name="renderer" content="webkit" />
+     <meta name="data-spm" content="a2e15" />
+     <link rel="stylesheet" href="../common/css/common.css">
+     <link rel="stylesheet" href="css/administrativeagencies.css">
+</head>
+
+<body>
+     <!--公共头部-->
+     <div class="header" id="header"></div>
+     <!--中心的头部搜索-->
+     <div class="header-seach" id="header-seach"></div>
+
+
+
+     <!--主要内容-->
+     <div class="content-centre body-center">
+          <!--侧边导航-->
+          <ul class="centre-left-nav fl">
+               <li class="hover"><a href="javascript:;">政府/机构信息</a><span></span></li>
+               <li><a href="./villagedata.html">乡村数据</a></li>
+          </ul>
+          <!-- 右侧内容 -->
+          <div class="text-right fr">
+               <div class="title">
+                    <p>政府/机构信息 > 认证信息</p>
+               </div>
+               <!--position-verification只有一个值 bottom-->
+               <div class="form fr form-common-verification" id="form" rules="rules" label-width="" position-verification="">
+                    <form id="ajaxForm" target="nm_iframe" enctype="multipart/form-data" action="" method="post">
+                         <div class="form-item first">
+                              <label class="fl">管辖区域：</label>
+                              <ul id="select_data">
+                                   <li class="fl">
+                                        <div class="verification-el-input">
+                                             <select name="addressList" id="" class="verification-input" requir="true" msg="请选择">
+                                                  <option value="">请选择</option>
+                                             </select>
+                                        </div>
+                                   </li>
+                              </ul>
+                         </div>
+                         <div class="form-item">
+                              <label class="fl">地址:</label>
+                              <div class="verification-el-input fl">
+                                   <input name="address" class="verification-input" type="text" placeholder="联系人详细地址" requir="true" msg="请具体到街道门牌号！">
+                              </div>
+                         </div>
+                         <div class="form-item">
+                              <label class="fl">姓名:</label>
+                              <div class="verification-el-input fl">
+                                   <input name="phoneName" class="verification-input" type="text" placeholder="联系人姓名" requir="true" msg="联系人姓名不能为空！">
+                              </div>
+                         </div>
+                         <div class="form-item">
+                              <label class="fl">电话:</label>
+                              <div class="verification-el-input fl">
+                                   <input name="phone" class="verification-input" type="text" placeholder="联系人手机号" requir="true" msg="手机号码不能为空" props="phone">
+                              </div>
+                         </div>
+                         <div class="form-item">
+                              <label class="fl">邮箱:</label>
+                              <div class="verification-el-input fl">
+                                   <input name="mailbox" type="text" placeholder="联系人邮箱号">
+                              </div>
+                         </div>
+                         <div class="form-item last">
+                              <div>
+                                   <label class="fl">证照:</label>
+                                   <ul>
+
+                                        <li class="fl">
+                                             <div class="verification-el-input">
+                                                  <p>认证证件</p>
+                                                  <div class="img">
+                                                       <img src="" alt="">
+                                                       <input type="file" name="bussinessPic" id="aa" accept="image/*" class="verification-input" requir="true" msg="图片不能为空" style="display: block;">
+                                                  </div>
+                                                  <div class="isShow">
+                                                       <div class="parent "></div>
+                                                       <p class="top_background "></p>
+                                                       <p class="p ">删除图片</p>
+                                                  </div>
+
+                                             </div>
+                                        </li>
+                                        <li class="fl">
+                                             <div class="verification-el-input">
+                                                  <p>身份证正面</p>
+                                                  <div class="img">
+                                                       <img src="" alt="">
+                                                       <input type="file" name="frontIdcardPic" accept="image/*" class="verification-input" requir="true" msg="图片不能为空">
+                                                  </div>
+                                                  <div class="isShow">
+                                                       <div class="parent "></div>
+                                                       <p class="top_background "></p>
+                                                       <p class="p">删除图片</p>
+                                                  </div>
+                                             </div>
+                                        </li>
+                                        <li class="fl">
+                                             <div class="verification-el-input">
+                                                  <p>身份证反面</p>
+                                                  <div class="img">
+                                                       <img src="" alt="">
+                                                       <input type="file" name="backIdcardPic" accept="image/*" class="verification-input" requir="true" msg="图片不能为空">
+                                                  </div>
+                                                  <div class="isShow">
+                                                       <div class="parent "></div>
+                                                       <p class="top_background "></p>
+                                                       <p class="p ">删除图片</p>
+                                                  </div>
+                                             </div>
+                                        </li>
+                                        <!--<li class="fl">
+                                        <div class="verification-el-input">
+                                             <p>手持身份证照片</p>
+                                             <div class="img">
+                                                  <img src="" alt="">
+                                                  <input type="file" name="handIdcardPic" accept="image/*" class="verification-input" requir="true" msg="图片不能为空">
+                                             </div>
+                                             <div class="isShow">
+                                                  <div class="parent "></div>
+                                                  <p class="top_background "></p>
+                                                  <p class="p ">删除图片</p>
+                                             </div>
+                                        </div>
+                                   </li>
+                                   <li class="fl">
+                                        <div class="verification-el-input">
+                                             <p>银行卡</p>
+                                             <div class="img">
+                                                  <img src="" alt="">
+                                                  <input type="file" name="frontBankcardPic" accept="image/*" class="verification-input" requir="true" msg="图片不能为空">
+                                             </div>
+                                             <div class="isShow">
+                                                  <div class="parent "></div>
+                                                  <p class="top_background "></p>
+                                                  <p class="p">删除图片</p>
+                                             </div>
+                                        </div>
+                                   </li>-->
+                                   </ul>
+                              </div>
+                              <div>说明：可认证身份的证明证件，组织机构代码证等</div>
+                         </div>
+                    </form>
+                    <div class="button">
+                         <button class="fr" onclick="form_submit('#form')">确认</button>
+                    </div>
+               </div>
+          </div>
+          <!-- <div class="title_ti"> -->
+          <!-- <p class="title_ti_p">帮扶信息</p> -->
+          <!--<span class="title_ti_span">添加</span>-->
+          <!-- <i class="title_ti_i"></i> -->
+          <!-- </div> -->
+          <div class="text_le">
+               <div class="left_text">
+                    <ul class="text_ul">
+                         <li class="fl"><span>帮扶村数量</span>
+                              <p></p>
+                         </li>
+                         <li class="fl"><span>非经营性收入总额</span>
+                              <p></p>
+                         </li>
+                         <li class="fl"><span>完成进度</span>
+                              <p></p>
+                         </li>
+                         <li class="fl"><span>目标剩余额度</span>
+                              <p></p>
+                         </li>
+                    </ul>
+               </div>
+               <div class="data-right">
+                    <div class="data-echarts">
+                         <div class="echats progress" id="progress" style="width:450px;height:270px"></div>
+                    </div>
+               </div>
+          </div>
+     </div>
+</body>
+<script src="../common/js/echarts-all.js"></script>
+<script src="../common/js/json2.js"></script>
+<script src="../common/js/verification.js"></script>
+<script src="../common/js/jquery.js"></script>
+<script src="../common/js/jquery.form.js"></script>
+<script src="../common/js/common.js"></script>
+<script src="js/administrativeagencies.js"></script>
+
+</html>

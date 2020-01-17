@@ -1,0 +1,399 @@
+/* S 分类导航菜单 S */
+
+.s-header .slider-menu {
+  width: 1200px;
+  position: relative;
+  z-index: 99;
+  margin: 0 auto;
+}
+
+.s-header .slider-menu .menu-nav {
+  position: relative;
+  width: 140px;
+}
+
+.s-header .slider-menu .menu-nav h3 {
+  width: 100%;
+  height: 44px;
+  float: left;
+  line-height: 44px;
+  /* border-radius: 4px; */
+  text-align: center;
+  background: #C52721;
+  font-size: 16px;
+  font-family: MicrosoftYaHeiLight;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+}
+
+/*<img src="./common/images/kun.png" width="16px" height="14px" alt="">*/
+
+.s-header .slider-menu .menu-nav h3 img {
+  width: 16px;
+  height: 14px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 9px;
+  margin-right: 10px;
+}
+
+.s-header .slider-menu .menu-nav h3 b {
+  float: left;
+}
+
+.s-header .slider-menu .menu-nav .cate-menu {
+  position: absolute;
+  top: 43px;
+  width: 140px;
+  height: 421px;
+  /* padding-top: 4px;
+  padding-bottom: 10px; */
+  /* display: none; */
+  overflow-y: auto;
+  background: rgba(65, 65, 65, 1);
+  opacity: 0.8;
+}
+
+/*滚动条整体部分,必须要设置*/
+
+.s-header .slider-menu .menu-nav .cate-menu::-webkit-scrollbar {
+  width: 5px;
+  /* background: #e2231a; */
+}
+
+/*滚动条的轨道*/
+
+.s-header .slider-menu .menu-nav .cate-menu::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/*滚动条的滑块按钮*/
+
+.s-header .slider-menu .menu-nav .cate-menu::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  /* background-color: #e2231a; */
+}
+
+/*滚动条的上下两端的按钮*/
+.ac {
+  color: #C52721 !important;
+}
+
+.s-header .slider-menu .menu-nav .cate-menu::-webkit-scrollbar-button {
+  display: none;
+}
+
+.s-header .slider-menu .menu-nav .cate-menu .cate-menu-item {
+  /* margin-left: 6px; */
+  text-align: left;
+  padding-left: 45px;
+  color: #fff;
+  position: relative;
+}
+
+.s-header .slider-menu .menu-nav .cate-menu .cate-menu-item.actived {
+  background: #fff;
+}
+
+.s-header .slider-menu .menu-nav .cate-menu .cate-menu-item em {
+  position: absolute;
+  right: 16px;
+  top: 12px;
+}
+
+.s-header .slider-menu .menu-nav .cate-menu .cate-menu-item a {
+  height: 46px;
+  line-height: 46px;
+  margin: 0 5px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: PingFang-SC-Regular, PingFang-SC;
+}
+
+.s-header .slider-menu .menu-nav .cate-menu .cate-menu-item:hover {
+  background: #fff;
+}
+
+.s-header .slider-menu .menu-nav .cate-menu .cate-menu-item:hover,
+.s-header .slider-menu .menu-nav .cate-menu .cate-menu-item:hover a {
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.s-header .slider-menu .menu-nav .cate-pop {
+  position: absolute;
+  left: 140px;
+  top: 43px;
+  width: 460px;
+  /*width: 945px;*/
+  height: 401px;
+  padding: 10px 10px 10px 10px;
+  font-size: 14px;
+  background: #fff;
+  display: none;
+  overflow-y: auto;
+}
+
+/*滚动条整体部分,必须要设置*/
+
+.s-header .slider-menu .menu-nav .cate-pop::-webkit-scrollbar {
+  width: 5px;
+  background: #fff;
+}
+
+/*滚动条的轨道*/
+
+.s-header .slider-menu .menu-nav .cate-pop::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/*滚动条的滑块按钮*/
+
+.s-header .slider-menu .menu-nav .cate-pop::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #000;
+}
+
+.s-header .slider-menu .menu-nav .cate-pop .cate-pop-col {
+  width: 94%;
+  margin-bottom: 10px;
+}
+
+.s-header .slider-menu .menu-nav .cate-pop .cate-pop-tit a {
+  text-align: left;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 12px;
+  font-family: MicrosoftYaHeiLight;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 1);
+}
+
+.s-header .slider-menu .menu-nav .cate-pop .cate-pop-con {
+  width: 300px;
+  margin-left: 15px;
+  border-bottom: 1px dotted #e5e5e5;
+  padding-bottom: 8px;
+}
+
+.s-header .slider-menu .menu-nav .cate-pop .cate-pop-con a {
+  line-height: 20px;
+  margin-right: 11px;
+  font-size: 12px;
+  font-family: PingFang-SC-Regular, PingFang-SC;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+}
+
+.s-header .slider-menu .menu-nav .cate-pop .cate-pop-con a:last-child {
+  margin-right: 0;
+}
+
+.cate-pop-tit {
+  width: 95px !important;
+  overflow: hidden;
+  height: 23px;
+  text-align: right;
+}
+
+/* E 分类导航菜单 E */
+
+/* S 导航列表 S */
+
+.s-header .slider-menu .navitems {
+  max-width: 1020px;
+  position: relative;
+  height: 44px;
+  /*line-height: 44px;*/
+}
+
+.s-header .slider-menu .navitems-group ul {
+  /* width: 946px */
+  margin-right: 5px;
+}
+
+.s-header .slider-menu .navitems-group li {
+  float: left;
+  margin-left: 19px;
+}
+
+.s-header .slider-menu .navitems-group li a {
+  font-size: 14px;
+  font-family: MicrosoftYaHeiLight;
+  font-weight: bold;
+  color: #000;
+  padding: 8px 13px;
+  /* background: #E2231A; */
+  display: inline-block;
+  margin-top: 6px;
+  border-radius: 4px;
+}
+
+.s-header .slider-menu .navitems-group li a.hover {
+  padding: 8px 13px;
+  /*background: #cb252a;*/
+  color: #cb252a;
+  display: inline-block;
+}
+
+.s-header .slider-menu .navitems-group .more-icon {
+  width: 15px;
+  height: 7px;
+  background: url("../../common/images/arrow-down.png") no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.s-header .slider-menu .navitems .navitems-select {
+  display: none;
+  position: absolute;
+  top: 35px;
+  right: -25px;
+  width: 118px;
+  padding-top: 25px;
+  z-index: 999;
+  border-radius: 4px;
+  overflow: hidden;
+   background: url('../../common/images/more_nav.png') center top no-repeat;
+}
+
+.s-header .slider-menu .navitems .navitems-select ul {
+  padding: 0 15px 15px 15px;
+  background: url("../../common/images/more_navbg.png") repeat-y center;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.s-header .slider-menu .navitems .navitems-select li {
+  width: 100%;
+  line-height: 35px;
+}
+
+.s-header .slider-menu .navitems .navitems-select li a {
+  line-height: 30px;
+  font-size: 14px;
+  font-family: MicrosoftYaHeiLight;
+  font-weight: 300;
+  color: rgba(51, 51, 51, 1);
+  text-align: center;
+  display: block;
+}
+#cate-menu {
+     display: none;
+}
+
+/*内容*/
+
+.content {
+     width: 1200px;
+     margin: 20px auto 3px;
+     padding: 30px 0 60px;
+     background: #fff;
+     margin-bottom: 50px;
+}
+
+.content .top {
+     width: 874px;
+     margin: 0 auto;
+}
+
+.content .top ul {
+     overflow: hidden;
+     font-size: 14px;
+     font-weight: 300;
+     color: #333333;
+     margin-bottom: 42px;
+}
+
+.content .top ul li {
+     float: left;
+}
+
+.content .top ul li span {
+     margin: 0 10px;
+}
+
+.content .top .title {
+     text-align: center;
+     border-bottom: 1px solid #EDEDED;
+     margin-bottom: 31px;
+}
+
+.content .top .title>div p {
+     text-align: left;
+}
+
+.content .top .title div:first-child {
+     width: 701;
+     font-size: 28px;
+     font-weight: bold;
+     color: #333333;
+     line-height: 29px;
+     margin-bottom: 9px;
+     word-break: break-word;
+     /* 文本行的任意字内断开 */
+     word-wrap: break-word;
+     /* IE */
+     white-space: -hp-pre-wrap;
+     /* HP printers */
+     white-space: -o-pre-wrap;
+     /* Opera 7 */
+     white-space: -pre-wrap;
+     /* Opera 4-6 */
+     white-space: -moz-pre-wrap;
+     /* Mozilla */
+     white-space: pre;
+     /* CSS2 */
+     white-space: pre-wrap;
+     /* CSS 2.1 */
+     white-space: pre-line;
+     /* CSS 3 (and 2.1 as well, actually) */
+}
+
+.content .top .title div:first-child+div {
+     font-size: 14px;
+     font-weight: 300;
+     color: #808080;
+     padding-bottom: 32px;
+     overflow: hidden;
+     width: 701px;
+     margin: 0 auto;
+}
+
+.content .bottom {
+     width: 701px;
+     margin: 0 auto;
+     font-size: 14px;
+     font-weight: 300;
+     line-height: 36px;
+     color: #333333;
+     /*text-indent: 2em;*/
+      word-break: break-word;
+     /* 文本行的任意字内断开 */
+     word-wrap: break-word;
+     /* IE */
+     white-space: -hp-pre-wrap;
+     /* HP printers */
+     white-space: -o-pre-wrap;
+     /* Opera 7 */
+     white-space: -pre-wrap;
+     /* Opera 4-6 */
+     white-space: -moz-pre-wrap;
+     /* Mozilla */
+     white-space: pre;
+     /* CSS2 */
+     white-space: pre-wrap;
+     /* CSS 2.1 */
+     white-space: pre-line;
+     /* CSS 3 (and 2.1 as well, actually) */
+}
+.content .bottom img {
+     max-width: 600px!important;
+}

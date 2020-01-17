@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+     <meta charset="UTF-8">
+     <title>爱心购商城-消薄平台_扶贫帮困，致力于扶贫帮困消除经济薄弱村！</title>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     <meta name="renderer" content="webkit" />
+     <meta name="data-spm" content="a2e15" />
+     <link rel="stylesheet" href="../common/css/common.css">
+     <link rel="stylesheet" href="css/freightCompile.css">
+</head>
+
+<body>
+     <!--公共头部-->
+     <div class="header" id="header"></div>
+     <!--中心的头部搜索-->
+     <div class="header-seach" id="header-seach"></div>
+
+     <!--主要内容-->
+     <div class="content-centre body-center">
+          <!--侧边导航-->
+          <div id="centre-left-nav" class="fl"></div>
+          <!-- 右边内容 -->
+          <div class="text-right fr">
+               <div class="title">
+                    <p id="title"></p>
+               </div>
+               <div class="text">
+                    <div class="form fr form-common-verification" id="form" rules="rules" label-width="" position-verification="">
+                         <div class="form-item">
+                              <label class="fl">模板名称:</label>
+                              <div class="verification-el-input fl">
+                                   <input name="name" class="verification-input" type="text" placeholder="模板名称" requir="true" msg="模板名称不能为空！">
+                              </div>
+                         </div>
+                         <div class="form-item first">
+                              <label class="fl">宝贝地址:</label>
+                              <ul id="select_data">
+                                   <li class="fl">
+                                        <div class="verification-el-input">
+                                             <select name="addressList" id="" class="verification-input fl" requir="true" msg="请选择">
+                                                  <option value="">请选择</option>
+                                             </select>
+                                        </div>
+                                   </li>
+                              </ul>
+                         </div>
+                         <div class="form-item first two">
+                              <label class="fl">发货时间:</label>
+                              <ul>
+                                   <li class="fl">
+                                        <div class="verification-el-input">
+                                             <select name="deliveryTime" id="" class="verification-input fl" requir="true" msg="请选择">
+                                                  <option value="1">1天</option>
+                                                  <option value="2">2天</option>
+                                                  <option value="3">3天</option>
+                                                  <option value="4">4天</option>
+                                                  <option value="5">5天</option>
+                                                  <option value="6">6天</option>
+                                                  <option value="7">7天</option>
+                                             </select>
+                                        </div>
+                                   </li>
+                              </ul>
+                         </div>
+                         <div class="form-item">
+                              <label class="fl">是否包邮:</label>
+                              <div class="verification-el-input fl">
+                                   <label><input name="exemptionPostage" type="radio" value="1" checked/>自定义运费</label>
+                                   <label><input name="exemptionPostage" type="radio" value="2" />卖家承担运费</label>
+                              </div>
+                         </div>
+                         <div class="form-item">
+                              <label class="fl">计价方式:</label>
+                              <div class="verification-el-input fl">
+                                   <label><input name="price_way" type="radio" value="1" checked/>按件数</label>
+                                   <label><input name="price_way" type="radio" value="2" />按重量</label>
+                                   <label><input name="price_way" type="radio" value="3" />按体积</label>
+                              </div>
+                         </div>
+                         <div class="form-item expressage">
+                              <label class="fl">运送方式:</label>
+                              <div class="fl">
+                                   <p>除指定地区外，其余地区的运费</p>
+                                   <ul>
+                                        <li>
+                                             <p><label><input name="transport" type="radio" value="1" checked/>快递</label>
+                                                  <table>
+                                                       <tr>
+                                                            <td colspan="2" width="40%">
+                                                                 <span>默认运费</span>
+                                                                 <input onkeyup="positiveIntegerMoney(this)" type="text" value="1">
+                                                                 <span>件内</span>
+                                                                 <input type="text" onkeyup="positiveIntegerMoney1(this)" value="10">
+                                                                 <span>元</span>
+                                                            </td>
+                                                            <td colspan="5">
+                                                                 <span>每增加</span>
+                                                                 <input onkeyup="positiveIntegerMoney(this)" type="text" value="1">
+                                                                 <span>件</span>
+                                                                 <span>增加运费</span>
+                                                                 <input type="text" onkeyup="positiveIntegerMoney1(this)" value="0">
+                                                                 <span>元</span>
+                                                            </td>
+                                                       </tr>
+                                                       <tr>
+                                                            <td colspan="2">
+                                                                 运送到
+                                                            </td>
+                                                            <td>
+                                                                 首件数（件）
+                                                            </td>
+                                                            <td>
+                                                                 首费（元）
+                                                            </td>
+                                                            <td>
+                                                                 续件数（件）
+                                                            </td>
+                                                            <td>
+                                                                 续费（元）
+                                                            </td>
+                                                            <td>
+                                                                 操作
+                                                            </td>
+                                                       </tr>
+                                                       <tr class="oli">
+                                                            <td colspan="2">
+                                                                 <span class="isCity">未添加地区</span>
+                                                                 <span class="noIscity city fl isNone" name="快递"></span>
+                                                                 <span class="fr edit">编辑</span>
+                                                            </td>
+                                                            <td>
+                                                                 <input onkeyup="positiveIntegerMoney(this)" type="text" value="">
+                                                            </td>
+                                                            <td>
+                                                                 <input onkeyup="positiveIntegerMoney1(this)" type="text" value="">
+                                                            </td>
+                                                            <td>
+                                                                 <input onkeyup="positiveIntegerMoney(this)" type="text" value="">
+                                                            </td>
+                                                            <td>
+                                                                 <input onkeyup="positiveIntegerMoney1(this)" type="text" value="">
+                                                            </td>
+                                                            <td>
+                                                                 <span class="del">删除</span>
+                                                                 <span class="add">添加</span>
+                                                            </td>
+                                                       </tr>
+                                                  </table>
+                                        </li>
+                                        <li>
+                                             <p><label><input name="transport" type="radio" value="2" />EMS</label></p>
+                                             <table>
+                                                  <tr>
+                                                       <td colspan="2" width="40%">
+                                                            <span>默认运费</span>
+                                                            <input onkeyup="positiveIntegerMoney(this)" type="text" value="1">
+                                                            <span>件内</span>
+                                                            <input type="text" onkeyup="positiveIntegerMoney1(this)" value="10">
+                                                            <span>元</span>
+                                                       </td>
+                                                       <td colspan="5">
+                                                            <span>每增加</span>
+                                                            <input onkeyup="positiveIntegerMoney(this)" type="text" value="1">
+                                                            <span>件</span>
+                                                            <span>增加运费</span>
+                                                            <input type="text" onkeyup="positiveIntegerMoney1(this)" value="0">
+                                                            <span>元</span>
+                                                       </td>
+                                                  </tr>
+                                                  <tr>
+                                                       <td colspan="2">
+                                                            运送到
+                                                       </td>
+                                                       <td>
+                                                            首件数（件）
+                                                       </td>
+                                                       <td>
+                                                            首费（元）
+                                                       </td>
+                                                       <td>
+                                                            续件数（件）
+                                                       </td>
+                                                       <td>
+                                                            续费（元）
+                                                       </td>
+                                                       <td>
+                                                            操作
+                                                       </td>
+                                                  </tr>
+                                                  <tr class="oli">
+                                                       <td colspan="2">
+                                                            <span class="isCity">未添加地区</span>
+                                                            <span class="noIscity city fl" name="EMS"></span>
+                                                            <span class="fr edit">编辑</span>
+                                                       </td>
+                                                       <td>
+                                                            <input onkeyup="positiveIntegerMoney(this)" type="text" value="">
+                                                       </td>
+                                                       <td>
+                                                            <input onkeyup="positiveIntegerMoney1(this)" type="text" value="">
+                                                       </td>
+                                                       <td>
+                                                            <input onkeyup="positiveIntegerMoney(this)" type="text" value="">
+                                                       </td>
+                                                       <td>
+                                                            <input onkeyup="positiveIntegerMoney1(this)" type="text" value="">
+                                                       </td>
+                                                       <td>
+                                                            <span class="del">删除</span>
+                                                            <span class="add">添加</span>
+                                                       </td>
+                                                  </tr>
+                                             </table>
+                                        </li>
+                                        <li>
+                                             <p><label><input name="transport" type="radio" value="3" />平邮</label></p>
+                                             <table>
+                                                  <tr>
+                                                       <td colspan="2" width="40%">
+                                                            <span>默认运费</span>
+                                                            <input onkeyup="positiveIntegerMoney(this)" type="text" value="1">
+                                                            <span>件内</span>
+                                                            <input type="text" onkeyup="positiveIntegerMoney1(this)" value="10">
+                                                            <span>元</span>
+                                                       </td>
+                                                       <td colspan="5">
+                                                            <span>每增加</span>
+                                                            <input onkeyup="positiveIntegerMoney(this)" type="text" value="1">
+                                                            <span>件</span>
+                                                            <span>增加运费</span>
+                                                            <input type="text" onkeyup="positiveIntegerMoney1(this)" value="0">
+                                                            <span>元</span>
+                                                       </td>
+                                                  </tr>
+                                                  <tr>
+                                                       <td colspan="2">
+                                                            运送到
+                                                       </td>
+                                                       <td>
+                                                            首件数（件）
+                                                       </td>
+                                                       <td>
+                                                            首费（元）
+                                                       </td>
+                                                       <td>
+                                                            续件数（件）
+                                                       </td>
+                                                       <td>
+                                                            续费（元）
+                                                       </td>
+                                                       <td>
+                                                            操作
+                                                       </td>
+                                                  </tr>
+                                                  <tr class="oli">
+                                                       <td colspan="2">
+                                                            <span class="isCity">未添加地区</span>
+                                                            <span class="noIscity city fl" name="平邮"></span>
+                                                            <span class="fr edit">编辑</span>
+                                                       </td>
+                                                       <td>
+                                                            <input onkeyup="positiveIntegerMoney(this)" type="text" value="">
+                                                       </td>
+                                                       <td>
+                                                            <input onkeyup="positiveIntegerMoney1(this)" type="text" value="">
+                                                       </td>
+                                                       <td>
+                                                            <input onkeyup="positiveIntegerMoney(this)" type="text" value="">
+                                                       </td>
+                                                       <td>
+                                                            <input onkeyup="positiveIntegerMoney1(this)" type="text" value="">
+                                                       </td>
+                                                       <td>
+                                                            <span class="del">删除</span>
+                                                            <span class="add">添加</span>
+                                                       </td>
+                                                  </tr>
+                                             </table>
+                                        </li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <div class="form-item">
+                              <div class="verification-el-input fl">
+                                   <label><input name="condition" type="checkbox" value="2"  / >指定条件包邮</label>
+                              </div>
+                         </div>
+                         <div class="form-item condition">
+                              <label class="fl">满金额:</label>
+                              <div class="verification-el-input fl">
+                                   <input name="overMoney" class="verification-input" onkeyup="positiveIntegerMoney(this)" type="text" placeholder="满金额">
+                              </div>
+                         </div>
+                         <div class="form-item condition">
+                              <label class="fl">满多少件:</label>
+                              <div class="verification-el-input fl">
+                                   <input name="overCount" class="verification-input" onkeyup="positiveIntegerMoney(this)" type="text" placeholder="满多少件">
+                              </div>
+                         </div>
+                         <div class="button">
+                              <p class="fr" onclick="window.history.go(-1);">取消</p>
+                              <p class="fr" onclick="form_submit('#form')">确认保存</p>
+                         </div>
+                    </div>
+                    <!--留言弹窗-->
+                    <div class="alertForm leaveMsg">
+                         <div class="dog_alert"></div>
+                         <div class="text">
+                              <h3>选择区域<img class="fr" src="../common/images/delete.png" alt="" onClick="CloseAlert()"></h3>
+                              <ul class="area">
+                              </ul>
+                              <div class="btn">
+                                   <button onClick="CloseAlert()">取消</button>
+                                   <button onClick="submitLeaveMessage()">保存</button>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <script src="../common/js/json2.js"></script>
+     <script src="../common/js/jquery.js"></script>
+     <script src="../common/js/common.js"></script>
+     <script src="js/freightCompile.js"></script>
+</body>
+
+
+</html>

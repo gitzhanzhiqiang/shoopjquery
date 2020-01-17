@@ -1,0 +1,145 @@
+.content-centre {
+    overflow: hidden;
+    padding-top: 36px;
+}
+
+
+/*=================================右边正文======================================*/
+
+.content-centre .text-right {
+    width: 1041px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+
+/*title*/
+
+.content-centre .title {
+    width: 1005px;
+    padding: 0 18px;
+    height: 59px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+    border-radius: 3px;
+    line-height: 59px;
+    margin-bottom: 13px;
+}
+
+.content-centre .title p {
+    font-size: 20px;
+    color: #333333;
+}
+
+
+/*订单导航*/
+
+.content-centre .text {
+    width: 1005px;
+    padding: 0 18px 85px 18px;
+    min-height: 20px;
+    background: #fff;
+    box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+    border-radius: 3px;
+    margin-bottom: 100px;
+}
+
+.content-centre .text .nav {
+    width: 100%;
+    height: 66px;
+}
+
+.content-centre .text .nav li {
+    cursor: pointer;
+    margin-right: 32px;
+    font-size: 16px;
+    color: #333333;
+    padding: 24px 0 7px 0;
+}
+
+.content-centre .text .nav li span {
+    float: left;
+}
+
+.content-centre .text .nav li .hover {
+    border-bottom: 2px solid #286AC7;
+    font-weight: 400;
+    color: #286AC7;
+    display: inline-block;
+    padding-bottom: 7px;
+}
+
+
+/*=======表格头+内容=====*/
+
+.content-centre .text .table-header,
+.content-centre .text .list {
+    width: 593px;
+    height: 37px;
+    line-height: 37px;
+    background: #F6F6F6;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 17px;
+}
+
+.content-centre .text .list {
+    height: auto;
+    background: #fff;
+}
+
+.content-centre .text .table-header li,
+.content-centre .text .list dt {
+    text-align: center;
+    height: 37px;
+    position: relative;
+}
+
+.content-centre .text .list {
+    border: 1px solid #CCCCCC;
+}
+
+.content-centre .text .list li {
+    width: 100%;
+    height: 37px;
+    border-top: 1px solid #CCCCCC;
+}
+
+.content-centre .text .list li:first-child {
+    border: none;
+}
+
+.content-centre .text .table-header li span,
+.content-centre .text .list dt span {
+    display: inline-block;
+    width: 1px;
+    height: 15px;
+    background: #CCCCCC;
+    margin-top: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.content-centre .text .list dt:first-child+dt+dt,
+.content-centre .text .list dt:first-child+dt {
+    color: #F9B24C;
+}
+
+
+/*表头各单元格宽度*/
+
+.content-centre .text .table-header li:first-child,
+.content-centre .text .list dt:first-child {
+    width: 219px;
+}
+
+.content-centre .text .table-header li:first-child+li,
+.content-centre .text .list dt:first-child+dt {
+    width: 178px;
+}
+
+.content-centre .text .table-header li:first-child+li+li,
+.content-centre .text .list dt:first-child+dt+dt {
+    width: 194px;
+}

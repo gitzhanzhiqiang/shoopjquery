@@ -1,0 +1,95 @@
+.content-centre {
+     overflow: hidden;
+     padding-top: 36px;
+}
+
+/*右边正文*/
+
+.content-centre .text-right {
+     width: 1041px;
+     font-weight: 300;
+}
+
+.content-centre .title {
+     width: 1005px;
+     padding: 0 18px;
+     height: 59px;
+     background: #FFFFFF;
+     box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+     border-radius: 3px;
+     line-height: 59px;
+     margin-bottom: 13px;
+}
+
+.content-centre .title p {
+     font-size: 20px;
+     color: #333333;
+}
+
+.content-centre .text {
+     width: 1005px;
+     padding: 0 18px 85px 18px;
+     min-height: 20px;
+     background: #fff;
+     box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+     border-radius: 3px;
+     margin-bottom: 100px;
+}
+
+.content-centre .text .add {
+     padding-top: 10px;
+}
+
+.content-centre .text .add a {
+     margin-top: 10px;
+     padding: 8px 14px;
+     border-radius: 3px;
+     text-align: center;
+     cursor: pointer;
+     display: inline-block;
+     font-size: 13px;
+     background: #F7F7F7;
+     border: 1px solid #A6A6A6;
+     box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+     border-radius: 3px;
+     margin-bottom: 10px;
+}
+
+.content-centre .text .list table {
+     width: 100%;
+     font-size: 14px;
+     margin-bottom: 10px;
+}
+
+.content-centre .text .list table .first,
+.content-centre .text .list table .head {
+     background: #F6F6F6;
+}
+
+.content-centre .text .list table .first span {
+     margin-left: 10px;
+}
+
+.content-centre .text .list table .first span.btn {
+     color: #286AC7;
+     cursor: pointer;
+}
+
+.content-centre .text .list table td {
+     text-align: center;
+     border-bottom: 1px solid #ccc;
+     border-right: 1px solid #ccc;
+     padding: 10px 10px;
+}
+
+.content-centre .text .list table td:first-child {
+     border-left: 1px solid #ccc;
+}
+
+.content-centre .text .list table .first td {
+     border-top: 1px solid #ccc;
+}
+
+.content-centre .text .list table .first td:first-child+td {
+     text-align: right;
+}

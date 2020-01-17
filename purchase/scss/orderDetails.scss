@@ -1,0 +1,427 @@
+/*
+ * @Author: liwanli 
+ * @Date: 2019-05-29 16:51:16 
+ * @Last Modified by: liwanli
+ * @Last Modified time: 2019-07-03 17:58:20
+ * 订单详情样式表文件 orderDetails.css
+ */
+#orderDetails {
+    position: relative;
+    margin-top: 12px;
+    height: auto;
+    background: #fff;
+    overflow: hidden;
+
+    .orderDetails-inner {
+        padding: 0 93px 93px;
+    }
+
+    #retrunInfo.order-modules .details:last-child {
+        border-bottom: 0;
+    }
+
+    .order-modules {
+        padding-top: 39px;
+        border-top: 1px solid #EBEBEB;
+
+        &:first-child {
+            border-top: 0;
+        }
+
+        &>.title {
+            font-size: 16px;
+            color: #000;
+            font-weight: bold;
+        }
+
+        // 当前订单状态
+        &.status {
+            overflow: hidden;
+
+            .title {
+                margin-bottom: 31px;
+
+                h3 {
+                    display: inline;
+                }
+
+            }
+
+            .inner {
+                position: relative;
+                padding-left: 70px;
+                margin-bottom: 30px;
+                font-size: 14px;
+
+                .seller,
+                .noseller {
+                    display: none;
+                }
+
+                p {
+                    line-height: 25px;
+                }
+
+                .surplus-status {
+                    display: inline-block;
+                    color: #000;
+                    margin-bottom: 26px;
+
+                    span {
+                        color: #E2231A;
+                        margin: 0 5px
+                    }
+                }
+
+                .applyTime {
+                    color: #999;
+                }
+
+                .button {
+                    width: 160px;
+                    height: 44px;
+                    display: inline-block;
+                    background: #E2231A;
+                    border-radius: 4px;
+                    font-size: 16px;
+                    color: #fff;
+                    line-height: 44px;
+                    margin: 0 40px;
+                    text-align: center;
+                    cursor: pointer;
+                }
+
+                .text {
+                    color: #999;
+
+                    a {
+                        color: #FE9D48;
+                    }
+                }
+            }
+        }
+
+        // 物流信息
+        &.logistics {
+            overflow: hidden;
+
+            .inner {
+                margin-left: 70px;
+                margin-top: 29px;
+                margin-bottom: 20px;
+                font-size: 14px;
+                color: #4C4C4C;
+
+                div {
+                    margin-bottom: 20px;
+                }
+
+                .logistics-info {
+                    position: relative;
+                    padding-left: 70px;
+
+                    &>.title {
+                        position: absolute;
+                        left: 0;
+                    }
+
+                    .logistics-list {
+                        position: relative;
+                        vertical-align: top;
+                        overflow: hidden;
+                        padding-left: 135px;
+                        margin-bottom: 15px;
+
+                        dt {
+                            position: absolute;
+                            width: 135px;
+                            left: 0;
+                        }
+
+                        dd {
+                            float: left;
+                            margin-bottom: 5px;
+                        }
+
+                        span {
+                            vertical-align: top;
+                            margin: 0 5px;
+                        }
+
+                        p {
+                            display: inline-block;
+                            width: 655px;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        // 订单信息
+        &.info {
+
+            .orderInfo-main {
+                margin-top: -25px;
+
+                .shopList {
+                    border-bottom: 8px solid #F5F5F5;
+
+                    .shopList-info {
+                        padding-left: 70px;
+                        border-bottom: 1px solid #f2f2f2;
+
+                        .tuikuan {
+                            margin-left: 30px;
+                            font-size: 16px;
+                            color: #4C4C4C;
+
+                            li {
+                                margin-bottom: 23px;
+                            }
+
+                            .reason span,
+                            .explain span {
+                                color: #000;
+                            }
+
+                            .money span {
+                                font-size: 24px;
+                                color: #E2231A;
+                            }
+
+                            .pingz .upimg {
+                                width: 800px;
+                                display: inline-block;
+                                vertical-align: top;
+                            }
+
+                            .pingz .upimg img {
+                                display: inline-block;
+                                width: 144px;
+                                height: 144px;
+                                margin-right: 20px;
+                                margin-bottom: 20px;
+                            }
+                        }
+
+                    }
+
+                    .shopList-info:last-child {
+                        border-bottom: 0;
+                    }
+                }
+
+                .shopList:last-child {
+                    border-bottom: 0
+                }
+
+                .top {
+                    margin-left: 57px;
+                    height: 30px;
+                    line-height: 30px;
+
+                    .shoptit {
+                        float: left;
+                        padding-left: 40px;
+                        font-size: 16px;
+                        color: #000;
+                        background: url('../images/shop_icon.png') no-repeat left center;
+                    }
+
+                    p {
+                        display: inline-block;
+                        font-weight: normal;
+                        margin-left: 20px;
+                        font-size: 14px;
+                        color: #999;
+                    }
+                }
+
+                .order-list {
+                    width: 540px;
+                    margin-top: 20px;
+                    margin-left: 57px;
+                    margin-bottom: 20px;
+                    overflow: hidden;
+
+                    .details {
+                        width: 625px;
+                        overflow: hidden;
+                        padding-top: 13px;
+                        padding-bottom: 13px;
+                        border-bottom: 1px solid #f2f2f2;
+
+                        .details-left {
+                            width: 100px;
+                            height: 100px;
+                        }
+
+                        .details-right {
+                            // width: 560px;
+                            height: 100px;
+                            margin-left: 21px;
+                            font-size: 14px;
+                            color: #4D4D4D;
+
+                            &>.drinfo {
+                                width: 192px;
+                                margin-right: 60px;
+                                float: left;
+                                font-size: 16px;
+                                color: #4C4C4C;
+
+                                p {
+                                    margin-bottom: 10px;
+
+                                }
+                            }
+
+                            .title {
+                                font-size: 16px;
+                                max-width: 192px;
+                                height: 40px;
+                                color: #000;
+                                font-weight: bold;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                display: -webkit-box;
+                                -webkit-line-clamp: 2;
+                                -webkit-box-orient: vertical;
+                                margin-bottom: 10px;
+                            }
+
+                            .money {
+                                height: 40px;
+                            }
+
+                            .params {
+                                color: #999;
+                            }
+                        }
+                    }
+                }
+
+                .btom {
+                    margin-left: 70px;
+                    margin-bottom: 30px;
+
+                    .remarks {
+                        color: #4D4D4D;
+                        font-size: 16px;
+                        margin-left: -62px;
+                    }
+
+
+                    .remarks textarea {
+                        width: 500px;
+                        height: 68px;
+                        border: 1px solid #C4D1D8;
+                        border-radius: 4px;
+                        padding: 10px 20px;
+                        font-size: 16px;
+                        color: #333;
+                        line-height: 1.5;
+                        vertical-align: top;
+                    }
+
+                    .remarks textarea[disabled="disabled"] {
+                        outline: none;
+                        border: 1px solid #C4D1D8;
+                        background: none;
+                    }
+
+                    .botm-r {
+                        text-align: right;
+                        margin-right: 60px;
+
+                        .adr-r {
+                            font-size: 14px;
+                            line-height: 30px;
+                            color: #999;
+                        }
+
+                        .total {
+                            font-size: 16px;
+                            color: #000;
+                            float: right;
+
+                            span {
+                                font-size: 24px;
+                                color: #E2231A;
+                                margin-left: 10px;
+                            }
+                        }
+
+                    }
+                }
+
+                .mode {
+                    padding-bottom: 30px;
+                    margin-top: 30px;
+
+                    .title {
+                        line-height: 25px;
+
+                        span {
+                            color: #333;
+                            font-size: 16px;
+                            font-weight: normal;
+                        }
+                    }
+
+                    .inner {
+                        margin-top: 30px;
+                        margin-left: 70px;
+                        color: #333;
+
+                        span {
+                            color: #4D4D4D;
+                            display: inline-block;
+                        }
+
+                        p {
+                            width: 850px;
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+        }
+
+        // 付款信息
+        &.replayinfo {
+            margin-bottom: 50px;
+
+            .inner {
+                margin-left: 70px;
+                margin-top: 31px;
+
+                p {
+                    margin-bottom: 22px;
+                    color: #999;
+                }
+
+                p>span {
+                    color: #000;
+                    font-size: 16px;
+                }
+
+                p.monery {
+                    font-size: 16px;
+                    color: #000;
+                }
+
+                p.monery span {
+                    font-size: 24px;
+                    color: #E2231A;
+                }
+            }
+        }
+    }
+
+    .order-modules:first-child {
+        border-top: 0;
+    }
+
+}

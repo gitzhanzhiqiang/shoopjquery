@@ -1,0 +1,446 @@
+.content-centre {
+     overflow: hidden;
+     padding-top: 36px;
+     margin-bottom: 133px;
+}
+
+/*右边正文*/
+
+.content-centre .text-right {
+     width: 1041px;
+     font-weight: 300;
+}
+
+.content-centre .title {
+     width: 1005px;
+     padding: 0 18px;
+     height: 59px;
+     background: #FFFFFF;
+     box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+     border-radius: 3px;
+     line-height: 59px;
+     margin-bottom: 13px;
+}
+
+.content-centre .title p {
+     font-size: 20px;
+     color: #333333;
+}
+
+.content-centre .text {
+     width: 1005px;
+     padding: 0 18px 18px 18px;
+     min-height: 20px;
+     background: #fff;
+     box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+     border-radius: 3px;
+     padding-top: 14px;
+}
+
+.content-centre .text .text_top {
+     width: 100%;
+     height: 37px;
+     background: #F6F6F6;
+     margin-bottom: 20px;
+}
+
+.content-centre .text .text_top .text_top_ul .left {
+     width: 142px;
+     height: 37px;
+     float: left;
+     text-align: center;
+     font-size: 16px;
+     color: #333333;
+}
+
+.content-centre .text .text_top .text_top_ul .left span {
+     width: 141px;
+     height: 100%;
+     display: block;
+     line-height: 37px;
+     float: left;
+}
+
+.content-centre .text .text_top .text_top_ul .left i {
+     width: 1px;
+     height: 15px;
+     background: #CCCCCC;
+     display: block;
+     float: right;
+     margin-top: 12px;
+}
+
+.content-centre .text .text_bottom {
+     width: 100%;
+     height: 37px;
+     margin-bottom: 10px;
+}
+
+.content-centre .text .text_bottom .text_top_ul .left {
+     width: 142px;
+     height: 37px;
+     float: left;
+     text-align: center;
+     color: #286AC7;
+     font-size: 16px;
+     word-wrap: break-word;
+}
+
+.content-centre .text .text_bottom .text_top_ul .left span {
+     width: 141px;
+     height: 100%;
+     display: block;
+     line-height: 37px;
+     float: left;
+     color: #286AC7;
+     font-size: 16px;
+}
+
+.content-centre .text .text_bottom .text_top_ul .left i {
+     width: 1px;
+     height: 15px;
+     background: #CCCCCC;
+     display: block;
+     float: right;
+     margin-top: 12px;
+}
+
+.text_buttom {
+     width: 1041px;
+     overflow: hidden;
+     float: right;
+}
+
+.text_buttom .buttom {
+     float: right;
+     width: 79px;
+     height: 44px;
+     background: #FFFFFF;
+     border-radius: 3px;
+     color: #286AC7;
+     font-size: 18px;
+     text-align: center;
+     line-height: 44px;
+     margin-top: 13px;
+     cursor: pointer;
+}
+
+.title_ti {
+     width: 1041px;
+     height: 50px;
+     float: right;
+}
+
+.title_ti .title_ti_p {
+     font-size: 18px;
+     color: #333333;
+     float: left;
+     line-height: 50px;
+}
+
+.title_ti .title_ti_span {
+     display: block;
+     font-size: 16px;
+     color: #286AC7;
+     float: left;
+     line-height: 50px;
+     margin-left: 27px;
+     cursor: pointer;
+}
+
+.title_ti .title_ti_i {
+     display: block;
+     float: right;
+     /*width: 881px;*/
+     width: 948px;
+     height: 1px;
+     background: #CCCCCC;
+     margin-top: 25px;
+}
+
+/*验证*/
+
+.form {
+     width: 1041px;
+     /*height: 700px;*/
+     min-width: 200px;
+     padding: 20px 0;
+     height: auto;
+     background: #fff;
+     box-shadow: 0px 3px 3px 0px rgba(232, 232, 232, 0.4);
+     border-radius: 3px;
+     font-weight: 300;
+     font-size: 15px;
+     color: #333333;
+}
+
+.form .form-item {
+     margin-bottom: 23px;
+     padding-left: 34px;
+     line-height: 37px;
+     width: 100%;
+     height: 37px;
+}
+
+.form .form-item:first-child {
+     margin-top: 24px;
+}
+
+/*lebel定义*/
+
+.form .form-item input[type=text] {
+     width: 269px;
+     background: #F6F6F6;
+     border-radius: 3px;
+     border: 0;
+     font-size: 15px;
+     height: 17px;
+     line-height: 17px;
+     padding: 10px 0 10px 21px;
+}
+
+/*.form .form-item:first-child+.form-item input {
+     width: 652px;
+}*/
+
+.form .form-item.first {
+     overflow: hidden;
+     width: 100%;
+     height: 59px;
+     /*margin-bottom: 49px;*/
+}
+
+.form .form-item.first li {
+     width: 150px;
+     height: 40px;
+     margin-right: 10px;
+     font-size: 13px;
+     color: #4D4D4D;
+     font-weight: 400px;
+}
+
+.form .form-item.first select {
+     width: 150px;
+     height: 30px;
+     /*margin-top: 10px;*/
+     border: 1px solid #ccc;
+     border-radius: 3px;
+}
+
+.form .form-item.first li input {
+     width: 100px;
+     height: 37px;
+     /*display: none;*/
+}
+
+.form .form-item.last {
+     overflow: hidden;
+     width: 100%;
+     height: 340px;
+     /*margin-bottom: 49px;*/
+}
+
+.form .form-item.last ul {
+     float: left;
+     overflow: hidden;
+     width: 831px;
+     min-height: 300px;
+}
+
+.form .form-item.last li {
+     width: 124px;
+     height: 167px;
+     margin-right: 15px;
+     text-align: center;
+     font-size: 13px;
+     color: #4D4D4D;
+     font-weight: 400px;
+     position: relative;
+}
+
+.form .form-item.last li .img {
+     width: 122px;
+     height: 91px;
+     border: 1px dashed #CCCCCC;
+     border-radius: 3px;
+     cursor: pointer;
+     position: relative;
+     *margin-bottom: 10px;
+}
+
+.form .form-item.last li input[type='file'] {
+     width: 100%;
+     height: 100%;
+     font-size: 100px;
+     background: red;
+     opacity: 0;
+     filter: Alpha(Opacity=0);
+     cursor: pointer;
+}
+
+.form-common-verification .form-item label {
+     width: 220px !important;
+}
+
+/*删除显示*/
+
+.form .form-item.last li .isShow {
+     width: 124px;
+     height: 93px;
+     position: absolute;
+     top: 37px;
+     left: 0;
+     *top: 27px;
+     z-index: 100;
+     display: none;
+}
+
+.form .form-item.last li .parent {
+     width: 124px;
+     height: 93px;
+     position: absolute;
+     top: 0px;
+     left: 0;
+     background: #000000;
+     opacity: 0.4;
+     filter: Alpha(Opacity=40);
+}
+
+.form .form-item.last li .top_background {
+     width: 124px;
+     height: 29px;
+     background: #000;
+     opacity: 0.4;
+     filter: Alpha(Opacity=40);
+     position: absolute;
+     top: 32px;
+     left: 0;
+}
+
+.form .form-item.last li .p {
+     width: 124px;
+     height: 29px;
+     line-height: 29px;
+     position: absolute;
+     top: 32px;
+     left: 0;
+     z-index: 1;
+     color: #fff;
+     font-size: 13px;
+     cursor: pointer;
+}
+
+.form .form-item.last li img:hover .form .form-item.last li .p {
+     display: block;
+}
+
+.form .form-item.last li img {
+     position: absolute;
+     margin: auto;
+     left: 0;
+     top: 0;
+     width: 122px;
+     height: 91px;
+     display: none;
+}
+
+.form-common-verification .verification-relus {
+     margin-left: 0;
+}
+
+.form .form-item.last li:first-child .img {
+     position: relative;
+     background: url('../../common/images/businesslicense.png') no-repeat center;
+     /*filter: (progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', src="", sizingMethod=scale))*/
+}
+
+.form .form-item.last li:first-child+li .img {
+     background: url('../../common/images/cardFront.png') no-repeat center;
+}
+
+.form .form-item.last li:first-child+li+li .img {
+     background: url('../../common/images/cardreal.png') no-repeat center;
+}
+
+.form .form-item.last li:first-child+li+li+li .img {
+     background: url('../../common/images/card.png') no-repeat center;
+}
+
+.form .form-item.last li:first-child+li+li+li+li .img {
+     background: url('../../common/images/bankcard.png') no-repeat center;
+}
+
+.form .form-item.last li:first-child+li+li+li+li+li .img {
+     background: url('../../common/images/bankcard.png') no-repeat center;
+}
+
+.form .form-item.last li:first-child+li+li+li+li+li+li .img {
+     background: url('../../common/images/bankcard.png') no-repeat center;
+}
+
+.form .form-item.last li:first-child+li+li+li+li+li+li+li .img {
+     background: url('../../common/images/bankcard.png') no-repeat center;
+}
+
+.form .form-item.last li:first-child+li+li+li+li+li+li+li+li .img {
+     background: url('../../common/images/bankcard.png') no-repeat center;
+}
+
+.form .form-item.last li:first-child+li+li+li+li+li+li+li+li+li .img {
+     background: url('../../common/images/bankcard.png') no-repeat center;
+}
+
+.form .button {
+     overflow: hidden;
+}
+
+.form .button button {
+     margin-right: 33px;
+     width: 229px;
+     height: 45px;
+     background: #E1212D;
+     border-radius: 3px;
+     line-height: 45px;
+     text-align: center;
+     border: 0;
+     font-size: 16px;
+     font-weight: 400;
+     color: #fff;
+     cursor: pointer;
+}
+
+.form .button button:active {
+     box-shadow: 0px 0px 50px #F60 inset;
+     color: #fff;
+}
+
+.form .first select {
+     position: relative;
+     top: 5px;
+}
+
+.first_form,
+.button.first,
+#ajaxForm,
+.next,
+.submit_code,
+.next1 {
+     display: none;
+}
+
+#ajaxForm button:first-child+button {
+     background: #ccc;
+}
+
+/*时间加结束的样式*/
+
+.timeClass li:first-child+li {
+     margin: 0 10px;
+}
+
+.timeClass li span {
+     margin: 0 10px;
+}
+.timeClass li input.verification-input {
+     width: 150px!important;
+}

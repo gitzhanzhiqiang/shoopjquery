@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+     <meta charset="UTF-8">
+     <title>爱心购商城-消薄平台_扶贫帮困，致力于扶贫帮困消除经济薄弱村！</title>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     <meta name="renderer" content="webkit" />
+     <meta name="data-spm" content="a2e15" />
+     <link rel="stylesheet" href="../common/css/common.css">
+     <link rel="stylesheet" href="css/myCart.css">
+</head>
+
+<body>
+     <!-- 顶部 top -->
+     <div id="header-top" class="header-top"></div>
+     <!-- 头部 header -->
+     <div id="s-header" class="s-header"></div>
+
+     <!--主要内容-->
+     <div class="content" id="goshopchar">
+          <!--位置导航-->
+          <div class="crumb">
+               <p>我的购物车</p>
+          </div>
+          <!--列表头-->
+          <ul class="list-header">
+               <li class="fl checkout-all">
+                    <label>
+                         <!--<input type="checkbox" class="selectAll" style="display: none">
+                         <div class="noSelected fl"></div>
+                         <span>全选 </span>-->
+                    </label>
+               </li>
+               <li class="fl">商品信息 </li>
+               <li class="fl">单价</li>
+               <li class="fl">数量</li>
+               <li class="fl">金额</li>
+               <li class="fl rateNum">积分</li>
+               <li class="fl">操作</li>
+          </ul>
+          <!--店铺列表-->
+          <ul class="list">
+               <!-- 没有数据显示 -->
+               <div id="nodata" style="display: none;">
+                    <img src="../common/images/noData.png" alt="">
+               </div>
+          </ul>
+          <!--底部结算-->
+          <!--relative 底部位置不固定   fixed 底部位置固定-->
+          <div class="bottom-pay relative" style="position: fixed;bottom: 0; display: none">
+               <div class="fl">
+                    <label>
+                         <input type="checkbox" class="selectAll" style="display: none">
+                         <div class="noSelected fl"></div>
+                         <span class="select-all">全选 </span>
+                    </label>
+                    <!-- <div class="fl checkout-del">
+                         <div class="noSelected"></div>
+                    </div>
+                    <span class="select-all selectAll">全选 </span> -->
+                    <sapn class="del bottomDel">删除</sapn>
+                    <sapn class="del clearAll">清除全部失效商品</sapn>
+               </div>
+               <div class="fr pay">
+                    <span class="selected">已选中<span class="highlight totalNum">0</span>件商品</span>
+                    <span class="totalNot">失效商品总数<span class="highlight totalNot">0</span>件</span>
+                    <span class="total-amount">合计(不含运费)：<span class="highlight totalPrice">0</span>元</span>
+                    <button class="submitBtn">结 算</button>
+               </div>
+
+          </div>
+     </div>
+</body>
+<script src="../common/js/json2.js"></script>
+<script src="../common/js/jquery.js"></script>
+<script src="../common/js/jquery.form.js"></script>
+<script src="../common/js/common.js"></script>
+<script src="js/myCart.js"></script>
+
+</html>

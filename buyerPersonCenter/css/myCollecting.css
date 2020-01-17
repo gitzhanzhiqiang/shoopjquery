@@ -1,0 +1,164 @@
+/*主要内容*/
+
+.content-centre {
+     position: relative;
+     min-height: 722px;
+     overflow: hidden;
+     padding: 26px 0 0;
+     margin-bottom: 26px;
+}
+
+/*右侧内容*/
+
+.text-right {
+     width: 1039px;
+     min-height: 722px;
+     background: #fff;
+}
+
+/*全选、删除*/
+
+.handle {
+     height: 20px;
+     line-height: 20px;
+     margin: 27px 0 11px 65px;
+     font-size: 16px;
+}
+
+/* 选中框 */
+
+.checkout .noSelected {
+     width: 16px;
+     height: 16px;
+     position: relative;
+     top: 2px;
+     margin-right: 10px;
+     background: url('../image/notSelect.png') center 100%;
+     cursor: pointer;
+}
+
+.checkout .Selected {
+     width: 16px;
+     height: 16px;
+     position: relative;
+     top: 2px;
+     margin-right: 10px;
+     background: url('../image/selected.png') center 100%;
+     cursor: pointer;
+}
+
+/*全选*/
+
+.selectAll {
+     font-weight: 300;
+     color: #4D4D4D;
+     margin-right: 40px;
+}
+
+/*删除*/
+
+.delete {
+     font-weight: 400;
+     color: #E2231A;
+     cursor: pointer;
+}
+
+/*商品列表*/
+
+.text-right .list {
+     width: 937px;
+     padding: 0 47px 0 55px;
+     overflow: hidden;
+}
+
+.text-right .list li {
+     width: 202px;
+     height: 294px;
+     padding: 10px;
+     margin-right: 10px;
+     float: left;
+     border: 1px solid #ffffff;
+     position: relative;
+}
+
+.text-right .list li:hover {
+     border: 1px solid #E2231A;
+}
+
+.text-right .list li img {
+     width: 204px;
+     height: 204px;
+     display: block;
+     cursor: pointer;
+}
+
+.text-right .list li .price {
+     font-size: 22px;
+     font-weight: 400;
+     color: #E2231A;
+     margin: 10px 0 5px 0;
+}
+
+.text-right .list li .key-word {
+     height: 42px;
+     font-size: 16px;
+     font-weight: 300;
+     color: #4D4D4D;
+}
+
+.text-right .list li .location {
+     font-size: 12px;
+     font-weight: 300;
+     color: #999999;
+     margin-top: 5px;
+}
+
+.text-right .list li .location span {
+     display: inline-block;
+     width: 12px;
+     height: 15px;
+     position: relative;
+     top: 3px;
+     margin-right: 5px;
+     background: url('../image/weizhi.png') center 100%;
+}
+
+/*删除商品*/
+
+.text-right .list li .del {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 203px;
+     height: 50px;
+     line-height: 50px;
+     background: #000;
+     opacity: .6;
+     filter: Alpha(Opacity=60);
+     padding: 0 10px;
+     display: none;
+}
+
+.text-right .list li .del .delete {
+     color: #fff;
+}
+
+/*单个商品选择*/
+
+.text-right .list li .del .checkout-one .noSelected,
+.text-right .list li .del .checkout-one .Selected {
+     top: 17px;
+}
+
+/*鼠标移入效果*/
+
+.text-right .list li:hover .del {
+     display: block !important;
+}
+
+/*翻页*/
+
+.zxf_pagediv {
+     text-align: center !important;
+     margin-bottom: 15px;
+}

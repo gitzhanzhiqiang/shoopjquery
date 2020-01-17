@@ -1,0 +1,173 @@
+.content {
+     margin-top: 12px;
+}
+
+.content .body-center {
+     height: auto;
+     padding-bottom: 60px;
+     background: #fff;
+}
+
+.content h3 {
+     font-size: 16px;
+     font-family: MicrosoftYaHei-Bold;
+     font-weight: bold;
+     color: #333333;
+     padding: 39px 0 47px 97px;
+}
+
+.content dl {
+     padding: 0 171px 79px 163px;
+}
+
+.content dl dt {
+     overflow: hidden;
+     /* padding: 55px 0 22px 0; */
+     height: 40px;
+     padding-left: 35px;
+     line-height: 40px;
+     background: url('../images/shop_icon.png') no-repeat left center;
+     border-bottom: 1px solid #EEEEEE;
+}
+
+.content dl dd {
+     overflow: hidden;
+     padding: 55px 0 22px 0;
+     border-bottom: 1px solid #EEEEEE;
+}
+
+.content dl dd .left {
+     width: 203px;
+}
+
+.content dl dd .left img {
+     width: 203px;
+     height: 203px;
+}
+
+.content dl dd .left>div p:first-child {
+     width: 207px;
+     height: 44px;
+     font-size: 16px;
+     line-height: 44px;
+     font-family: MicrosoftYaHei;
+     font-weight: 400;
+     color: #333333;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     /**white-space:nowrap;*/
+     display: -webkit-box;
+     -webkit-line-clamp: 2;
+     -webkit-box-orient: vertical;
+     font-weight: 550;
+}
+
+.content dl dd .left>div p:first-child+p {
+     margin-top: 11px;
+     font-size: 16px;
+     font-family: MicrosoftYaHei;
+     font-weight: 400;
+     color: #999999;
+}
+
+.content dl dd .right {
+     margin-left: 60px;
+     font-size: 16px;
+     font-family: MicrosoftYaHei-Bold;
+     font-weight: bold;
+     color: #333333;
+     line-height: 18px;
+}
+
+.content dl dd .right>div {
+     overflow: hidden;
+}
+
+.content dl dd .right .top {
+     line-height: 23px;
+     margin-bottom: 38px;
+}
+
+.content dl dd .right .top>span {
+     margin-right: 15px;
+}
+
+.content dl dd .right .top .star {
+     overflow: hidden;
+}
+
+.content dl dd .right .top .star p {
+     width: 23px;
+     height: 23px;
+     cursor: pointer;
+     background: url('../images/start2.png') no-repeat center;
+     margin-right: 9px;
+}
+
+.content dl dd .right .top .star p.evaluate {
+     background: url('../images/start1.png') no-repeat center;
+}
+
+.content dl dd .right .top .text {
+     font-size: 12px;
+     font-family: MicrosoftYaHei;
+     font-weight: 400;
+     color: #C0C0C0;
+     line-height: 23px;
+}
+
+.content dl dd .right .bottom span {
+     margin-right: 14px;
+}
+
+.content dl dd .right .bottom textarea {
+     padding: 9px 6px;
+     width: 509px;
+     height: 167px;
+     border: 1px solid #999999
+}
+
+.content dl dd .right>p {
+     text-align: right;
+     font-size: 16px;
+     font-family: MicrosoftYaHei;
+     font-weight: 400;
+     margin-top: 9px;
+     line-height: 18px;
+     overflow: hidden;
+}
+
+.content dl dd .right>p span.imgSatr {
+     width: 16px;
+     height: 16px;
+     display: inline-block;
+     background: url('../images/noSelect.png') no-repeat center;
+     margin-top: 1px;
+     margin-right: 5px;
+     cursor: pointer;
+}
+
+.content dl dd .right>p span.imgSatrSelect {
+     width: 16px;
+     height: 16px;
+     display: inline-block;
+     background: url('../images/select.png') no-repeat center;
+     margin-top: 1px;
+     margin-right: 5px;
+     cursor: pointer;
+}
+
+.content .button {
+     width: 229px;
+     height: 46px;
+     background: #E2231A;
+     border-radius: 4px;
+     line-height: 46px;
+     text-align: center;
+     margin: 0 auto;
+     font-size: 16px;
+     font-family: MicrosoftYaHei-Bold;
+     font-weight: bold;
+     color: #fff;
+     cursor: pointer;
+}

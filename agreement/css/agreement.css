@@ -1,0 +1,90 @@
+
+
+.content {
+     width: 1200px;
+     min-height: 100%;
+     margin: 0 auto;
+     background: #fff;
+     padding: 20px 0;
+}
+
+.content .contentText {
+     padding: 0 20px;
+}
+
+.content h2 {
+     text-align: center;
+     margin: 20px 0;
+}
+
+.tc {
+     text-align: center;
+}
+
+.textIn5 {
+     text-indent: 30px;
+}
+
+.textIn6 {
+     text-indent: 50px;
+}
+
+.fontwB {
+     font-weight: bold;
+}
+
+.pad10_10 {
+     padding: 10px 10px;
+}
+
+.textDecoration {
+     text-decoration: underline;
+}
+
+.fontStyleI {
+     font-style: italic
+}
+
+.fonts18 {
+     font-size: 18px;
+}
+
+.martop30 {
+     margin-top: 30px;
+}
+
+.operationPage ul.userInfoList {
+     font-size: 18px;
+     /*width: 80%;*/
+     margin: auto;
+     /*margin: 10px auto;*/
+}
+
+.operationPage ul.userInfoList li {
+     /*margin: 20px auto;*/
+}
+
+.operationPage ul.userInfoList li .flex1 {
+     padding: 10px 10px;
+}
+
+.operationPage ul.userInfoList li.bottomList {
+     margin-top: 100px;
+}
+.table {
+     border: 1px solid #ccc;
+}
+.table tr {
+     border-top: 1px solid #ccc;
+}
+.table tr:first-child {
+     border-top: 0;
+}
+.table td {
+     padding: 5px 10px;
+     border-left: 1px solid #ccc;
+     text-align: center;
+}
+.table td:first-child {
+     border-left: 0;
+}

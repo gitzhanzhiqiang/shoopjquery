@@ -1,0 +1,325 @@
+/*主要内容*/
+
+.content-centre {
+     position: relative;
+     min-height: 722px;
+     overflow: hidden;
+     padding: 26px 0 0;
+     margin-bottom: 26px;
+}
+
+/*右侧内容*/
+
+.text-right {
+     width: 1039px;
+     min-height: 722px;
+     background: #fff;
+}
+
+/*位置导航*/
+
+.text-right .crumb {
+     width: 1039px;
+     height: 86px;
+     line-height: 90px;
+     border-bottom: 1px solid #F2F2F2;
+}
+
+.text-right .crumb span:first-child {
+     font-size: 16px;
+     font-weight: 300;
+     color: #4D4D4D;
+     margin: 0 20px 0 38px;
+}
+
+.text-right .crumb span:first-child+span {
+     width: 120px;
+     height: 36px;
+     line-height: 36px;
+     text-align: center;
+     border: 1px solid #E2231A;
+     border-radius: 4px;
+     font-size: 16px;
+     font-weight: 400;
+     color: #E2231A;
+     background: #fff;
+     display: inline-block;
+     cursor: pointer;
+}
+
+/*地址列表*/
+
+.text-right .list {
+     width: 100%;
+     padding: 33px 0 14px 121px;
+}
+
+.text-right .list li {
+     height: 14px;
+     margin-bottom: 35px;
+     font-size: 14px;
+     font-weight: 300;
+     color: #333;
+}
+
+/*默认地址*/
+
+.text-right .list li .default {
+     display: inline-block;
+     width: 75px;
+     height: 24px;
+     line-height: 24px;
+     font-weight: 400;
+     background: #E2231A;
+     border-radius: 4px;
+     color: #fff;
+     text-align: center;
+     margin-right: 30px;
+}
+
+/*设为默认*/
+
+.text-right .list li .to-default {
+     display: inline-block;
+     width: 75px;
+     height: 24px;
+     line-height: 24px;
+     font-weight: 400;
+     color: #E2231A;
+     text-align: center;
+     margin-right: 30px;
+     cursor: pointer;
+}
+
+.text-right .list li span {
+     margin-right: 20px;
+}
+
+/*修改地址*/
+
+.text-right .list li span:first-child+span+span+span+span {
+     color: #FE9D48;
+     margin: 0 51px 0 71px;
+     font-weight: bold;
+     cursor: pointer;
+}
+
+/*删除*/
+
+.text-right .list li .delete{
+     color: #999;
+     font-weight: 400;
+     cursor: pointer;
+}
+
+/* 弹框-编辑地址 */
+
+.alertForm {
+     position: fixed;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     display: none;
+}
+
+.alertForm .dog_alert {
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     background: #000000;
+     opacity: 0.3;
+     filter: Alpha(Opacity=30);
+}
+
+.alertForm .text {
+     width: 820px;
+     height: 528px;
+     background: #FFFFFF;
+     margin: auto;
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     *left: 50%;
+     *margin-left: -410px;
+     *top: 50%;
+     *margin-top: -264px;
+}
+
+.alertForm .text .title {
+     font-size: 18px;
+     font-weight: bold;
+     color: #4D4D4D;
+     height: 79px;
+     width: 100%;
+     line-height: 79px;
+     text-align: center;
+     position: relative;
+     border-bottom: 1px solid #EBEBEB;
+}
+
+.alertForm .text .title img {
+     width: 16px;
+     height: 16px;
+     cursor: pointer;
+     position: absolute;
+     right: 20px;
+     top: 20px;
+}
+
+.alertForm .text .box {
+     margin: 30px 0 40px;
+     height: 300px;
+     font-size: 16px;
+     font-weight: 400;
+     color: #4C4C4C;
+}
+
+.alertForm .text .box span {
+     height: 40px;
+     color: red;
+     display: inline-block;
+     /*margin-left: 55px;*/
+     *vertical-align: middle;
+}
+
+.alertForm .text .box input {
+     margin-left: 10px;
+}
+
+.alertForm .text .button {
+     height: 36px;
+}
+
+.alertForm .text .button p {
+     width: 120px;
+     height: 36px;
+     border: 1px solid #E2231A;
+     color: #E2231A;
+     text-align: center;
+     line-height: 36px;
+     float: left;
+     border-radius: 3px;
+     cursor: pointer;
+}
+
+.alertForm .text .button p.cancle {
+     margin: 0 27px 0 274px;
+}
+
+.alertForm .text .button p.submit {
+     background: #E2231A;
+     height: 38px;
+     color: #FFFFFF;
+}
+
+/* 弹框内部输入框 */
+
+.alertForm .box .form-item {
+     margin-bottom: 23px;
+     line-height: 37px;
+     width: 100%;
+     height: 37px;
+}
+
+.alertForm .box .form-item.first {
+     overflow: hidden;
+     width: 100%;
+     height: 100px;
+}
+
+.alertForm .box .form-item.first ul {
+     width: 658px;
+}
+
+.alertForm .box .form-item.first li {
+     width: 184px;
+     height: 50px;
+     margin-right: 10px;
+     font-size: 13px;
+     color: #4D4D4D;
+     font-weight: 400px;
+}
+
+.alertForm .box .form-item.first select {
+     width: 184px;
+     /*height: 40px;*/
+     border: 1px solid #C4D1D8;
+     border-radius: 4px;
+     /*margin-top: 10px;*/
+     color: #333333;
+     padding:12px 0 12px 21px;
+     font-size: 16px;
+     font-weight: 300;
+}
+
+.alertForm .box .form-item.first li input {
+     width: 100px;
+     height: 37px;
+     display: none;
+}
+
+.alertForm .box .form-item:first-child {
+     margin-top: 24px;
+}
+
+/*lebel定义*/
+
+.alertForm .box .form-item label {
+     width: 152px;
+     text-align: right;
+}
+
+.alertForm .box .form-item.first label {
+     margin-right: 10px;
+}
+
+.alertForm .box .form-item input[type=text] {
+     width: 400px;
+     height: 17px;
+     border: 1px solid #C4D1D8;
+     border-radius: 4px;
+     padding: 12px 0 11px 21px;
+     font-size: 16px;
+}
+
+.alertForm .box .form-item.last {
+     overflow: hidden;
+     width: 100%;
+     height: 200px;
+}
+
+.alertForm .box .form-item.last li {
+     width: 124px;
+     height: 167px;
+     margin-right: 15px;
+     text-align: center;
+     font-size: 13px;
+     color: #4D4D4D;
+     font-weight: 400px;
+     position: relative;
+}
+
+.alertForm .box .form-item.last li .img {
+     width: 122px;
+     height: 91px;
+     border: 1px dashed #CCCCCC;
+     border-radius: 3px;
+     cursor: pointer;
+     position: relative;
+     *margin-bottom: 10px;
+}
+
+.alertForm .box .form-item.last li input[type='file'] {
+     width: 100%;
+     height: 100%;
+     font-size: 100px;
+     background: red;
+     opacity: 0;
+     filter: Alpha(Opacity=0);
+     cursor: pointer;
+}

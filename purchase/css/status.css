@@ -1,0 +1,72 @@
+/*
+ * @Author: liwanli 
+ * @Date: 2019-05-29 14:33:22 
+ * @Last Modified by: liwanli
+ * @Last Modified time: 2019-05-29 15:23:13
+ * 成功失败状态页面样式 status.css
+ */
+
+#status {
+    position: relative;
+    margin-top: 12px;
+    height: 656px;
+    background: #fff;
+    overflow: hidden;
+}
+
+#status .status-inner {
+    padding-top: 205px;
+    padding-left: 93px;
+    text-align: center;
+}
+
+#status .status-img {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+}
+
+#status .status-text {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #4D4D4D;
+}
+
+#status .status-money {
+    margin-top: 32px;
+    font-size: 16px;
+    color: #000;
+}
+
+#status .status-operation {
+    margin-top: 53px;
+}
+
+#status .status-operation .status-btn {
+    width: 186px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 4px;
+    border: 1px solid #E2231A;
+    margin: 0 45px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#status .status-operation .status-btn.cole22 {
+    background: #E2231A;
+    color: #fff;
+}
+
+#status .status-operation .status-btn.colfff {
+    color: #E2231A;
+    background: #fff;
+}
+
+#status .status-img.success {
+    background: url('../../common/images/success.png') no-repeat;
+}
+
+#status .status-img.error {
+    background: url('../../common/images/error.png') no-repeat;
+}

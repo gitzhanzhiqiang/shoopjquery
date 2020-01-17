@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+     <meta charset="UTF-8">
+     <title>爱心购商城-消薄平台_扶贫帮困，致力于扶贫帮困消除经济薄弱村！</title>
+     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+     <meta name="renderer" content="webkit" />
+     <meta name="data-spm" content="a2e15" />
+     <link rel="stylesheet" href="../common/css/common.css">
+     <link rel="stylesheet" href="css/sellerInformation.css">
+</head>
+
+<body>
+     <!--公共头部-->
+     <div class="header" id="header"></div>
+     <!--中心的头部搜索-->
+     <div class="header-seach" id="header-seach"></div>
+
+
+     <!--主要内容-->
+     <div class="content-centre body-center">
+          <!--侧边导航-->
+          <ul class="centre-left-nav fl">
+               <li><a href="accountInfo.html">账号资料</a><span></span></li>
+               <li><a href="addAccount.html">账户信息</a></li>
+               <li class="types_1 hover" style="display: none;"><a href="javascript:;">卖家资料</a></li>
+               <li class="types_2" style="display: none;"><a href="SupplierInformation.html">供销商资料</a></li>
+          </ul>
+          <!-- 右侧内容 -->
+          <div class="text-right fr">
+               <div class="title">
+                    <p>我的 > 卖家资料</p>
+               </div>
+               <div class="text-right-box">
+                    <!--头像和账户-->
+                    <div class="text-right-top">
+                         <div class="info" id="info">
+                              <form id="ajaxForm" target="nm_iframe" enctype="multipart/form-data" action="" method="post">
+                                   <div class="fl info-photo">
+                                        <input name="userImage" type="file" accept="image/*">
+                                   </div>
+                              </form>
+                              <ul class="f1 info-account"></ul>
+                         </div>
+                    </div>
+                    <!--个人信息-->
+                    <ul class="text-right-bottom">
+                         <li>
+                              <span class="fl left">商户类型：</span>
+                              <span class="fl center typea"></span>
+                         </li>
+                         <li>
+                              <span class="fl left">负责人/企业法人姓名：</span>
+                              <span class="fl center accountType"></span>
+                         </li>
+                         <li>
+                              <span class="fl left">联系人电话：</span>
+                              <span class="fl center phone"></span>
+                         </li>
+                         <li>
+                              <span class="fl left">联系地址：</span>
+                              <span class="fl center address"></span>
+                         </li>
+                         <li>
+                              <span class="fl left">客服电话：</span>
+                              <span class="fl center appid">1447155122</span>
+                         </li>
+                         <li>
+                              <span class="fl left">代理服务</span>
+                              <span class="fl center agency"></span>
+                              <span class="fr right apply">申请</span>
+                              <input type="hidden" name="" id="applyid" value="" />
+                         </li>
+                    </ul>
+               </div>
+          </div>
+     </div>
+     <div class="alertForm leaveMsg">
+     	<div class="dog_alert"></div>
+     	<div class="text">
+				<h3>申请代理<img class="fr" src="../common/images/delete.png" alt="" onClick="CloseAlert()"></h3>
+				<p>是否申请使用店铺代理？</p>
+				<div class="protocol">
+                       <div>
+                            <img class="fl" class="" src="../common/images/dz_meixuan.png" alt="">
+                            <p class="fl">
+                                 <span>申请即同意</span>
+                                 <a href="" target="_blank">《XXX代理协议》</a>
+                            </p>
+                       </div>
+                  </div>
+                  <div class="bot">
+                  		<p class="determine" onclick="applyagent()">立即申请</p>
+                  		<p class="cancel" onClick="CloseAlert()">取消</p>
+                  </div>
+		</div>
+     </div>
+</body>
+<script src="../common/js/json2.js"></script>
+<script src="../common/js/jquery.js"></script>
+<script src="../common/js/jquery.form.js"></script>
+<script src="../common/js/common.js"></script>
+<script src="js/sellerInformation.js"></script>
+
+</html>
